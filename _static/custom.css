@@ -1,0 +1,55 @@
+div.sphinxsidebarwrapper h1.logo  {
+	border-bottom: 8px solid #008580;
+	border-top: 8px solid #008580;	
+	text-align: center;
+	margin-top: -20px
+}
+
+div.sphinxsidebar h1.logo a {
+	color: #008580;
+	border-bottom: none;
+}
+
+div.sphinxsidebar h1.logo a:hover {
+    border: none;
+}
+
+div.sphinxsidebar p.blurb {
+	margin-top: 15px
+}
+
+div.sphinxsidebarwrapper  hr {
+    display: none
+}
+
+div.sphinxsidebarwrapper>h3 {
+    display: none
+}
+
+#searchlabel {
+	font-size: 150%
+}
+
+div.sphinxsidebar #searchbox input[type="text"] {
+    width: 75%;
+}
+div.sphinxsidebar #searchbox input[type="submit"] {
+	width: 25%;
+}
+
+div.admonition p.admonition-title {
+    font-size: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+td p {
+  margin: 3px 0;
+  font-size: 90%;
+}
+
+.caption-text {
+  font-size: 80%;
+}
