@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'sphinx-intl guide'
+project = 'sphinx-intl'
 copyright = '2022, authoress'
 author = 'authoress'
 
