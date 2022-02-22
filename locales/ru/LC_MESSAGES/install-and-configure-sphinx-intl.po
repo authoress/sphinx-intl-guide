@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, authoress
+# This file is distributed under the same license as the sphinx-intl
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinx-intl \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-21 22:46+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../install-and-configure-sphinx-intl.rst:2
+msgid "Install and configure sphinx-intl"
+msgstr "Установка и настройка sphinx-intl"
+
+#: ../../install-and-configure-sphinx-intl.rst:4
+msgid "To install and configure sphinx-intl:"
+msgstr "Чтобы установить и настроить sphinx-intl:"
+
+#: ../../install-and-configure-sphinx-intl.rst:6
+msgid ""
+"If you didn't install sphinx-intl in your :ref:`virtual environment "
+"<venv>` earlier, install it now::"
+msgstr ""
+"Если вы не установили sphinx-intl в свою :ref:`виртуальную среду <venv>` "
+"ранее, установите его сейчас::"
+
+#: ../../install-and-configure-sphinx-intl.rst:11
+msgid ""
+"Configure the project for using sphinx-intl by adding the following "
+"section in conf.py:"
+msgstr ""
+"Настройте проект для использования sphinx-intl, добавив следующий раздел "
+"в conf.py:"
+
+#: ../../install-and-configure-sphinx-intl.rst:21
+msgid ""
+"You can `download the version of conf.py <../_static/conf-loc-"
+"options.zip>`_ that contains these settings."
+msgstr ""
+"Вы можете `скачать версию conf.py <../_static/conf-loc-options.zip>`_, содержащую эти настройки."
+

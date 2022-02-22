@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, authoress
+# This file is distributed under the same license as the sphinx-intl
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinx-intl \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-19 19:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../index.rst:2
+msgid "Localizing docs in Sphinx"
+msgstr "Локализация документации в Sphinx"
+
+#: ../../index.rst:4
+msgid ""
+"This guide demonstrates how to use the Sphinx functionality to localize "
+"your documentation created in Sphinx. The main goal of the guide is to "
+"show how to use **sphinx-intl** to translate the documentation. But there"
+" is more to it. With this guide, you can do the following:"
+msgstr ""
+"В этом руководстве показано, как использовать возможности Sphinx для "
+"локализации документации, созданной в Sphinx. Основная цель руководства —"
+" показать, как использовать **sphinx-intl** для перевода документации. Но"
+" это еще не все. С помощью этого руководства вы можете сделать следующее:"
+
+#: ../../index.rst:9
+msgid ""
+"Create a new Sphinx project and configure it to translate with sphinx-"
+"intl."
+msgstr ""
+"Создать новый проект в Sphinx и настроить его для перевода с помощью "
+"sphinx-intl."
+
+#: ../../index.rst:12
+msgid "Translate the project and build the translated documentation."
+msgstr "Перевести проект и собрать переведенную документацию."
+
+#: ../../index.rst:14
+msgid "Use language specific images."
+msgstr "Использовать собственные изображения для каждого языка."
+
+#: ../../index.rst:16
+msgid "Add conditional text that is published only in the languages you specify."
+msgstr ""
+"Добавить условный текст, который публикуется только на указанных вами "
+"языках."
+
+#: ../../index.rst:19
+msgid "Develop a simple language switcher for the html output."
+msgstr "Разработать простой переключатель языка для справки в формате html."
+
+#: ../../index.rst:21
+msgid ""
+"Step by step, we will create and translate a demo project from English "
+"into two languages: Russian and Portuguese (Brazilian). Hopefully after "
+"that you will be able to apply this knowledge to your documentation."
+msgstr ""
+"Шаг за шагом мы создадим и переведем демонстрационный проект с "
+"английского на два языка: русский и португальский (бразильский). Надеюсь,"
+" после этого вы сможете применить эти знания к своей документации."
+
+#: ../../index.rst:26
+msgid ""
+"I'm assuming you are already familiar with Sphinx. Otherwise, start "
+"either with the `Sphinx documentation <https://www.sphinx-"
+"doc.org/en/master/usage/quickstart.html>`__ or `Readthedocs "
+"<https://docs.readthedocs.io/en/stable/intro/getting-started-with-"
+"sphinx.html>`__."
+msgstr ""
+"Я предполагаю, что вы уже знакомы со Sphinx. В противном случае начните "
+"либо с `документации Sphinx <https://www.sphinx-"
+"doc.org/en/master/usage/quickstart.html>`__, либо с `Readthedocs "
+"<https://docs.readthedocs.io/en/ stable/intro/getting-started-with-"
+"sphinx.html>`__."
+

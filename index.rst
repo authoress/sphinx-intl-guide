@@ -18,7 +18,7 @@ there is more to it. With this guide, you can do the following:
 
 -  Develop a simple language switcher for the html output.
 
-Step by step, we will create and translate a demo documentation project
+Step by step, we will create and translate a demo project
 from English into two languages: Russian and Portuguese (Brazilian).
 Hopefully after that you will be able to apply this knowledge to your
 documentation.

@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, authoress
+# This file is distributed under the same license as the sphinx-intl
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinx-intl \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-21 22:46+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../add-and-translate-new-content.rst:2
+msgid "Add and translate new content"
+msgstr "Добавление и перевод нового контента"
+
+#: ../../add-and-translate-new-content.rst:5
+msgid "Add conditional content with ifconfig"
+msgstr "Добавление условного контента с помощью ifconfig"
+
+#: ../../add-and-translate-new-content.rst:7
+msgid ""
+"*Conditional content* is published to the output only if it matches the "
+"specified conditions. In our project, this condition is the language of "
+"the document."
+msgstr ""
+"*Условный контент* публикуется, только если он соответствует заданным "
+"условиям. В нашем проекте этим условием является язык документа."
+
+#: ../../add-and-translate-new-content.rst:11
+msgid ""
+"For Sphinx to process the conditional text, it needs the `ifconfig "
+"<https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html>`_ "
+"extension. Add ifconfig to the extensions list in conf.py:"
+msgstr ""
+"Чтобы Sphinx мог обрабатывать условный текст, ему необходимо расширение "
+"`ifconfig <https://www.sphinx-"
+"doc.org/en/master/usage/extensions/ifconfig.html>`_. Добавьте ifconfig в "
+"список расширений в conf.py:"
+
+#: ../../add-and-translate-new-content.rst:19
+msgid ""
+"Now we will add some information about translation of the text to "
+"index.rst. This information is not needed in the original document, so we"
+" will exclude this text from English."
+msgstr ""
+"Теперь мы добавим информацию о переводе текста в index.rst. Эта "
+"информация не нужна в оригинальном документе, поэтому мы исключим этот "
+"текст из английского языка."
+
+#: ../../add-and-translate-new-content.rst:23
+msgid ""
+"Open index.rst and add \"Translation info\" to the end of the file, like "
+"this:"
+msgstr "Откройте index.rst и добавьте \"Translation info\" в конец файла, вот так:"
+
+#: ../../add-and-translate-new-content.rst:34
+msgid ""
+"Note that we added the text to the source .rst file in English, not to "
+".po files. You will see later that this text won't be published in the "
+"html output in English."
+msgstr ""
+"Обратите внимание, что мы добавили текст в исходный файл .rst на "
+"английском языке, а не в файлы .po. Позже вы увидите, что этот текст не "
+"будет опубликован в документации на английском языке."
+
+#: ../../add-and-translate-new-content.rst:38
+msgid ""
+"You can `download the updated version of conf.py and index.rst "
+"<../_static/conf-index-ifconfig.zip>`_."
+msgstr ""
+"Вы можете `загрузить обновленную версию conf.py и index.rst "
+"<../_static/conf-index-ifconfig.zip>`_."
+
+#: ../../add-and-translate-new-content.rst:41
+msgid "Update translation"
+msgstr "Обновление перевода"
+
+#: ../../add-and-translate-new-content.rst:43
+msgid "You already know how to deal with .pot and .po files:"
+msgstr "Вы уже знаете, как обращаться с файлами .pot и .po:"
+
+#: ../../add-and-translate-new-content.rst:45
+msgid "Generate .pot files::"
+msgstr "Сгенерируйте файлы .pot::"
+
+#: ../../add-and-translate-new-content.rst:49
+msgid "This command updates index.pot in **_build/gettext**."
+msgstr "Эта команда обновляет index.pot в **_build/gettext**."
+
+#: ../../add-and-translate-new-content.rst:51
+msgid "Generate .po files::"
+msgstr "Сгенерируйте файлы .po::"
+
+#: ../../add-and-translate-new-content.rst:55
+msgid ""
+"This command updates index.po in **locale/ru/LC_MESSAGES** and "
+"**locale/pt_br/LC_MESSAGES**."
+msgstr ""
+"Эта команда обновляет index.po в **locale/ru/LC_MESSAGES** и "
+"**locale/pt_br/LC_MESSAGES**."
+
+#: ../../add-and-translate-new-content.rst:58
+msgid "Translate the new strings in both index.po files."
+msgstr "Переведите новые строки в обоих файлах index.po."
+
+#: ../../add-and-translate-new-content.rst:60
+msgid "Russian:"
+msgstr "Русский:"
+
+#: ../../add-and-translate-new-content.rst:70
+msgid "Portuguese:"
+msgstr "Португальский:"
+
+#: ../../add-and-translate-new-content.rst:82
+msgid ""
+"You can `download both updated index.po files <../_static/index-po-"
+"updated.zip>`_."
+msgstr ""
+"Вы можете `загрузить оба обновленных файла index.po <../_static/index-po-updated.zip>`_."
+
+#: ../../add-and-translate-new-content.rst:85
+msgid "Build updated documentation"
+msgstr "Сборка обновленной документации"
+
+#: ../../add-and-translate-new-content.rst:87
+msgid "Build the Russian documentation::"
+msgstr "Сборка документации на русском::"
+
+#: ../../add-and-translate-new-content.rst:91
+msgid "Build the Portuguese documentation::"
+msgstr "Сборка документации на португальском::"
+
+#: ../../add-and-translate-new-content.rst:95
+msgid ""
+"Now index.html in Portuguese and Russian should contain the newly added "
+"information about translation. If you build English documentation, you "
+"will see that no new content is added to index.html."
+msgstr ""
+"Теперь index.html на португальском и русском языках должен содержать "
+"вновь добавленную информацию о переводе. Если вы запустите сборку "
+"документации на английском языке, вы увидите, что в index.html не "
+"добавляется новый контент."
+

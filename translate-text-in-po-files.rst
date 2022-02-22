@@ -1,7 +1,7 @@
 Translate text in .po files
 ---------------------------
 
-Before you start, download :download:`the translation lists <_static/translation-lists.zip>` to get Russian and
+Before you start, download `the translation lists <../_static/translation-lists.zip>`_ to get Russian and
 Portuguese translations of all texts.
 
 .. note::
@@ -48,7 +48,7 @@ Once you're done with Russian, repeat the process with index.po and
 easter-egg.po in **locale/pt_br/LC_MESSAGES** to translate the project into
 Portuguese.
 
-You can download :download:`an archive that contains .po files <_static/po-translated.zip>` already translated
+You can download `an archive that contains .po files <../_static/po-translated.zip>`_ already translated
 into Russian and Portuguese.
 
 Other ways to get .po files translated

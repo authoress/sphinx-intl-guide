@@ -1,0 +1,5 @@
+{% for lcode, lname in [('en', 'Switch to English'), ('ru', 'Переключить на русский')] %}
+	{% if language != lcode %}
+	<div class = "switcher"><img src="../_static/{{lcode}}.png"/> <a href = "../{{lcode}}/{{pagename}}.html">{{lname}}</a></div>
+	{% endif %}
+{% endfor %}

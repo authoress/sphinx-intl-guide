@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, authoress
+# This file is distributed under the same license as the sphinx-intl
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinx-intl \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-21 22:46+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../add-language-specific-images.rst:2
+msgid "Add language-specific images"
+msgstr "Добавление уникальных изображений для каждого языка"
+
+#: ../../add-language-specific-images.rst:4
+msgid ""
+"To make Sphinx substitute the original images with language-specific "
+"ones, you need to use the specified `filename format <https://www.sphinx-"
+"doc.org/en/master/usage/configuration.html#confval-"
+"figure_language_filename>`_."
+msgstr ""
+"Чтобы заставить Sphinx заменить исходные изображения изображениями, "
+"подходящими для конкретного языка, вам необходимо использовать указанный "
+"`формат имени файла <https://www.sphinx-"
+"doc.org/en/master/usage/configuration.html#confval-"
+"figure_language_filename>`_."
+
+#: ../../add-language-specific-images.rst:8
+msgid ""
+"For example, to replace our easter egg image for English with those for "
+"Russian and Portuguese, we will use the default filename format "
+"``{root}.{language}{ext}``:"
+msgstr ""
+"Например, чтобы заменить наше изображение пасхального яйца для "
+"английского языка изображениями для русского и португальского языков, мы "
+"будем использовать формат имени файла по умолчанию "
+"``{root}.{language}{ext}``:"
+
+#: ../../add-language-specific-images.rst:12
+msgid "Easter egg for English (the default image): egg.png"
+msgstr "Пасхальное яйцо для английского языка (изображение по умолчанию): egg.png"
+
+#: ../../add-language-specific-images.rst:14
+msgid "Russian: egg.ru.png"
+msgstr "Русский: egg.ru.png"
+
+#: ../../add-language-specific-images.rst:16
+msgid "Portuguese: egg.pt_br.png"
+msgstr "Португальский: egg.pt_br.png"
+
+#: ../../add-language-specific-images.rst:18
+msgid ""
+"Download the `egg images for Russian and Portuguese <../_static/egg-ru-"
+"pt_br.zip>`_ and place them in the **_static** directory. Yes, that's "
+"enough."
+msgstr ""
+"Загрузите `изображения яйца для русского и португальского "
+"языков <../_static/egg-ru-pt_br.zip>`_ и поместите их в каталог **_static**. "
+"Да, этого достаточно."
+

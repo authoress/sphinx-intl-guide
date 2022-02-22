@@ -64,7 +64,7 @@ Add language switcher to our project:
 	{% endfor %}
 	</div>
 
-   Alternatively, you can :download:`download switcher.html <_static/switcher.zip>`.
+   Alternatively, you can `download switcher.html <../_static/switcher.zip>`_.
 
 2. Place switcher.html in the **_templates** directory; by default
    Sphinx looks for Jinja templates in this directory.
@@ -85,7 +85,7 @@ Add language switcher to our project:
 
    I added switcher.html to the default Alabaster sidebar and removed
    the elements that we do not need (donate.html, relations.html etc).
-   As usual, you can :download:`download the updated conf.py <_static/conf-switcher.zip>`.
+   As usual, you can `download the updated conf.py <../_static/conf-switcher.zip>`_.
 
 Sphinx will now use switcher.html to add the language switcher to the
 sidebar of each documentation page.

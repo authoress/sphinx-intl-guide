@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, authoress
+# This file is distributed under the same license as the sphinx-intl
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinx-intl \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-21 22:46+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../translate-text-in-po-files.rst:2
+msgid "Translate text in .po files"
+msgstr "Перевод текста в файлах .po"
+
+#: ../../translate-text-in-po-files.rst:4
+msgid ""
+"Before you start, download `the translation lists <../_static"
+"/translation-lists.zip>`_ to get Russian and Portuguese translations of "
+"all texts."
+msgstr ""
+"Прежде чем начать, загрузите `списки переводов <../_static/translation-lists.zip>`_, чтобы получить переводы всех текстов на русский"
+" и португальский языки."
+
+#: ../../translate-text-in-po-files.rst:9
+msgid ""
+"You can :ref:`build the translated documentation <build>` at any time, "
+"even if the translation is not finished. This helps you see the "
+"intermediate result and understand :ref:`how gettext works <gettext>`."
+msgstr ""
+"Вы можете :ref:`собрать переведенную документацию <build>` в любое время,"
+" даже если перевод еще не закончен. Это поможет вам увидеть промежуточный"
+" результат и понять, :ref:`как работает gettext <gettext>`."
+
+#: ../../translate-text-in-po-files.rst:13
+msgid "Translate the texts into Russian:"
+msgstr "Переведите тексты на русский язык:"
+
+#: ../../translate-text-in-po-files.rst:15
+msgid "Open index.po in **locale/ru/LC_MESSAGES** and find these lines::"
+msgstr "Откройте index.po в **locale/ru/LC_MESSAGES** и найдите такие строки:"
+
+#: ../../translate-text-in-po-files.rst:23
+msgid "The first line points to the source file and the exact line in it."
+msgstr "Первая строка указывает на исходный файл и точную строку в нем."
+
+#: ../../translate-text-in-po-files.rst:25
+msgid ""
+"The second, ``msgid``, is for the source text itself; it also serves as a"
+" string ID."
+msgstr ""
+"Второй, ``msgid``, предназначен для самого исходного текста; он также "
+"служит идентификатором строки."
+
+#: ../../translate-text-in-po-files.rst:28
+msgid ""
+"The third, ``msgstr``, should contain the translation of the string from "
+"msgid."
+msgstr "Третий, ``msgstr``, должен содержать перевод строки из msgid."
+
+#: ../../translate-text-in-po-files.rst:31
+msgid "Put the translation to msgstr like this::"
+msgstr "Поместите перевод в msgstr следующим образом::"
+
+#: ../../translate-text-in-po-files.rst:35
+msgid "Do the same for other strings in index.po and easter-egg.po."
+msgstr "Сделайте то же самое для других строк в index.po и easter-egg.po."
+
+#: ../../translate-text-in-po-files.rst:37
+msgid "Note the escape characters in this string::"
+msgstr "Обратите внимание на escape-символы в этой строке::"
+
+#: ../../translate-text-in-po-files.rst:41
+msgid "Be careful to keep all such characters as well as the reST notation."
+msgstr "Будьте осторожны, чтобы сохранить все такие символы, а также нотацию reST."
+
+#: ../../translate-text-in-po-files.rst:43
+msgid "Here is the example of the above string in Russian::"
+msgstr "Вот пример приведенной выше строки на русском языке::"
+
+#: ../../translate-text-in-po-files.rst:47
+msgid ""
+"Once you're done with Russian, repeat the process with index.po and "
+"easter-egg.po in **locale/pt_br/LC_MESSAGES** to translate the project "
+"into Portuguese."
+msgstr ""
+"Когда вы закончите с русским языком, повторите процесс с index.po и "
+"easter-egg.po в **locale/pt_br/LC_MESSAGES**, чтобы перевести проект на "
+"португальский язык."
+
+#: ../../translate-text-in-po-files.rst:51
+msgid ""
+"You can download `an archive that contains .po files <../_static/po-"
+"translated.zip>`_ already translated into Russian and Portuguese."
+msgstr ""
+"Вы можете скачать `архив, содержащий .po-файлы <../_static/po-translated.zip>`_, уже переведенные на русский и португальский языки."
+
+#: ../../translate-text-in-po-files.rst:55
+msgid "Other ways to get .po files translated"
+msgstr "Другие способы перевести файлы .po"
+
+#: ../../translate-text-in-po-files.rst:57
+msgid ""
+"In our guide, we translate documentation manually, but localization "
+"specialists use professional tools to translate real projects: `CAT "
+"<https://en.wikipedia.org/wiki/Computer-assisted_translation>`_ tools, "
+"`TMS <https://en.wikipedia.org/wiki/Translation_management_system>`_ "
+"systems etc. These tools are not covered in this guide. In the Sphinx "
+"documentation, you can find information on using `Transifex <https://www"
+".sphinx-doc.org/en/master/usage/advanced/intl.html#using-transifex-"
+"service-for-team-translation>`_ in the localization process."
+msgstr ""
+"В нашем руководстве мы переводим документацию вручную, но для перевода "
+"реальных проектов специалисты по локализации используют профессиональные "
+"инструменты: `CAT <https://en.wikipedia.org/wiki/Computer-"
+"assisted_translation>`_, `TMS "
+"<https://en.wikipedia.org/wiki/Translation_management_system>`_ системы и"
+" т. д. Эти инструменты не рассматриваются в данном руководстве. В "
+"документации Sphinx вы можете найти информацию об использовании "
+"`Transifex <https://www.sphinx-doc.org/en/master/usage/advanced/intl.html"
+"#using-transifex-service-for-team-translation>`_ в процессе локализации."
+
+#: ../../translate-text-in-po-files.rst:67
+msgid ""
+"Whether you translate your documentation yourself or hand it over to "
+"localization specialists, make sure reST notation in the translated files"
+" is not broken."
+msgstr ""
+"Независимо от того, переводите ли вы свою документацию самостоятельно или"
+" передаете ее специалистам по локализации, убедитесь, что нотация reST в "
+"переведенных файлах не нарушена."
+

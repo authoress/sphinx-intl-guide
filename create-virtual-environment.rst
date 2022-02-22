@@ -25,7 +25,7 @@ To create a demo environment in Miniconda:
    
       pip install sphinx
 	
-   Alternatively, you can :download:`download requirements.txt <_static/requirements.zip>` that lists all
+   Alternatively, you can `download requirements.txt <../_static/requirements.zip>`_ that lists all
    the packages installed in my **intl** environment, and then run::
 
 	  pip install -r requirements.txt

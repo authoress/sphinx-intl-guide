@@ -74,22 +74,22 @@ Demo project files
 Here you can find all the archives that are offered for download in the
 sections of this guide:
 
--  Create virtual environment: :download:`requirements.txt <_static/requirements.zip>`
+-  Create virtual environment: `requirements.txt <../_static/requirements.zip>`_
 
--  Add content: :download:`index.rst and easter-egg.rst <_static/rst-initial.zip>`
+-  Add content: `index.rst and easter-egg.rst <../_static/rst-initial.zip>`_
 
--  Add images: :download:`logo.png and egg.png <_static/egg-logo.zip>`; :download:`conf.py and easter-egg.rst <_static/conf-easter-egg.zip>`
+-  Add images: `logo.png and egg.png <../_static/egg-logo.zip>`_; `conf.py and easter-egg.rst <../_static/conf-easter-egg.zip>`_
 
--  Install and configure sphinx-intl: :download:`conf.py <_static/conf-loc-options.zip>`
+-  Install and configure sphinx-intl: `conf.py <../_static/conf-loc-options.zip>`_
 
--  Translate text in .po files: :download:`translation lists <_static/translation-lists.zip>`, :download:`translated .po files <_static/po-translated.zip>`
+-  Translate text in .po files: `translation lists <../_static/translation-lists.zip>`_, `translated .po files <../_static/po-translated.zip>`_
 
--  Add language-specific images: :download:`egg.ru.png and egg.pt_br.png <_static/egg-ru-pt_br.zip>`
+-  Add language-specific images: `egg.ru.png and egg.pt_br.png <../_static/egg-ru-pt_br.zip>`_
 
--  Add conditional content with ifconfig: :download:`conf.py and index.rst <_static/conf-index-ifconfig.zip>`
+-  Add conditional content with ifconfig: `conf.py and index.rst <../_static/conf-index-ifconfig.zip>`_
 
--  Update translation: :download:`updated index.po for Russian and Portuguese <_static/index-po-updated.zip>`
+-  Update translation: `updated index.po for Russian and Portuguese <../_static/index-po-updated.zip>`_
 
--  Add language switcher: :download:`switcher.html <_static/switcher.zip>` and :download:`conf.py <_static/conf-switcher.zip>`
+-  Add language switcher: `switcher.html <../_static/switcher.zip>`_ and `conf.py <../_static/conf-switcher.zip>`_
 
-You can also find the demo project `on Github <https://github.com/authoress/sphinx-intl-demo>`_ or :download:`download the project here <_static/zen.zip>`.
+You can also find the demo project `on Github <https://github.com/authoress/sphinx-intl-demo>`_ or `download the project here <../_static/zen.zip>`_.

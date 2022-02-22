@@ -41,6 +41,10 @@ div.admonition p.admonition-title {
     font-size: 20px;
 }
 
+.switcher {
+	margin-top: 15px;
+}
+
 .underline {
     text-decoration: underline;
 }
@@ -52,4 +56,8 @@ td p {
 
 .caption-text {
   font-size: 80%;
+}
+
+a.current {
+	font-weight: bolder;
 }
