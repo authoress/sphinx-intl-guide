@@ -69,7 +69,7 @@ msgid ""
 "my **intl** environment, and then run::"
 msgstr ""
 "Кроме того, вы можете `загрузить файл requirements.txt "
-"<../_static/requirements.zip>`_, в котором перечислены все пакеты, "
+"<_static/requirements.zip>`_, в котором перечислены все пакеты, "
 "установленные в моей среде **intl**, а затем выполнить команду::"
 
 #: ../../create-virtual-environment.rst:33

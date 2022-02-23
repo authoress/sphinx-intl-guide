@@ -31,7 +31,7 @@ msgid ""
 "/translation-lists.zip>`_ to get Russian and Portuguese translations of "
 "all texts."
 msgstr ""
-"Прежде чем начать, загрузите `списки переводов <../_static/translation-lists.zip>`_, чтобы получить переводы всех текстов на русский"
+"Прежде чем начать, загрузите `списки переводов <_static/translation-lists.zip>`_, чтобы получить переводы всех текстов на русский"
 " и португальский языки."
 
 #: ../../translate-text-in-po-files.rst:9
@@ -105,7 +105,7 @@ msgid ""
 "You can download `an archive that contains .po files <../_static/po-"
 "translated.zip>`_ already translated into Russian and Portuguese."
 msgstr ""
-"Вы можете скачать `архив, содержащий .po-файлы <../_static/po-translated.zip>`_, уже переведенные на русский и португальский языки."
+"Вы можете скачать `архив, содержащий .po-файлы <_static/po-translated.zip>`_, уже переведенные на русский и португальский языки."
 
 #: ../../translate-text-in-po-files.rst:55
 msgid "Other ways to get .po files translated"

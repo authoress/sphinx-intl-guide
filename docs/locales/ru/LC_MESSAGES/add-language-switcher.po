@@ -103,7 +103,7 @@ msgid ""
 "<../_static/switcher.zip>`_."
 msgstr ""
 "Кроме того, вы можете `загрузить switcher.html "
-"<../_static/switcher.zip>`_."
+"<_static/switcher.zip>`_."
 
 #: ../../add-language-switcher.rst:69
 msgid ""
@@ -132,7 +132,7 @@ msgstr ""
 "Я добавила switcher.html на боковую панель Alabaster по умолчанию и "
 "удалила элементы, которые нам не нужны (donate.html, relations.html и т. "
 "д.). Как обычно, вы можете `скачать обновленный файл conf.py "
-"<../_static/conf-switcher.zip>`_."
+"<_static/conf-switcher.zip>`_."
 
 #: ../../add-language-switcher.rst:90
 msgid ""

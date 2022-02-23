@@ -129,7 +129,7 @@ msgid ""
 "You can download `an archive that contains both files <../_static/rst-"
 "initial.zip>`_."
 msgstr ""
-"Вы можете скачать `архив, содержащий оба файла <../_static/rst-initial.zip>`_."
+"Вы можете скачать `архив, содержащий оба файла <_static/rst-initial.zip>`_."
 
 #: ../../create-demo-project.rst:131
 msgid "Add images"
@@ -144,7 +144,7 @@ msgid ""
 "Download `an archive containing two images <../_static/egg-logo.zip>`_: "
 "logo.png (demo project logo) and egg.png (image of an egg)."
 msgstr ""
-"Загрузите `архив, содержащий два изображения <../_static/egg-logo.zip>`_: logo.png (логотип демонстрационного проекта) и egg.png "
+"Загрузите `архив, содержащий два изображения <_static/egg-logo.zip>`_: logo.png (логотип демонстрационного проекта) и egg.png "
 "(изображение яйца)."
 
 #: ../../create-demo-project.rst:138
@@ -172,7 +172,7 @@ msgid ""
 "You can `download conf.py and easter-egg.rst <../_static/conf-easter-"
 "egg.zip>`_ that already contain both additions."
 msgstr ""
-"Вы можете `загрузить conf.py и easter-egg.rst <../_static/conf-easter-egg.zip>`_, которые уже содержат оба дополнения."
+"Вы можете `загрузить conf.py и easter-egg.rst <_static/conf-easter-egg.zip>`_, которые уже содержат оба дополнения."
 
 #: ../../create-demo-project.rst:166
 msgid ""

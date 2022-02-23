@@ -50,5 +50,5 @@ msgid ""
 "You can `download the version of conf.py <../_static/conf-loc-"
 "options.zip>`_ that contains these settings."
 msgstr ""
-"Вы можете `скачать версию conf.py <../_static/conf-loc-options.zip>`_, содержащую эти настройки."
+"Вы можете `скачать версию conf.py <_static/conf-loc-options.zip>`_, содержащую эти настройки."
 

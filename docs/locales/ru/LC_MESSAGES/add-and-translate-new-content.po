@@ -81,7 +81,7 @@ msgid ""
 "<../_static/conf-index-ifconfig.zip>`_."
 msgstr ""
 "Вы можете `загрузить обновленную версию conf.py и index.rst "
-"<../_static/conf-index-ifconfig.zip>`_."
+"<_static/conf-index-ifconfig.zip>`_."
 
 #: ../../add-and-translate-new-content.rst:41
 msgid "Update translation"
@@ -128,7 +128,7 @@ msgid ""
 "You can `download both updated index.po files <../_static/index-po-"
 "updated.zip>`_."
 msgstr ""
-"Вы можете `загрузить оба обновленных файла index.po <../_static/index-po-updated.zip>`_."
+"Вы можете `загрузить оба обновленных файла index.po <_static/index-po-updated.zip>`_."
 
 #: ../../add-and-translate-new-content.rst:85
 msgid "Build updated documentation"
