@@ -262,7 +262,7 @@ msgstr ""
 msgid ""
 "Add language-specific images: `egg.ru.png and egg.pt_br.png <../_static/egg-ru-pt_br.zip>`_"
 msgstr ""
-"Добавление уникальных изображений для каждого языка: "
+"Добавление изображений для разных языков: "
 "`egg.ru.png и egg.pt_br.png <../_static/egg-ru-pt_br.zip>`_"
 
 #: ../../appendices.rst:89

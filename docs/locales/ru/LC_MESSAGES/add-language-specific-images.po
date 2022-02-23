@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../add-language-specific-images.rst:2
 msgid "Add language-specific images"
-msgstr "Добавление уникальных изображений для каждого языка"
+msgstr "Добавление изображений для разных языков"
 
 #: ../../add-language-specific-images.rst:4
 msgid ""
@@ -55,11 +55,11 @@ msgstr "Пасхальное яйцо для английского языка (
 
 #: ../../add-language-specific-images.rst:14
 msgid "Russian: egg.ru.png"
-msgstr "Русский: egg.ru.png"
+msgstr "Для русского: egg.ru.png"
 
 #: ../../add-language-specific-images.rst:16
 msgid "Portuguese: egg.pt_br.png"
-msgstr "Португальский: egg.pt_br.png"
+msgstr "Для португальского: egg.pt_br.png"
 
 #: ../../add-language-specific-images.rst:18
 msgid ""
@@ -70,4 +70,3 @@ msgstr ""
 "Загрузите `изображения яйца для русского и португальского "
 "языков <../_static/egg-ru-pt_br.zip>`_ и поместите их в каталог **_static**. "
 "Да, этого достаточно."
-

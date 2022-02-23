@@ -165,15 +165,15 @@ msgstr ""
 
 #: ../../add-language-switcher.rst:105
 msgid "<doc_directory>/**en**/<English_documentation_files>"
-msgstr "<doc_directory>/**en**/<English_documentation_files>"
+msgstr "<папка_документации>/**en**/<файлы_документации_на_английском>"
 
 #: ../../add-language-switcher.rst:107
 msgid "<doc_directory>/**ru**/<Russian_documentation_files>"
-msgstr "<doc_directory>/**ru**/<Russian_documentation_files>"
+msgstr "<папка_документации>/**ru**/<файлы_документации_на_русском>"
 
 #: ../../add-language-switcher.rst:109
 msgid "<doc_directory>/**pt_br**/<Portuguese_documentation_files>"
-msgstr "<doc_directory>/**pt_br**/<Portuguese_documentation_files>"
+msgstr "<папка_документации>/**pt_br**/<файлы_документации_на_португальском>"
 
 #: ../../add-language-switcher.rst:111
 msgid "We already :ref:`built our documentation this way <build>`."

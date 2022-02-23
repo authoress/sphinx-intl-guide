@@ -168,13 +168,11 @@ msgid "Add egg.png to easter-egg.rst, like this:"
 msgstr "Добавьте egg.png в easter-egg.rst, вот так:"
 
 #: ../../create-demo-project.rst:163
-#, fuzzy
 msgid ""
 "You can `download conf.py and easter-egg.rst <../_static/conf-easter-"
 "egg.zip>`_ that already contain both additions."
 msgstr ""
-"Вы можете :download:`загрузить conf.py и easter-egg.rst <_static/conf-"
-"easter-egg.zip>`, которые уже содержат оба дополнения."
+"Вы можете `загрузить conf.py и easter-egg.rst <../_static/conf-easter-egg.zip>`_, которые уже содержат оба дополнения."
 
 #: ../../create-demo-project.rst:166
 msgid ""
