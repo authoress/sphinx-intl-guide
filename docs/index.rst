@@ -1,6 +1,8 @@
 Localizing docs in Sphinx
 =========================
 
+*Step by step guide*
+
 This guide demonstrates how to use the Sphinx functionality to localize
 your documentation created in Sphinx. The main goal of the guide is to
 show how to use **sphinx-intl** to translate the documentation. But
