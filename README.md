@@ -30,4 +30,4 @@ Here are some tips for you:
 
 Otherwise, feel free to experiment!
 
-Please, let me know if you want to add your translation on geekwriter, my email is geekwriter@yandex.ru.
+Please, let me know if you want to add your translation on [GeekWriter](http://sphinx-intl.geekwriter.ru/en/), my email is geekwriter@yandex.ru.
