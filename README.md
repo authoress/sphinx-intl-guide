@@ -17,6 +17,14 @@ Before you build the Guide:
 
   4. You definitely do not need my Yandex.Metrika counter, so remove the *layout.html* file from the *_templates* folder.
 
+To build the project on Windows:
+
+1. Run cmd.
+2. Go to the project directory.
+3. Run these commands in sequence: 
+   
+   TBD
+   
 For more information, see the Guide itself [in English](http://sphinx-intl.geekwriter.ru/en/) or [in Russian](http://sphinx-intl.geekwriter.ru/).
 
 ## If you want to translate the Guide
@@ -31,4 +39,4 @@ Here are some tips for you:
 
 Otherwise, feel free to experiment!
 
-Please, let me know if you want to add your translation on [GeekWriter](http://sphinx-intl.geekwriter.ru/en/), my email is geekwriter@yandex.ru.
+Please, let me know if you want to add your translation to [GeekWriter](http://sphinx-intl.geekwriter.ru/en/), my email is geekwriter@yandex.ru.
