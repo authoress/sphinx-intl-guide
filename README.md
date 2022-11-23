@@ -4,17 +4,18 @@ This repository contains source files for the guide [Localizing docs in Sphinx](
 
 The *docs* directory contains the source files for the Guide, ready to be built. The Guide is written in English, then translated into Russian.
 
-Before you build the Guide, be sure to install Sphinx:
+Before you build the Guide:
 
-`pip install sphinx`
+  1. Be sure to install Sphinx:
+     `pip install sphinx`
 
-You will also need Sphinx-intl:
+  2. You will also need Sphinx-intl:
+     `pip install sphinx-intl`
 
-`pip install sphinx-intl`
+  3. Of course, you can install the exact packages I have installed in my environment:
+     `pip install -r requirements.txt`
 
-Of course, you can install the exact packages I have installed in my environment:
-
-`pip install -r requirements.txt`
+  4. You definitely do not need my Yandex.Metrika counter, so remove the *layout.html* file from the *_templates* folder.
 
 For more information, see the Guide itself [in English](http://sphinx-intl.geekwriter.ru/en/) or [in Russian](http://sphinx-intl.geekwriter.ru/).
 
