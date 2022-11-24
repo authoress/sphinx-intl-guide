@@ -65,10 +65,13 @@ html_static_path = ['_static']
 
 html_theme_options = {
     'show_relbar_bottom' : True,
+    'github_user': 'authoress',
+	'github_repo': 'sphinx-intl-guide',
     'sidebar_collapse' : True,
     'sidebar_width' : '270px',
-    'fixed_sidebar' : False    
+    'fixed_sidebar' : False
 }
+
 
 html_css_files = [
     'custom.css',
