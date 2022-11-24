@@ -23,7 +23,7 @@ Before you build the Guide:
 To build the project on Windows:
 
 1. Run cmd.
-2. Go to the project directory.
+2. Go to the project *docs* directory.
 3. Run these commands in sequence: 
 
    `sphinx-build -b html -D language=ru -d _build/doctrees/ru/ . _build/html/`
