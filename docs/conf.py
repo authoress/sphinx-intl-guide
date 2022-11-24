@@ -54,7 +54,7 @@ html_sidebars = {
         'about.html',
         'navigation.html',
         'searchbox.html',
-        'switcher.html',
+        'switcher.html'
     ]
 }
 
