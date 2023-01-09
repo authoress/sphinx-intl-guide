@@ -102,9 +102,13 @@ For our demo project, specify the project settings as follows:
   It should be something like this: ``https://github.com/<your_account>/sphinx-intl-demo/blob/main/LICENSE``
 * Project type: File based.
 * Source language: English.
-* Target languages: Portuguese (Brazil), Russian.
+* Target languages: Russian, Portuguese (Brazil).
 
-PICTURE
+.. figure:: _static/transifex_add_project.png
+   :align: center
+   :alt: transifex project settings
+
+   Adding a new project
 
 Click **Create project** to finish adding a project.
 
@@ -116,16 +120,25 @@ Integrate your Transifex and GitHub accounts as described in the `Transifex docu
 #. Go to your organization settings -> Integrations.
 #. In the GitHub integration box, click **Authorize** and then **Install the Transifex app**.
    
-   PICTURE
+   .. figure:: _static/manage_integrations.png
+	  :align: center
+	  :alt: Manage Integrations page
+
+	  Authorizing GitHub
+   
 #. From the **Select repositories** drop-down menu, select your demo repository, and then click **Install**. 
 #. Confirm your GitHub password.
    The Transifex Integration is now installed on your GitHub account.
 #. Get back to Transifex and go to your organization settings -> Integrations. 
 #. In the Github integration box, click **Authorize** and then **authorize Transifex**.
-#. Transifex requires some permissions. Click **Authorize Transifex Integration**.
+#. If Transifex requires some permissions, click **Authorize Transifex Integration**.
 #. Finish integration by clicking your GitHub account name in the list of available installations.
    
-   PICTURE
+   .. figure:: _static/finish_integration.png
+	  :align: center
+	  :alt: GitHub Authorization
+
+	  Final step of integration
 
 Your demo repository should now be authorized on Transifex.
 
@@ -137,10 +150,18 @@ Link your project with your GitHub demo repository as described in the `Transife
 #. Go to your project settings -> Integrations.
 #. In the **GitHub** box, click **Link Repository**.
  
-   PICTURE
+   .. figure:: _static/link_repo.png
+	  :align: center
+	  :alt: Project Integrations
+
+	  Linking repository
 #. On the **Select repo** tab, specify **main** as the branch name, then click **Validate**.
 
-   PICTURE
+   .. figure:: _static/select_repo.png
+	  :align: center
+	  :alt: Select Repo
+
+	  Validating branch
    
    Click **Next**.
 #. On the **Select Files** tab, you need to specify the name of the YML configuration file that defines how the integration works.
@@ -157,7 +178,7 @@ Link your project with your GitHub demo repository as described in the `Transife
 
    Here, we tell Transifex to take source .pot files from zen/_build/gettext and to put translated .po files to zen/locale/<lang>/LC_MESSAGES, where <lang> is a language code (in our project, it’s either ru or pt_BR).
 
-#. When the transifex.yml file is in the root of your repository, on the **Select Files** tab, click **Apply**.
+   When the transifex.yml file is in the root of your repository, on the **Select Files** tab, click **Apply**.
    
    Click **Next**.
 #. On the **Sync Content** tab, select **100% reviewed** and **Create a Pull Request**.
@@ -168,7 +189,11 @@ Link your project with your GitHub demo repository as described in the `Transife
 
 In Project Integrations, you will find the status of synchronizing source files.
 
-PICTURE
+.. figure:: _static/repository_linked.png
+   :align: center
+   :alt: Project Integrations
+
+   GitHub repository linked
 
 Translate files in Transifex Editor
 """""""""""""""""""""""""""""""""""
@@ -178,20 +203,32 @@ To translate easter-egg.po into Portuguese:
 #. Go to Transifex Editor by clicking **Editor** at the top of the page.  
 #. From the target language drop-down menu, select **Portuguese (Brasil)**.
 
-   PICTURE 
+   .. figure:: _static/select_target_language.png
+	  :align: center
+	  :alt: target language selector
+
+	  Selecting target language
 #. In the **Resources Overview** list, click **zen...easter-egg.pot(main)**.
    Transifex Editor opens.
-   
-   PICTURE   
 #. In the strings list on the left, click **Easter Egg**. 
    Put the translation for this string (*Ovo de Páscoa*) into the translation area on the right. 
-   
+
+   .. figure:: _static/transifex_editor.png
+	  :align: center
+	  :alt: Strings to translate, translation area
+
+	  Transifex Editor 
+	  
    Click **Save Translation**.
 #. Repeat for two other strings.
 #. Select all the translated strings by clicking the grouping checkbox on the left.
-   In the **Bulk actions** panel on the right, select **Reviewed** from the **Mark as drop-down** menu, and then click **Apply**.
+   In the **Bulk actions** panel on the right, select **Reviewed** from the **Mark as** drop-down menu, and then click **Apply**.
    
-   PICTURE
+   .. figure:: _static/bulk_actions.png
+	  :align: center
+	  :alt: Bulk actions
+
+	  Applying **Reviewed** state to all strings
    
 All the strings in easter-egg are now translated and reviewed.
 
@@ -207,13 +244,21 @@ To merge the pull request:
 
 #. On GitHub, go to your demo repository Pull requests.
    
-   PICTURE
+   .. figure:: _static/pull_requests.png
+	  :align: center
+	  :alt: Pull requests page on GitHub
+
+	  Pull request from Transifex
 #. Click the pull request name. The format of pull request names from Transifex is ``Transifex '<path to the source>' in '<language code>'``.
 #. On the **Files changed** tab, check that all the translated strings are correct.
 #. On the **Conversation** tab, click **Merge pull request**, then **Confirm merge**.
 #. After the pull request is merged, you can delete the branch.
    
-   PICTURE
+   .. figure:: _static/delete_branch.png
+	  :align: center
+	  :alt: Pull request successfully merged and closed
+
+	  Deleting branch
    
 Now all the texts in .po files are translated.
 
