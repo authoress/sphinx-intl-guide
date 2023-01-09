@@ -9,17 +9,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sphinx-intl \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-21 22:46+0300\n"
+"POT-Creation-Date: 2023-01-09 17:40+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../add-language-switcher.rst:4
 msgid "Add language switcher"
@@ -101,9 +101,7 @@ msgstr ""
 msgid ""
 "Alternatively, you can `download switcher.html "
 "<../_static/switcher.zip>`_."
-msgstr ""
-"Кроме того, вы можете `загрузить switcher.html "
-"<_static/switcher.zip>`_."
+msgstr "Кроме того, вы можете `загрузить switcher.html <_static/switcher.zip>`_."
 
 #: ../../add-language-switcher.rst:69
 msgid ""
@@ -131,8 +129,8 @@ msgid ""
 msgstr ""
 "Я добавила switcher.html на боковую панель Alabaster по умолчанию и "
 "удалила элементы, которые нам не нужны (donate.html, relations.html и т. "
-"д.). Как обычно, вы можете `скачать обновленный файл conf.py "
-"<_static/conf-switcher.zip>`_."
+"д.). Как обычно, вы можете `скачать обновленный файл conf.py <_static"
+"/conf-switcher.zip>`_."
 
 #: ../../add-language-switcher.rst:90
 msgid ""
@@ -150,6 +148,7 @@ msgstr ""
 "После того, как вы пересоберете документацию, вы увидите только что "
 "добавленный переключатель языка:"
 
+#: ../../add-language-switcher.rst:-1
 msgid "Language switcher on the index.html page"
 msgstr "Переключатель языка на странице index.html"
 
@@ -172,8 +171,8 @@ msgid "<doc_directory>/**ru**/<Russian_documentation_files>"
 msgstr "<папка_документации>/**ru**/<файлы_документации_на_русском>"
 
 #: ../../add-language-switcher.rst:109
-msgid "<doc_directory>/**pt_br**/<Portuguese_documentation_files>"
-msgstr "<папка_документации>/**pt_br**/<файлы_документации_на_португальском>"
+msgid "<doc_directory>/**pt_BR**/<Portuguese_documentation_files>"
+msgstr "<папка_документации>/**pt_BR**/<файлы_документации_на_португальском>"
 
 #: ../../add-language-switcher.rst:111
 msgid "We already :ref:`built our documentation this way <build>`."

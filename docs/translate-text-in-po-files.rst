@@ -201,14 +201,14 @@ Translate files in Transifex Editor
 To translate easter-egg.po into Portuguese:
 
 #. Go to Transifex Editor by clicking **Editor** at the top of the page.  
-#. From the target language drop-down menu, select **Portuguese (Brasil)**.
+#. From the target language drop-down menu, select **Portuguese (Brazil)**.
 
    .. figure:: _static/select_target_language.png
 	  :align: center
 	  :alt: target language selector
 
 	  Selecting target language
-#. In the **Resources Overview** list, click **zen...easter-egg.pot(main)**.
+#. In the **Resource Overview** list, click **zen...easter-egg.pot(main)**.
    Transifex Editor opens.
 #. In the strings list on the left, click **Easter Egg**. 
    Put the translation for this string (*Ovo de Páscoa*) into the translation area on the right. 
@@ -228,7 +228,7 @@ To translate easter-egg.po into Portuguese:
 	  :align: center
 	  :alt: Bulk actions
 
-	  Applying **Reviewed** state to all strings
+	  Applying **Reviewed** status to all strings
    
 All the strings in easter-egg are now translated and reviewed.
 

@@ -9,17 +9,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sphinx-intl \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-21 22:46+0300\n"
+"POT-Creation-Date: 2023-01-09 17:40+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../appendices.rst:2
 msgid "Appendices"
@@ -226,7 +226,6 @@ msgstr ""
 "разделах данного руководства:"
 
 #: ../../appendices.rst:77
-
 msgid ""
 "Create virtual environment: `requirements.txt "
 "<../_static/requirements.zip>`_"
@@ -235,59 +234,64 @@ msgstr "Создание виртуальной среды: `requirements.txt <_
 #: ../../appendices.rst:79
 msgid "Add content: `index.rst and easter-egg.rst <../_static/rst-initial.zip>`_"
 msgstr ""
-"Добавление содержимого: `index.rst и easter-egg.rst <_static/rst-initial.zip>`_"
+"Добавление содержимого: `index.rst и easter-egg.rst <_static/rst-"
+"initial.zip>`_"
 
 #: ../../appendices.rst:81
 msgid ""
 "Add images: `logo.png and egg.png <../_static/egg-logo.zip>`_; `conf.py "
 "and easter-egg.rst <../_static/conf-easter-egg.zip>`_"
 msgstr ""
-"Добавление изображений: `logo.png и egg.png <_static/egg-logo.zip>`_; `conf.py и easter-egg.rst <_static/conf-easter-egg.zip>`_"
+"Добавление изображений: `logo.png и egg.png <_static/egg-logo.zip>`_; "
+"`conf.py и easter-egg.rst <_static/conf-easter-egg.zip>`_"
 
 #: ../../appendices.rst:83
 msgid ""
 "Install and configure sphinx-intl: `conf.py <../_static/conf-loc-"
 "options.zip>`_"
 msgstr ""
-"Установка и настройка sphinx-intl: `conf.py <_static/conf-loc-options.zip>`_"
+"Установка и настройка sphinx-intl: `conf.py <_static/conf-loc-"
+"options.zip>`_"
 
 #: ../../appendices.rst:85
 msgid ""
 "Translate text in .po files: `translation lists <../_static/translation-"
 "lists.zip>`_, `translated .po files <../_static/po-translated.zip>`_"
 msgstr ""
-"Перевод текста в файлах .po: `списки переводов <_static/translation-lists.zip>`_, `переведенные файлы .po <_static/po-translated.zip>`_"
+"Перевод текста в файлах .po: `списки переводов <_static/translation-"
+"lists.zip>`_, `переведенные файлы .po <_static/po-translated.zip>`_"
 
 #: ../../appendices.rst:87
 msgid ""
-"Add language-specific images: `egg.ru.png and egg.pt_br.png <../_static/egg-ru-pt_br.zip>`_"
+"Add language-specific images: `egg.ru.png and egg.pt_BR.png <../_static"
+"/egg-ru-pt_BR.zip>`_"
 msgstr ""
-"Добавление изображений для разных языков: "
-"`egg.ru.png и egg.pt_br.png <_static/egg-ru-pt_br.zip>`_"
+"Добавление изображений для разных языков: `egg.ru.png и egg.pt_BR.png "
+"<_static/egg-ru-pt_BR.zip>`_"
 
 #: ../../appendices.rst:89
 msgid ""
 "Add conditional content with ifconfig: `conf.py and index.rst <../_static"
 "/conf-index-ifconfig.zip>`_"
 msgstr ""
-"Добавление условного контента с помощью ifconfig: `conf.py и "
-"index.rst <_static/conf-index-ifconfig.zip>`_"
+"Добавление условного контента с помощью ifconfig: `conf.py и index.rst "
+"<_static/conf-index-ifconfig.zip>`_"
 
 #: ../../appendices.rst:91
 msgid ""
 "Update translation: `updated index.po for Russian and Portuguese "
 "<../_static/index-po-updated.zip>`_"
 msgstr ""
-"Обновление перевода: `обновленный index.po для русского и "
-"португальского языков <_static/index-po-updated.zip>`_"
+"Обновление перевода: `обновленный index.po для русского и португальского "
+"языков <_static/index-po-updated.zip>`_"
 
 #: ../../appendices.rst:93
 msgid ""
 "Add language switcher: `switcher.html <../_static/switcher.zip>`_ and "
 "`conf.py <../_static/conf-switcher.zip>`_"
 msgstr ""
-"Добавление переключателя языка: `switcher.html "
-"<_static/switcher.zip>`_ и `conf.py <_static/conf-switcher.zip>`_"
+"Добавление переключателя языка: `switcher.html <_static/switcher.zip>`_ и"
+" `conf.py <_static/conf-switcher.zip>`_"
 
 #: ../../appendices.rst:95
 msgid ""
@@ -296,6 +300,6 @@ msgid ""
 "project here <../_static/zen.zip>`_."
 msgstr ""
 "Вы также можете найти демонстрационный проект на `Github "
-"<https://github.com/authoress/sphinx-intl-demo>`_ или "
-"`загрузить проект здесь <_static/zen.zip>`_."
+"<https://github.com/authoress/sphinx-intl-demo>`_ или `загрузить проект "
+"здесь <_static/zen.zip>`_."
 
