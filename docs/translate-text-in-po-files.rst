@@ -56,9 +56,9 @@ Let’s start from translating our texts into Russian:
     msgstr "Хотя никогда обычно лучше, чем \\*прямо\\* сейчас."
 
 Once you're done with Russian, repeat the process with index.po 
-in **locale/pt_BR/LC_MESSAGES** to translate the project into
+in **locale/pt_BR/LC_MESSAGES** to translate it into
 Portuguese.
-For now, do not translate easter-egg.po into Portuguese, we will use Transifex to translate this file.
+For now, do not translate easter-egg.po, we will use Transifex to translate this file.
 
 You can download `an archive that contains .po files <../_static/po-translated.zip>`_ already translated
 into Russian and Portuguese (except for the Portuguese version of easter-egg.po).
@@ -72,6 +72,7 @@ The easiest way is to use the `sphinx-intl-demo repository <https://github.com/a
 Note that easter-egg.po in locale/pt_br/LC_MESSAGES is intentionally left untranslated.
 
 .. figure:: _static/repo-from-template.png
+   :scale: 70 %
    :align: center
    :alt: Use this template -> Create a new repository
 
@@ -105,6 +106,7 @@ For our demo project, specify the project settings as follows:
 * Target languages: Russian, Portuguese (Brazil).
 
 .. figure:: _static/transifex_add_project.png
+   :scale: 80 %
    :align: center
    :alt: transifex project settings
 
@@ -115,12 +117,13 @@ Click **Create project** to finish adding a project.
 Integrate Transifex and GitHub
 """"""""""""""""""""""""""""""
 
-Integrate your Transifex and GitHub accounts as described in the `Transifex documentation <https://help.transifex.com/en/articles/6265125-github-via-transifex-ui>`_:
+Integrate your Transifex and GitHub accounts as described `in the Transifex documentation <https://help.transifex.com/en/articles/6265125-github-via-transifex-ui>`_:
 
 #. Go to your organization settings -> Integrations.
 #. In the GitHub integration box, click **Authorize** and then **Install the Transifex app**.
    
    .. figure:: _static/manage_integrations.png
+	  :scale: 60 %
 	  :align: center
 	  :alt: Manage Integrations page
 
@@ -135,6 +138,7 @@ Integrate your Transifex and GitHub accounts as described in the `Transifex docu
 #. Finish integration by clicking your GitHub account name in the list of available installations.
    
    .. figure:: _static/finish_integration.png
+	  :scale: 80 %
 	  :align: center
 	  :alt: GitHub Authorization
 
@@ -151,6 +155,7 @@ Link your project with your GitHub demo repository as described in the `Transife
 #. In the **GitHub** box, click **Link Repository**.
  
    .. figure:: _static/link_repo.png
+	  :scale: 60 %
 	  :align: center
 	  :alt: Project Integrations
 
@@ -158,6 +163,7 @@ Link your project with your GitHub demo repository as described in the `Transife
 #. On the **Select repo** tab, specify **main** as the branch name, then click **Validate**.
 
    .. figure:: _static/select_repo.png
+	  :scale: 80 %
 	  :align: center
 	  :alt: Select Repo
 
@@ -190,6 +196,7 @@ Link your project with your GitHub demo repository as described in the `Transife
 In Project Integrations, you will find the status of synchronizing source files.
 
 .. figure:: _static/repository_linked.png
+   :scale: 80 %
    :align: center
    :alt: Project Integrations
 
@@ -204,6 +211,7 @@ To translate easter-egg.po into Portuguese:
 #. From the target language drop-down menu, select **Portuguese (Brazil)**.
 
    .. figure:: _static/select_target_language.png
+	  :scale: 90 %
 	  :align: center
 	  :alt: target language selector
 
@@ -214,6 +222,7 @@ To translate easter-egg.po into Portuguese:
    Put the translation for this string (*Ovo de Páscoa*) into the translation area on the right. 
 
    .. figure:: _static/transifex_editor.png
+	  :scale: 70 %
 	  :align: center
 	  :alt: Strings to translate, translation area
 
@@ -225,6 +234,7 @@ To translate easter-egg.po into Portuguese:
    In the **Bulk actions** panel on the right, select **Reviewed** from the **Mark as** drop-down menu, and then click **Apply**.
    
    .. figure:: _static/bulk_actions.png
+	  :scale: 70 %
 	  :align: center
 	  :alt: Bulk actions
 
@@ -245,6 +255,7 @@ To merge the pull request:
 #. On GitHub, go to your demo repository Pull requests.
    
    .. figure:: _static/pull_requests.png
+	  :scale: 70 %
 	  :align: center
 	  :alt: Pull requests page on GitHub
 
@@ -255,6 +266,7 @@ To merge the pull request:
 #. After the pull request is merged, you can delete the branch.
    
    .. figure:: _static/delete_branch.png
+	  :scale: 100 %
 	  :align: center
 	  :alt: Pull request successfully merged and closed
 
@@ -262,4 +274,4 @@ To merge the pull request:
    
 Now all the texts in .po files are translated.
 
-You can pull the updated .po file from GitHub to build your documentation locally.
+You can pull the newly translated .po file from GitHub (by using ``git pull``) to build your documentation locally.
