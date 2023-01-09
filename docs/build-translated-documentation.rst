@@ -41,10 +41,10 @@ command.
    (``-d _build/doctrees/ru/``), otherwise Sphinx writes the doctrees files to
    the same directory as html files.
 
-3. To build the Portuguese documentation to **_build/html/pt_br/**,
+3. To build the Portuguese documentation to **_build/html/pt_BR/**,
    run the following command::
 
-    sphinx-build -b html -D language=pt_br -d _build/doctrees/pt_br/ . _build/html/pt_br/
+    sphinx-build -b html -D language=pt_BR -d _build/doctrees/pt_BR/ . _build/html/pt_BR/
 
 4. We also need to have English documentation in the
    **_build/html/en/** directory::
@@ -55,7 +55,7 @@ Placing localized documentation in separate directories as described
 above will help us further :ref:`develop a language switcher <switcher>`.
 
 If you now look into the **locale/ru/LC_MESSAGES** and
-**locale/pt_br/LC_MESSAGES** directories, you can see that index.mo
+**locale/pt_BR/LC_MESSAGES** directories, you can see that index.mo
 and easter-egg.mo files have appeared. Sphinx generates these binaries
 from .po files and then uses .mo files to build the output. You don't
 need to do anything with the .mo files, just ignore them.

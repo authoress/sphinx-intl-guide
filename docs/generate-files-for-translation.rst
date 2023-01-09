@@ -29,18 +29,18 @@ Generate files for translation:
 
 2. Generate .po files::
 
-    sphinx-intl update -p _build/gettext -l ru -l pt_br
+    sphinx-intl update -p _build/gettext -l ru -l pt_BR
 
    Demo project directory should now contain the **locale** directory,
    whose name we specified earlier in conf.py. Inside the **locale**
    directory there are two directories: **ru** for Russian and
-   **pt_br** for Portuguese. Each of these two directories contains
+   **pt_BR** for Portuguese. Each of these two directories contains
    the **LC\_MESSAGES** directory with index.po and easter-egg.po files
    inside::
 
 	locale
 	│   
-	├───pt_br
+	├───pt_BR
 	│   └───LC_MESSAGES
 	│           easter-egg.po
 	│           index.po

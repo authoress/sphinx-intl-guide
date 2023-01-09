@@ -50,10 +50,10 @@ You already know how to deal with .pot and .po files:
 
 2. Generate .po files::
 
-    sphinx-intl update -p _build/gettext -l ru -l pt_br
+    sphinx-intl update -p _build/gettext -l ru -l pt_BR
 
    This command updates index.po in **locale/ru/LC_MESSAGES** and
-   **locale/pt_br/LC_MESSAGES**.
+   **locale/pt_BR/LC_MESSAGES**.
 
 3. Translate the new strings in both index.po files.
 
@@ -90,7 +90,7 @@ Build the Russian documentation::
 
 Build the Portuguese documentation::
 
-	sphinx-build -b html -D language=pt_br  -d _build/doctrees/pt_br/ . _build/html/pt_br/
+	sphinx-build -b html -D language=pt_BR  -d _build/doctrees/pt_BR/ . _build/html/pt_BR/
 
 Now index.html in Portuguese and Russian should contain the newly added
 information about translation. If you build English documentation, you

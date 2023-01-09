@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'sphinx-intl'
-copyright = '2022, authoress'
+copyright = '2023, authoress'
 author = 'authoress'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0.0'
+release = '1.1.0'
 
 
 # -- General configuration ---------------------------------------------------

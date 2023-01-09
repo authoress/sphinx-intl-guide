@@ -84,7 +84,7 @@ sections of this guide:
 
 -  Translate text in .po files: `translation lists <../_static/translation-lists.zip>`_, `translated .po files <../_static/po-translated.zip>`_
 
--  Add language-specific images: `egg.ru.png and egg.pt_br.png <../_static/egg-ru-pt_br.zip>`_
+-  Add language-specific images: `egg.ru.png and egg.pt_BR.png <../_static/egg-ru-pt_BR.zip>`_
 
 -  Add conditional content with ifconfig: `conf.py and index.rst <../_static/conf-index-ifconfig.zip>`_
 
