@@ -60,6 +60,17 @@ Readthedocs documentation:
 -  Manage Translations for Sphinx projects:
    `https://docs.readthedocs.io/en/stable/guides/manage-translations-sphinx.html <https://docs.readthedocs.io/en/stable/guides/manage-translations-sphinx.html>`_
 
+Transifex documentation:
+
+-  Transifex organizations, projects and resources:
+   `https://help.transifex.com/en/articles/6656105-introduction-to-projects-and-resources <https://help.transifex.com/en/articles/6656105-introduction-to-projects-and-resources>`_
+
+-  GitHub integration:
+   `https://help.transifex.com/en/articles/6265125-github-via-transifex-ui <https://help.transifex.com/en/articles/6265125-github-via-transifex-ui>`_
+
+-  Transifex Editor:
+   `https://help.transifex.com/en/articles/6318216-translating-with-the-web-editor <https://help.transifex.com/en/articles/6318216-translating-with-the-web-editor>`_
+
 Other:
 
 -  Miniconda commands:

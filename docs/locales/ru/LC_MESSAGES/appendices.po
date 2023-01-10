@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sphinx-intl \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-09 17:40+0300\n"
+"POT-Creation-Date: 2023-01-10 09:05+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -192,10 +192,48 @@ msgstr ""
 "translations-sphinx.html>`_"
 
 #: ../../appendices.rst:63
+msgid "Transifex documentation:"
+msgstr "Документация Transifex:"
+
+#: ../../appendices.rst:65
+msgid ""
+"Transifex organizations, projects and resources: "
+"`https://help.transifex.com/en/articles/6656105-introduction-to-projects-"
+"and-resources <https://help.transifex.com/en/articles/6656105"
+"-introduction-to-projects-and-resources>`_"
+msgstr ""
+"Организации, проекты и ресурсы Transifex: "
+"`https://help.transifex.com/en/articles/6656105-introduction-to-projects-"
+"and-resources <https://help.transifex.com/en/articles/6656105"
+"-introduction-to-projects-and-resources>`_"
+
+#: ../../appendices.rst:68
+msgid ""
+"GitHub integration: `https://help.transifex.com/en/articles/6265125"
+"-github-via-transifex-ui <https://help.transifex.com/en/articles/6265125"
+"-github-via-transifex-ui>`_"
+msgstr ""
+"Интеграция с GitHub: `https://help.transifex.com/en/articles/6265125"
+"-github-via-transifex-ui <https://help.transifex.com/en/articles/6265125"
+"-github-via-transifex-ui>`_"
+
+#: ../../appendices.rst:71
+msgid ""
+"Transifex Editor: `https://help.transifex.com/en/articles/6318216"
+"-translating-with-the-web-editor "
+"<https://help.transifex.com/en/articles/6318216-translating-with-the-web-"
+"editor>`_"
+msgstr ""
+"Редактор Transifex: `https://help.transifex.com/en/articles/6318216"
+"-translating-with-the-web-editor "
+"<https://help.transifex.com/en/articles/6318216-translating-with-the-web-"
+"editor>`_"
+
+#: ../../appendices.rst:74
 msgid "Other:"
 msgstr "Документация на Geekwriter:"
 
-#: ../../appendices.rst:65
+#: ../../appendices.rst:76
 msgid ""
 "Miniconda commands: `http://miniconda.geekwriter.ru/en/conda-"
 "commands.html <http://miniconda.geekwriter.ru/en/conda-commands.html>`_"
@@ -203,7 +241,7 @@ msgstr ""
 "Команды Miniconda: `http://miniconda.geekwriter.ru/conda-commands.html "
 "<http://miniconda.geekwriter.ru/conda-commands.html>`_"
 
-#: ../../appendices.rst:68
+#: ../../appendices.rst:79
 msgid ""
 "Alabaster template sidebar: "
 "`https://alabaster.readthedocs.io/en/latest/installation.html "
@@ -213,11 +251,11 @@ msgstr ""
 "`http://alabaster.geekwriter.ru/installation.html "
 "<http://alabaster.geekwriter.ru/installation.html>`_"
 
-#: ../../appendices.rst:72
+#: ../../appendices.rst:83
 msgid "Demo project files"
 msgstr "Файлы демонстрационного проекта"
 
-#: ../../appendices.rst:74
+#: ../../appendices.rst:85
 msgid ""
 "Here you can find all the archives that are offered for download in the "
 "sections of this guide:"
@@ -225,19 +263,19 @@ msgstr ""
 "Здесь вы можете найти все архивы, которые предлагаются для скачивания в "
 "разделах данного руководства:"
 
-#: ../../appendices.rst:77
+#: ../../appendices.rst:88
 msgid ""
 "Create virtual environment: `requirements.txt "
 "<../_static/requirements.zip>`_"
 msgstr "Создание виртуальной среды: `requirements.txt <_static/requirements.zip>`_"
 
-#: ../../appendices.rst:79
+#: ../../appendices.rst:90
 msgid "Add content: `index.rst and easter-egg.rst <../_static/rst-initial.zip>`_"
 msgstr ""
 "Добавление содержимого: `index.rst и easter-egg.rst <_static/rst-"
 "initial.zip>`_"
 
-#: ../../appendices.rst:81
+#: ../../appendices.rst:92
 msgid ""
 "Add images: `logo.png and egg.png <../_static/egg-logo.zip>`_; `conf.py "
 "and easter-egg.rst <../_static/conf-easter-egg.zip>`_"
@@ -245,7 +283,7 @@ msgstr ""
 "Добавление изображений: `logo.png и egg.png <_static/egg-logo.zip>`_; "
 "`conf.py и easter-egg.rst <_static/conf-easter-egg.zip>`_"
 
-#: ../../appendices.rst:83
+#: ../../appendices.rst:94
 msgid ""
 "Install and configure sphinx-intl: `conf.py <../_static/conf-loc-"
 "options.zip>`_"
@@ -253,7 +291,7 @@ msgstr ""
 "Установка и настройка sphinx-intl: `conf.py <_static/conf-loc-"
 "options.zip>`_"
 
-#: ../../appendices.rst:85
+#: ../../appendices.rst:96
 msgid ""
 "Translate text in .po files: `translation lists <../_static/translation-"
 "lists.zip>`_, `translated .po files <../_static/po-translated.zip>`_"
@@ -261,7 +299,7 @@ msgstr ""
 "Перевод текста в файлах .po: `списки переводов <_static/translation-"
 "lists.zip>`_, `переведенные файлы .po <_static/po-translated.zip>`_"
 
-#: ../../appendices.rst:87
+#: ../../appendices.rst:98
 msgid ""
 "Add language-specific images: `egg.ru.png and egg.pt_BR.png <../_static"
 "/egg-ru-pt_BR.zip>`_"
@@ -269,7 +307,7 @@ msgstr ""
 "Добавление изображений для разных языков: `egg.ru.png и egg.pt_BR.png "
 "<_static/egg-ru-pt_BR.zip>`_"
 
-#: ../../appendices.rst:89
+#: ../../appendices.rst:100
 msgid ""
 "Add conditional content with ifconfig: `conf.py and index.rst <../_static"
 "/conf-index-ifconfig.zip>`_"
@@ -277,7 +315,7 @@ msgstr ""
 "Добавление условного контента с помощью ifconfig: `conf.py и index.rst "
 "<_static/conf-index-ifconfig.zip>`_"
 
-#: ../../appendices.rst:91
+#: ../../appendices.rst:102
 msgid ""
 "Update translation: `updated index.po for Russian and Portuguese "
 "<../_static/index-po-updated.zip>`_"
@@ -285,7 +323,7 @@ msgstr ""
 "Обновление перевода: `обновленный index.po для русского и португальского "
 "языков <_static/index-po-updated.zip>`_"
 
-#: ../../appendices.rst:93
+#: ../../appendices.rst:104
 msgid ""
 "Add language switcher: `switcher.html <../_static/switcher.zip>`_ and "
 "`conf.py <../_static/conf-switcher.zip>`_"
@@ -293,7 +331,7 @@ msgstr ""
 "Добавление переключателя языка: `switcher.html <_static/switcher.zip>`_ и"
 " `conf.py <_static/conf-switcher.zip>`_"
 
-#: ../../appendices.rst:95
+#: ../../appendices.rst:106
 msgid ""
 "You can also find the demo project `on Github "
 "<https://github.com/authoress/sphinx-intl-demo>`_ or `download the "
