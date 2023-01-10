@@ -60,6 +60,17 @@ Readthedocs documentation:
 -  Manage Translations for Sphinx projects:
    `https://docs.readthedocs.io/en/stable/guides/manage-translations-sphinx.html <https://docs.readthedocs.io/en/stable/guides/manage-translations-sphinx.html>`_
 
+Transifex documentation:
+
+-  Transifex organizations, projects and resources:
+   `https://help.transifex.com/en/articles/6656105-introduction-to-projects-and-resources <https://help.transifex.com/en/articles/6656105-introduction-to-projects-and-resources>`_
+
+-  GitHub integration:
+   `https://help.transifex.com/en/articles/6265125-github-via-transifex-ui <https://help.transifex.com/en/articles/6265125-github-via-transifex-ui>`_
+
+-  Transifex Editor:
+   `https://help.transifex.com/en/articles/6318216-translating-with-the-web-editor <https://help.transifex.com/en/articles/6318216-translating-with-the-web-editor>`_
+
 Other:
 
 -  Miniconda commands:
@@ -84,7 +95,7 @@ sections of this guide:
 
 -  Translate text in .po files: `translation lists <../_static/translation-lists.zip>`_, `translated .po files <../_static/po-translated.zip>`_
 
--  Add language-specific images: `egg.ru.png and egg.pt_br.png <../_static/egg-ru-pt_br.zip>`_
+-  Add language-specific images: `egg.ru.png and egg.pt_BR.png <../_static/egg-ru-pt_BR.zip>`_
 
 -  Add conditional content with ifconfig: `conf.py and index.rst <../_static/conf-index-ifconfig.zip>`_
 

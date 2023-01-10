@@ -13,7 +13,7 @@ Russian and Portuguese, we will use the default filename format
 
 -  Russian: egg.ru.png
 
--  Portuguese: egg.pt_br.png
+-  Portuguese: egg.pt_BR.png
 
-Download the `egg images for Russian and Portuguese <../_static/egg-ru-pt_br.zip>`_ and place them in
+Download the `egg images for Russian and Portuguese <../_static/egg-ru-pt_BR.zip>`_ and place them in
 the **_static** directory. Yes, that's enough.

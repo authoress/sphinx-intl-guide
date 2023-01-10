@@ -45,7 +45,7 @@ Add language switcher to our project:
 	<div class = "switcherheading">
 	{% set heading = {'en': 'Documentation language:', 
 	                  'ru': 'Язык документации:',
-	                  'pt_br': 'Idioma da documentação:'} 
+	                  'pt_BR': 'Idioma da documentação:'} 
 	 %}
 
 	{{ heading[language] }}
@@ -54,7 +54,7 @@ Add language switcher to our project:
 	<div class = "switcher">
 	{% for lcode, lname in [('en', 'English'),
 	                        ('ru', 'Русский'),
-	                        ('pt_br', 'Português')] 
+	                        ('pt_BR', 'Português')] 
 	 %}
 		{% if language != lcode %}
 		<a href = "../{{lcode}}/{{pagename}}.html">{{lname}}</a></br>
@@ -106,7 +106,7 @@ directories must be at the same nesting level, for example:
 
 -  <doc_directory>/**ru**/<Russian_documentation_files>
 
--  <doc_directory>/**pt_br**/<Portuguese_documentation_files>
+-  <doc_directory>/**pt_BR**/<Portuguese_documentation_files>
 
 We already :ref:`built our documentation this way <build>`.
 
