@@ -34,7 +34,7 @@ msgstr "Давайте создадим простой переключател�
 
 #: ../../add-language-switcher.rst:9
 msgid "Sidebar language switcher"
-msgstr "Добавление переключателя языка"
+msgstr "Переключатель языка на боковой панели"
 
 #: ../../add-language-switcher.rst:11
 msgid ""
@@ -206,7 +206,7 @@ msgid ""
 " the index.html file. You can download `index.html and the img directory "
 "<../_static/start-page.zip>`_, and then place them into the "
 "**_build/html** directory of our documentation, like this::"
-msgstr "Изображения должны быть размещены в каталоге **img** на том же уровне, что и index.html файл. Вы можете скачать `index.html и каталог img <_static/start-page.zip>`_, а затем поместите их в каталог **_build/html** нашей документации, вот так::"
+msgstr "Изображения должны быть размещены в каталоге **img** на том же уровне, что и файл index.html. Вы можете скачать `index.html и каталог img <_static/start-page.zip>`_, а затем поместить их в каталог **_build/html** нашей документации, вот так::"
 
 #: ../../add-language-switcher.rst:201
 msgid "You do not need to rebuild the documentation after adding the start page."
