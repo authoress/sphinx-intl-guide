@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, authoress
+# This file is distributed under the same license as the sphinx-intl
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinx-intl \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-12 10:34+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+"Language: ru\n"
+
+#: ../../publish-on-github-pages.rst:2
+msgid "Publish on GitHub Pages"
+msgstr "Публикация на GitHub Pages"
+
+#: ../../publish-on-github-pages.rst:4
+msgid ""
+"As `GitHub documentation <https://docs.github.com/en/pages/getting-"
+"started-with-github-pages/about-github-pages>`_ says, \"GitHub Pages is a"
+" static site hosting service that takes files straight from a repository "
+"on GitHub, optionally runs the files through a build process, and "
+"publishes a website\"."
+msgstr "Как говорится в `документации GitHub <https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages>`_, \"GitHub Pages — это служба размещения статических сайтов, которая принимает файлы HTML, CSS и JavaScript прямо из репозитория в GitHub, при необходимости выполняет файлы с помощью процесса сборки и публикует веб-сайт\"."
+
+#: ../../publish-on-github-pages.rst:6
+msgid ""
+"Before you publish your documentation on GitHub Pages, make sure your "
+"documentation files are in the **zen/_build/html** directory of your "
+"repository, like this:"
+msgstr "Прежде чем публиковать свою документацию на GitHub Pages, убедитесь, что ваши файлы документации находятся в каталоге **zen/_build/html** вашего репозитория, например:"
+
+#: ../../publish-on-github-pages.rst:-1
+msgid "zen/_build/html"
+msgstr "zen/_build/html"
+
+#: ../../publish-on-github-pages.rst:13
+msgid ""
+"If you created your repository from the demo repository template, all the"
+" required files are already in the zen/_build/html directory."
+msgstr "Если вы создали свой репозиторий на основе шаблона демонстрационного репозитория, все необходимые файлы уже находятся в каталоге zen/_build/html."
+
+#: ../../publish-on-github-pages.rst:15
+msgid "To publish files from this directory on GitHub Pages:"
+msgstr "Чтобы опубликовать файлы из этого каталога на GitHub Pages:"
+
+#: ../../publish-on-github-pages.rst:17
+msgid "Open your repository settings."
+msgstr "Откройте настройки вашего репозитория."
+
+#: ../../publish-on-github-pages.rst:19
+msgid "Select **Pages**."
+msgstr "Выберите **Pages**."
+
+#: ../../publish-on-github-pages.rst:21
+msgid ""
+"In the **Build and deployment** section, under **Source**, select "
+"**GitHub Actions**."
+msgstr "В разделе **Build and deployment** в разделе **Source** выберите **GitHub Actions**."
+
+#: ../../publish-on-github-pages.rst:23
+msgid "In **Static HTML**, click **Configure**."
+msgstr "В **Static HTML** нажмите **Configure**."
+
+#: ../../publish-on-github-pages.rst
+msgid "GitHub pages settings"
+msgstr "Настройки GitHub Pages"
+
+#: ../../publish-on-github-pages.rst:30
+msgid "GitHub creates a .github/workflows/static.yml file for you."
+msgstr "GitHub создает для вас файл .github/workflows/static.yml."
+
+#: ../../publish-on-github-pages.rst:32
+msgid "In static.yml file, find the **path** element, it should look like this::"
+msgstr "В файле static.yml найдите элемент **path**, он должен выглядеть следующим образом::"
+
+#: ../../publish-on-github-pages.rst:37
+msgid "Change the path as follows::"
+msgstr "Измените его следующим образом::"
+
+#: ../../publish-on-github-pages.rst
+msgid "static.yml"
+msgstr "static.yml"
+
+#: ../../publish-on-github-pages.rst:48
+msgid "Click **Start commit**, and then **Commit new file**."
+msgstr "Нажмите **Start commit**, а затем **Commit new file**."
+
+#: ../../publish-on-github-pages.rst
+msgid "Commiting static.yml"
+msgstr "Коммит static.yml"
+
+#: ../../publish-on-github-pages.rst:55
+msgid ""
+"Once static.yml is committed, GitHub immediately starts publishing your "
+"documentation site. The publishing process may take some time, and when "
+"it is finished, you can open your documentation by clicking **Visit "
+"site** on **Settings -> Pages**:"
+msgstr "Как только static.yml будет зафиксирован, GitHub немедленно начнет публиковать ваш сайт документации. Процесс публикации может занять некоторое время, и когда он будет завершен, вы можете открыть свою документацию, нажав **Visit site** в **Settings -> Pages**:"
+
+#: ../../publish-on-github-pages.rst:-1
+msgid "Visit site"
+msgstr "Visit site"
+

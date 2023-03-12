@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sphinx-intl \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-10 09:05+0300\n"
+"POT-Creation-Date: 2023-03-12 10:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -34,10 +34,7 @@ msgid ""
 "If you are not a developer but rather a documentation or localization "
 "specialist (like I am), you probably do not need to know about gettext in"
 " detail. It is enough to know some general facts:"
-msgstr ""
-"Если вы не разработчик, а специалист по документации или локализации (как"
-" и я), вам, вероятно, не нужно подробно знать о gettext. Достаточно знать"
-" некоторые общие факты:"
+msgstr "Если вы не разработчик, а специалист по документации или локализации (как и я), вам, вероятно, не нужно подробно знать о gettext. Достаточно знать некоторые общие факты:"
 
 #: ../../appendices.rst:13
 msgid ""
@@ -45,39 +42,27 @@ msgid ""
 "identifiers in the source code, gettext uses the natural language strings"
 " inside the source code as keys for looking up translations. If no "
 "translation is available, gettext returns the original string."
-msgstr ""
-"Gettext использует подход \"message-as-key\": в исходном коде нет "
-"идентификаторов строковых ресурсов, gettext использует строки на "
-"естественном языке внутри исходного кода в качестве ключей для поиска "
-"переводов. Если перевод недоступен, gettext возвращает исходную строку."
+msgstr "Gettext использует подход \"message-as-key\": в исходном коде нет идентификаторов строковых ресурсов, gettext использует строки на естественном языке внутри исходного кода в качестве ключей для поиска переводов. Если перевод недоступен, gettext возвращает исходную строку."
 
 #: ../../appendices.rst:18
 msgid ""
 "*In my experience with Sphinx, the source language does not have to be "
 "English. I translated documentation from Russian to English, and "
 "everything worked perfectly.*"
-msgstr ""
-"*По моему опыту работы со Sphinx, исходный язык не обязательно должен "
-"быть английским. Я переводила документацию с русского на английский, и "
-"все отлично получилось.*"
+msgstr "*По моему опыту работы со Sphinx, исходный язык не обязательно должен быть английским. Я переводила документацию с русского на английский, и все отлично получилось.*"
 
 #: ../../appendices.rst:22
 msgid ""
 "Gettext is not specific for Python, as it is used in C, C++ development "
 "etc. Every time you work with .po files it almost certainly means that "
 "gettext is behind the scenes."
-msgstr ""
-"Gettext не является специфичным для Python, так как он используется в "
-"разработке C, C++ и т. д. Каждый раз, когда вы работаете с файлами .po, "
-"это почти наверняка означает, что где-то за кулисами находится gettext."
+msgstr "Gettext не является специфичным для Python, так как он используется в разработке C, C++ и т. д. Каждый раз, когда вы работаете с файлами .po, это почти наверняка означает, что где-то за кулисами находится gettext."
 
 #: ../../appendices.rst:26
 msgid ""
 "Gettext supports plural forms. We do not cover this feature in our guide,"
 " but it's nice to know about the possibility."
-msgstr ""
-"Gettext поддерживает формы множественного числа. Мы не рассматриваем эту "
-"функцию в нашем руководстве, но приятно знать о такой возможности."
+msgstr "Gettext поддерживает формы множественного числа. Мы не рассматриваем эту функцию в нашем руководстве, но приятно знать о такой возможности."
 
 #: ../../appendices.rst:30
 msgid "Useful links"
@@ -92,20 +77,14 @@ msgid ""
 "Sphinx Getting Started: `https://www.sphinx-"
 "doc.org/en/master/usage/quickstart.html <https://www.sphinx-"
 "doc.org/en/master/usage/quickstart.html>`_"
-msgstr ""
-"Sphinx Getting Started: `https://www.sphinx-"
-"doc.org/en/master/usage/quickstart.html <https://www.sphinx-"
-"doc.org/en/master/usage/quickstart.html>`_"
+msgstr "Sphinx Getting Started: `https://www.sphinx-doc.org/en/master/usage/quickstart.html <https://www.sphinx-doc.org/en/master/usage/quickstart.html>`_"
 
 #: ../../appendices.rst:37
 msgid ""
 "Internationalization with sphinx-intl: `https://www.sphinx-"
 "doc.org/en/master/usage/advanced/intl.html <https://www.sphinx-"
 "doc.org/en/master/usage/advanced/intl.html>`_"
-msgstr ""
-"Internationalization with sphinx-intl: `https://www.sphinx-"
-"doc.org/en/master/usage/advanced/intl.html <https://www.sphinx-"
-"doc.org/en/master/usage/advanced/intl.html>`_"
+msgstr "Internationalization with sphinx-intl: `https://www.sphinx-doc.org/en/master/usage/advanced/intl.html <https://www.sphinx-doc.org/en/master/usage/advanced/intl.html>`_"
 
 #: ../../appendices.rst:40
 msgid ""
@@ -114,12 +93,7 @@ msgid ""
 "internationalization <https://www.sphinx-"
 "doc.org/en/master/usage/configuration.html#options-for-"
 "internationalization>`_"
-msgstr ""
-"Options for internationalization: `https://www.sphinx-"
-"doc.org/en/master/usage/configuration.html#options-for-"
-"internationalization <https://www.sphinx-"
-"doc.org/en/master/usage/configuration.html#options-for-"
-"internationalization>`_"
+msgstr "Options for internationalization: `https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-internationalization <https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-internationalization>`_"
 
 #: ../../appendices.rst:43
 msgid ""
@@ -128,40 +102,27 @@ msgid ""
 "figure_language_filename <https://www.sphinx-"
 "doc.org/en/master/usage/configuration.html#confval-"
 "figure_language_filename>`_"
-msgstr ""
-"Filename format for language-specific figures: `https://www.sphinx-"
-"doc.org/en/master/usage/configuration.html#confval-"
-"figure_language_filename <https://www.sphinx-"
-"doc.org/en/master/usage/configuration.html#confval-"
-"figure_language_filename>`_"
+msgstr "Filename format for language-specific figures: `https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-figure_language_filename <https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-figure_language_filename>`_"
 
 #: ../../appendices.rst:46
 msgid ""
 "Ifconfig: `https://www.sphinx-"
 "doc.org/en/master/usage/extensions/ifconfig.html <https://www.sphinx-"
 "doc.org/en/master/usage/extensions/ifconfig.html>`_"
-msgstr ""
-"Ifconfig: `https://www.sphinx-"
-"doc.org/en/master/usage/extensions/ifconfig.html <https://www.sphinx-"
-"doc.org/en/master/usage/extensions/ifconfig.html>`_"
+msgstr "Ifconfig: `https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html <https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html>`_"
 
 #: ../../appendices.rst:49
 msgid ""
 "Sphinx-build: `https://www.sphinx-doc.org/en/master/man/sphinx-build.html"
 " <https://www.sphinx-doc.org/en/master/man/sphinx-build.html>`_"
-msgstr ""
-"Sphinx-build: `https://www.sphinx-doc.org/en/master/man/sphinx-build.html"
-" <https://www.sphinx-doc.org/en/master/man/sphinx-build .html>`_"
+msgstr "Sphinx-build: `https://www.sphinx-doc.org/en/master/man/sphinx-build.html <https://www.sphinx-doc.org/en/master/man/sphinx-build .html>`_"
 
 #: ../../appendices.rst:52
 msgid ""
 "Jinja templates in Sphinx: `https://www.sphinx-"
 "doc.org/en/master/templating.html <https://www.sphinx-"
 "doc.org/en/master/templating.html>`_"
-msgstr ""
-"Jinja templates in Sphinx: `https://www.sphinx-"
-"doc.org/en/master/templating.html <https://www.sphinx-"
-"doc.org/en/master/templating.html>`_"
+msgstr "Jinja templates in Sphinx: `https://www.sphinx-doc.org/en/master/templating.html <https://www.sphinx-doc.org/en/master/templating.html>`_"
 
 #: ../../appendices.rst:55
 msgid "Readthedocs documentation:"
@@ -173,11 +134,7 @@ msgid ""
 "/getting-started-with-sphinx.html "
 "<https://docs.readthedocs.io/en/stable/intro/getting-started-with-"
 "sphinx.html>`_"
-msgstr ""
-"Getting Started with Sphinx: `https://docs.readthedocs.io/en/stable/intro"
-"/getting-started-with-sphinx.html "
-"<https://docs.readthedocs.io/en/stable/intro/getting-started-with-"
-"sphinx.html>`_"
+msgstr "Getting Started with Sphinx: `https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>`_"
 
 #: ../../appendices.rst:60
 msgid ""
@@ -185,11 +142,7 @@ msgid ""
 "`https://docs.readthedocs.io/en/stable/guides/manage-translations-"
 "sphinx.html <https://docs.readthedocs.io/en/stable/guides/manage-"
 "translations-sphinx.html>`_"
-msgstr ""
-"Manage Translations for Sphinx projects: "
-"`https://docs.readthedocs.io/en/stable/guides/manage-translations-"
-"sphinx.html <https://docs.readthedocs.io/en/stable/guides/manage-"
-"translations-sphinx.html>`_"
+msgstr "Manage Translations for Sphinx projects: `https://docs.readthedocs.io/en/stable/guides/manage-translations-sphinx.html <https://docs.readthedocs.io/en/stable/guides/manage-translations-sphinx.html>`_"
 
 #: ../../appendices.rst:63
 msgid "Transifex documentation:"
@@ -201,21 +154,14 @@ msgid ""
 "`https://help.transifex.com/en/articles/6656105-introduction-to-projects-"
 "and-resources <https://help.transifex.com/en/articles/6656105"
 "-introduction-to-projects-and-resources>`_"
-msgstr ""
-"Организации, проекты и ресурсы Transifex: "
-"`https://help.transifex.com/en/articles/6656105-introduction-to-projects-"
-"and-resources <https://help.transifex.com/en/articles/6656105"
-"-introduction-to-projects-and-resources>`_"
+msgstr "Организации, проекты и ресурсы Transifex: `https://help.transifex.com/en/articles/6656105-introduction-to-projects-and-resources <https://help.transifex.com/en/articles/6656105-introduction-to-projects-and-resources>`_"
 
 #: ../../appendices.rst:68
 msgid ""
 "GitHub integration: `https://help.transifex.com/en/articles/6265125"
 "-github-via-transifex-ui <https://help.transifex.com/en/articles/6265125"
 "-github-via-transifex-ui>`_"
-msgstr ""
-"Интеграция с GitHub: `https://help.transifex.com/en/articles/6265125"
-"-github-via-transifex-ui <https://help.transifex.com/en/articles/6265125"
-"-github-via-transifex-ui>`_"
+msgstr "Интеграция с GitHub: `https://help.transifex.com/en/articles/6265125-github-via-transifex-ui <https://help.transifex.com/en/articles/6265125-github-via-transifex-ui>`_"
 
 #: ../../appendices.rst:71
 msgid ""
@@ -223,121 +169,101 @@ msgid ""
 "-translating-with-the-web-editor "
 "<https://help.transifex.com/en/articles/6318216-translating-with-the-web-"
 "editor>`_"
-msgstr ""
-"Редактор Transifex: `https://help.transifex.com/en/articles/6318216"
-"-translating-with-the-web-editor "
-"<https://help.transifex.com/en/articles/6318216-translating-with-the-web-"
-"editor>`_"
+msgstr "Редактор Transifex: `https://help.transifex.com/en/articles/6318216-translating-with-the-web-editor <https://help.transifex.com/en/articles/6318216-translating-with-the-web-editor>`_"
 
 #: ../../appendices.rst:74
-msgid "Other:"
-msgstr "Документация на Geekwriter:"
+msgid "GitHub Pages documentation:"
+msgstr "Документация GitHub Pages:"
 
 #: ../../appendices.rst:76
 msgid ""
+"`<https://docs.github.com/en/pages/getting-started-with-github-pages"
+"/about-github-pages>`_"
+msgstr "`<https://docs.github.com/ru/pages/getting-started-with-github-pages/about-github-pages>`_"
+
+#: ../../appendices.rst:78
+msgid "Other:"
+msgstr "Документация на Geekwriter:"
+
+#: ../../appendices.rst:80
+msgid ""
 "Miniconda commands: `http://miniconda.geekwriter.ru/en/conda-"
 "commands.html <http://miniconda.geekwriter.ru/en/conda-commands.html>`_"
-msgstr ""
-"Команды Miniconda: `http://miniconda.geekwriter.ru/conda-commands.html "
-"<http://miniconda.geekwriter.ru/conda-commands.html>`_"
+msgstr "Команды Miniconda: `http://miniconda.geekwriter.ru/conda-commands.html <http://miniconda.geekwriter.ru/conda-commands.html>`_"
 
-#: ../../appendices.rst:79
+#: ../../appendices.rst:83
 msgid ""
 "Alabaster template sidebar: "
 "`https://alabaster.readthedocs.io/en/latest/installation.html "
 "<https://alabaster.readthedocs.io/en/latest/installation.html>`_"
-msgstr ""
-"Боковая панель шаблона Alabaster: "
-"`http://alabaster.geekwriter.ru/installation.html "
-"<http://alabaster.geekwriter.ru/installation.html>`_"
+msgstr "Боковая панель шаблона Alabaster: `http://alabaster.geekwriter.ru/installation.html <http://alabaster.geekwriter.ru/installation.html>`_"
 
-#: ../../appendices.rst:83
+#: ../../appendices.rst:87
 msgid "Demo project files"
 msgstr "Файлы демонстрационного проекта"
 
-#: ../../appendices.rst:85
+#: ../../appendices.rst:89
 msgid ""
 "Here you can find all the archives that are offered for download in the "
 "sections of this guide:"
-msgstr ""
-"Здесь вы можете найти все архивы, которые предлагаются для скачивания в "
-"разделах данного руководства:"
+msgstr "Здесь вы можете найти все архивы, которые предлагаются для скачивания в разделах данного руководства:"
 
-#: ../../appendices.rst:88
+#: ../../appendices.rst:92
 msgid ""
 "Create virtual environment: `requirements.txt "
 "<../_static/requirements.zip>`_"
 msgstr "Создание виртуальной среды: `requirements.txt <_static/requirements.zip>`_"
 
-#: ../../appendices.rst:90
-msgid "Add content: `index.rst and easter-egg.rst <../_static/rst-initial.zip>`_"
-msgstr ""
-"Добавление содержимого: `index.rst и easter-egg.rst <_static/rst-"
-"initial.zip>`_"
-
-#: ../../appendices.rst:92
-msgid ""
-"Add images: `logo.png and egg.png <../_static/egg-logo.zip>`_; `conf.py "
-"and easter-egg.rst <../_static/conf-easter-egg.zip>`_"
-msgstr ""
-"Добавление изображений: `logo.png и egg.png <_static/egg-logo.zip>`_; "
-"`conf.py и easter-egg.rst <_static/conf-easter-egg.zip>`_"
-
 #: ../../appendices.rst:94
-msgid ""
-"Install and configure sphinx-intl: `conf.py <../_static/conf-loc-"
-"options.zip>`_"
-msgstr ""
-"Установка и настройка sphinx-intl: `conf.py <_static/conf-loc-"
-"options.zip>`_"
+msgid "Add content: `index.rst and easter-egg.rst <../_static/rst-initial.zip>`_"
+msgstr "Добавление содержимого: `index.rst и easter-egg.rst <_static/rst-initial.zip>`_"
 
 #: ../../appendices.rst:96
 msgid ""
-"Translate text in .po files: `translation lists <../_static/translation-"
-"lists.zip>`_, `translated .po files <../_static/po-translated.zip>`_"
-msgstr ""
-"Перевод текста в файлах .po: `списки переводов <_static/translation-"
-"lists.zip>`_, `переведенные файлы .po <_static/po-translated.zip>`_"
+"Add images: `logo.png and egg.png <../_static/egg-logo.zip>`_; `conf.py "
+"and easter-egg.rst <../_static/conf-easter-egg.zip>`_"
+msgstr "Добавление изображений: `logo.png и egg.png <_static/egg-logo.zip>`_; `conf.py и easter-egg.rst <_static/conf-easter-egg.zip>`_"
 
 #: ../../appendices.rst:98
 msgid ""
-"Add language-specific images: `egg.ru.png and egg.pt_BR.png <../_static"
-"/egg-ru-pt_BR.zip>`_"
-msgstr ""
-"Добавление изображений для разных языков: `egg.ru.png и egg.pt_BR.png "
-"<_static/egg-ru-pt_BR.zip>`_"
+"Install and configure sphinx-intl: `conf.py <../_static/conf-loc-"
+"options.zip>`_"
+msgstr "Установка и настройка sphinx-intl: `conf.py <_static/conf-loc-options.zip>`_"
 
 #: ../../appendices.rst:100
 msgid ""
-"Add conditional content with ifconfig: `conf.py and index.rst <../_static"
-"/conf-index-ifconfig.zip>`_"
-msgstr ""
-"Добавление условного контента с помощью ifconfig: `conf.py и index.rst "
-"<_static/conf-index-ifconfig.zip>`_"
+"Translate text in .po files: `translation lists <../_static/translation-"
+"lists.zip>`_, `translated .po files <../_static/po-translated.zip>`_"
+msgstr "Перевод текста в файлах .po: `списки переводов <_static/translation-lists.zip>`_, `переведенные файлы .po <_static/po-translated.zip>`_"
 
 #: ../../appendices.rst:102
 msgid ""
-"Update translation: `updated index.po for Russian and Portuguese "
-"<../_static/index-po-updated.zip>`_"
-msgstr ""
-"Обновление перевода: `обновленный index.po для русского и португальского "
-"языков <_static/index-po-updated.zip>`_"
+"Add language-specific images: `egg.ru.png and egg.pt_BR.png <../_static"
+"/egg-ru-pt_BR.zip>`_"
+msgstr "Добавление изображений для разных языков: `egg.ru.png и egg.pt_BR.png <_static/egg-ru-pt_BR.zip>`_"
 
 #: ../../appendices.rst:104
 msgid ""
-"Add language switcher: `switcher.html <../_static/switcher.zip>`_ and "
-"`conf.py <../_static/conf-switcher.zip>`_"
-msgstr ""
-"Добавление переключателя языка: `switcher.html <_static/switcher.zip>`_ и"
-" `conf.py <_static/conf-switcher.zip>`_"
+"Add conditional content with ifconfig: `conf.py and index.rst <../_static"
+"/conf-index-ifconfig.zip>`_"
+msgstr "Добавление условного контента с помощью ifconfig: `conf.py и index.rst <_static/conf-index-ifconfig.zip>`_"
 
 #: ../../appendices.rst:106
 msgid ""
+"Update translation: `updated index.po for Russian and Portuguese "
+"<../_static/index-po-updated.zip>`_"
+msgstr "Обновление перевода: `обновленный index.po для русского и португальского языков <_static/index-po-updated.zip>`_"
+
+#: ../../appendices.rst:108
+msgid ""
+"Add language switcher: `switcher.html <../_static/switcher.zip>`_ and "
+"`conf.py <../_static/conf-switcher.zip>`_, `start page files <../_static"
+"/start-page.zip>`_ (index.html and images)"
+msgstr "Добавление переключателя языка: `switcher.html <_static/switcher.zip>`_ и `conf.py <_static/conf-switcher.zip>`_, `файлы стартовой страницы <_static/start-page.zip>`_ (index.html и изображения)"
+
+#: ../../appendices.rst:110
+msgid ""
 "You can also find the demo project `on Github "
-"<https://github.com/authoress/sphinx-intl-demo>`_ or `download the "
-"project here <../_static/zen.zip>`_."
-msgstr ""
-"Вы также можете найти демонстрационный проект на `Github "
-"<https://github.com/authoress/sphinx-intl-demo>`_ или `загрузить проект "
-"здесь <_static/zen.zip>`_."
+"<https://github.com/authoress/sphinx-intl-demo>`_."
+msgstr "Вы также можете найти демонстрационный проект на `Github <https://github.com/authoress/sphinx-intl-demo>`_."
 
