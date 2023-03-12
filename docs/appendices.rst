@@ -71,6 +71,10 @@ Transifex documentation:
 -  Transifex Editor:
    `https://help.transifex.com/en/articles/6318216-translating-with-the-web-editor <https://help.transifex.com/en/articles/6318216-translating-with-the-web-editor>`_
 
+GitHub Pages documentation:
+
+-  `<https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages>`_
+
 Other:
 
 -  Miniconda commands:
@@ -101,6 +105,6 @@ sections of this guide:
 
 -  Update translation: `updated index.po for Russian and Portuguese <../_static/index-po-updated.zip>`_
 
--  Add language switcher: `switcher.html <../_static/switcher.zip>`_ and `conf.py <../_static/conf-switcher.zip>`_
+-  Add language switcher: `switcher.html <../_static/switcher.zip>`_ and `conf.py <../_static/conf-switcher.zip>`_, `start page files <../_static/start-page.zip>`_ (index.html and images)
 
-You can also find the demo project `on Github <https://github.com/authoress/sphinx-intl-demo>`_ or `download the project here <../_static/zen.zip>`_.
+You can also find the demo project `on Github <https://github.com/authoress/sphinx-intl-demo>`_.

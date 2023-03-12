@@ -1,7 +1,7 @@
 Publish on GitHub Pages
 -----------------------
 
-As GitHub documentation says, "GitHub Pages is a static site hosting service that takes files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website".
+As `GitHub documentation <https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages>`_ says, "GitHub Pages is a static site hosting service that takes files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website".
 
 Before you publish your documentation on GitHub Pages, make sure your documentation files are in the **zen/_build/html** directory of your repository, like this:
 
@@ -32,12 +32,12 @@ To publish files from this directory on GitHub Pages:
 	5. In static.yml file, find the **path** element, it should look like this::
 	
 			# Upload entire repository
-				path: '.'
+			path: '.'
 			
 	   Change the path as follows::
 	
 			# Upload _build/html
-				path: './zen/_build/html'
+			path: './zen/_build/html'
 			
 		
 	.. figure:: _static/static_yml.png
