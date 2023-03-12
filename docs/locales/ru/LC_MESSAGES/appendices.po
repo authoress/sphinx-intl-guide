@@ -179,7 +179,7 @@ msgstr "Документация GitHub Pages:"
 msgid ""
 "`<https://docs.github.com/en/pages/getting-started-with-github-pages"
 "/about-github-pages>`_"
-msgstr "`<https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages>`_"
+msgstr "`<https://docs.github.com/ru/pages/getting-started-with-github-pages/about-github-pages>`_"
 
 #: ../../appendices.rst:78
 msgid "Other:"
@@ -259,7 +259,7 @@ msgid ""
 "Add language switcher: `switcher.html <../_static/switcher.zip>`_ and "
 "`conf.py <../_static/conf-switcher.zip>`_, `start page files <../_static"
 "/start-page.zip>`_ (index.html and images)"
-msgstr "Добавление переключателя языка: `switcher.html <_static/switcher.zip>`_ и `conf.py <_static/conf-switcher.zip>`_, `файлы стартовой страницы <../_static/start-page.zip>`_ (index.html и изображения)"
+msgstr "Добавление переключателя языка: `switcher.html <_static/switcher.zip>`_ и `conf.py <_static/conf-switcher.zip>`_, `файлы стартовой страницы <_static/start-page.zip>`_ (index.html и изображения)"
 
 #: ../../appendices.rst:110
 msgid ""
