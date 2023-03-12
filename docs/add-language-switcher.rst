@@ -3,7 +3,10 @@
 Add language switcher
 ---------------------
 
-Let's create a simple language switcher and add it to the sidebar.
+Let's create a simple language switcher and add it to the sidebar. We will also add a start page that contains links to our documentation in different languages.
+
+Sidebar language switcher
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The language switcher should contain all three languages: English,
 Russian, and Portuguese. The current language of the page should be
@@ -113,3 +116,86 @@ We already :ref:`built our documentation this way <build>`.
 If you use a similar language switcher in your project, make sure to
 keep the directories structure when you upload your documentation
 online.
+
+Start page
+~~~~~~~~~~
+
+Our start page is a simple HTML file that contains several links and images.
+
+.. figure:: _static/start_page.png
+       :align: center
+       :alt: Start page contents
+	   
+The start page file named index.html contains the following code::
+
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title>PEP 20</title>
+			<style>
+				.parent {
+					width: 100%;
+					height: 100%;
+					position: fixed;
+					top: 0;
+					left: 0;
+					display: flex;
+					align-items: center;
+					align-content: center;
+					justify-content: center;
+					overflow: auto;
+				}
+				.block {
+					margin-top: -20%;
+					img {
+						display: block;
+						border: none;
+					}
+				}
+				p {
+					font-family: sans-serif;
+				}
+				a {
+					text-decoration: none;
+					border-bottom: 1px dotted #004B6B;
+					color: #444;
+				}
+				a:hover {
+					border-bottom: 1px solid #6D4100;
+				}
+
+			</style>
+		</head>
+		<body>
+		<div class="parent">
+			<div class="block">
+				<img src="img/logo_index.png" alt="PEP 20">
+				<p><img src="img/en.png" alt="PEP 20 EN"> <a href="en/index.html">The Zen of Python</a></p>
+				<p><img src="img/ru.png" alt="PEP 20 RU"> <a href="ru/index.html">Дзен Питона</a></p>
+				<p><img src="img/pt_BR.png" alt="PEP 20 PT_BR"> <a href="pt_BR/index.html">O Zen de Python</a></p>
+			</div>
+		</div>
+		</body>
+	</html>
+
+There are four images used on the start page:
+
+- logo_index.png for our project logo.
+- en.png for the British flag.
+- ru.png for the Russian flag.
+- pt_BR.png for the Brazilian flag.
+
+The images should be placed in the **img** directory at the same level as the index.html file.
+You can download `index.html and the img directory <../_static/start-page.zip>`_, and then place them into the **_build/html** directory of our documentation, like this::
+
+	html
+	│   index.html
+	│
+	├───img
+	│       en.png
+	│       logo_index.png
+	│       pt_BR.png
+	│       ru.png
+
+
+You do not need to rebuild the documentation after adding the start page.
