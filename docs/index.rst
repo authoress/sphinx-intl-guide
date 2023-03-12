@@ -44,5 +44,6 @@ or
    build-translated-documentation
    add-and-translate-new-content
    add-language-switcher
+   publish-on-github-pages
    appendices
    
