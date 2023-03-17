@@ -11,14 +11,18 @@ there is more to it. With this guide, you can do the following:
 -  Create a new Sphinx project and configure it to translate with
    sphinx-intl.
 
--  Translate the project and build the translated documentation.
+-  Translate the project manually or with Transifex.
 
 -  Use language specific images.
 
 -  Add conditional text that is published only in the languages you
    specify.
+   
+-  Build the translated documentation with sphinx-build.
 
--  Develop a simple language switcher for the html output.
+-  Develop a simple language switcher and a start page for the html output.
+
+-  Publish your documentation on GitHub Pages.
 
 Step by step, we will create and translate a demo project
 from English into two languages: Russian and Portuguese (Brazilian).

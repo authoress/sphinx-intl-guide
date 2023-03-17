@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, authoress
+# This file is distributed under the same license as the sphinx-intl
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinx-intl \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-09 17:40+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../add-language-specific-images.rst:2
+msgid "Add language-specific images"
+msgstr ""
+
+#: ../../add-language-specific-images.rst:4
+msgid ""
+"To make Sphinx substitute the original images with language-specific "
+"ones, you need to use the specified `filename format <https://www.sphinx-"
+"doc.org/en/master/usage/configuration.html#confval-"
+"figure_language_filename>`_."
+msgstr ""
+
+#: ../../add-language-specific-images.rst:8
+msgid ""
+"For example, to replace our easter egg image for English with those for "
+"Russian and Portuguese, we will use the default filename format "
+"``{root}.{language}{ext}``:"
+msgstr ""
+
+#: ../../add-language-specific-images.rst:12
+msgid "Easter egg for English (the default image): egg.png"
+msgstr ""
+
+#: ../../add-language-specific-images.rst:14
+msgid "Russian: egg.ru.png"
+msgstr ""
+
+#: ../../add-language-specific-images.rst:16
+msgid "Portuguese: egg.pt_BR.png"
+msgstr ""
+
+#: ../../add-language-specific-images.rst:18
+msgid ""
+"Download the `egg images for Russian and Portuguese <../_static/egg-ru-"
+"pt_BR.zip>`_ and place them in the **_static** directory. Yes, that's "
+"enough."
+msgstr ""
+
