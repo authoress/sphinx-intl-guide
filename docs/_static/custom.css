@@ -41,8 +41,12 @@ div.admonition p.admonition-title {
     font-size: 20px;
 }
 
-.switcher {
+.switcherheading {
 	margin-top: 15px;
+}
+
+.switcher {
+	margin-top: 10px;
 }
 
 .underline {

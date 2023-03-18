@@ -17,10 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.11.0\n"
+"Language: fr\n"
 
 #: ../../publish-on-github-pages.rst:2
 msgid "Publish on GitHub Pages"
-msgstr ""
+msgstr "Publier sur GitHub Pages"
 
 #: ../../publish-on-github-pages.rst:4
 msgid ""
@@ -29,74 +30,74 @@ msgid ""
 " static site hosting service that takes files straight from a repository "
 "on GitHub, optionally runs the files through a build process, and "
 "publishes a website\"."
-msgstr ""
+msgstr "Comme le dit `la documentation de GitHub <https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages>`_, \"GitHub Pages est un service d'hébergement de site statique qui prend des fichiers directement dans un dépôt sur GitHub, exécute éventuellement les fichiers à travers un processus de construction, et publie un site web\"."
 
 #: ../../publish-on-github-pages.rst:6
 msgid ""
 "Before you publish your documentation on GitHub Pages, make sure your "
 "documentation files are in the **zen/_build/html** directory of your "
 "repository, like this:"
-msgstr ""
+msgstr "Avant de publier votre documentation sur GitHub Pages, assurez-vous que vos fichiers de documentation se trouvent dans le répertoire **zen/_build/html** de votre dépôt, comme ceci :"
 
 #: ../../publish-on-github-pages.rst:-1
 msgid "zen/_build/html"
-msgstr ""
+msgstr "zen/_build/html"
 
 #: ../../publish-on-github-pages.rst:13
 msgid ""
 "If you created your repository from the demo repository template, all the"
 " required files are already in the zen/_build/html directory."
-msgstr ""
+msgstr "Si vous avez créé votre référentiel à partir du modèle de référentiel démo, tous les fichiers nécessaires se trouvent déjà dans le répertoire zen/_build/html."
 
 #: ../../publish-on-github-pages.rst:15
 msgid "To publish files from this directory on GitHub Pages:"
-msgstr ""
+msgstr "Pour publier les fichiers de ce répertoire sur les pages GitHub :"
 
 #: ../../publish-on-github-pages.rst:17
 msgid "Open your repository settings."
-msgstr ""
+msgstr "Ouvrez les paramètres de votre référentiel."
 
 #: ../../publish-on-github-pages.rst:19
 msgid "Select **Pages**."
-msgstr ""
+msgstr "Sélectionnez **Pages**."
 
 #: ../../publish-on-github-pages.rst:21
 msgid ""
 "In the **Build and deployment** section, under **Source**, select "
 "**GitHub Actions**."
-msgstr ""
+msgstr "Dans la section **Build and deployment**, sous **Source**, sélectionnez **GitHub Actions**."
 
 #: ../../publish-on-github-pages.rst:23
 msgid "In **Static HTML**, click **Configure**."
-msgstr ""
+msgstr "Dans **Static HTML**, cliquez sur **Configure**."
 
 #: ../../publish-on-github-pages.rst
 msgid "GitHub pages settings"
-msgstr ""
+msgstr "Paramètres des pages GitHub"
 
 #: ../../publish-on-github-pages.rst:30
 msgid "GitHub creates a .github/workflows/static.yml file for you."
-msgstr ""
+msgstr "GitHub crée un fichier .github/workflows/static.yml pour vous."
 
 #: ../../publish-on-github-pages.rst:32
 msgid "In static.yml file, find the **path** element, it should look like this::"
-msgstr ""
+msgstr "Dans le fichier static.yml, trouvez l'élément **path**, il devrait ressembler à ceci: :"
 
 #: ../../publish-on-github-pages.rst:37
 msgid "Change the path as follows::"
-msgstr ""
+msgstr "Modifiez le chemin d'accès comme suit: :"
 
 #: ../../publish-on-github-pages.rst
 msgid "static.yml"
-msgstr ""
+msgstr "static.yml"
 
 #: ../../publish-on-github-pages.rst:48
 msgid "Click **Start commit**, and then **Commit new file**."
-msgstr ""
+msgstr "Cliquez sur **Start commit**, puis sur **Commit new file**."
 
 #: ../../publish-on-github-pages.rst
 msgid "Commiting static.yml"
-msgstr ""
+msgstr "Validation du fichier static.yml"
 
 #: ../../publish-on-github-pages.rst:55
 msgid ""
@@ -104,9 +105,9 @@ msgid ""
 "documentation site. The publishing process may take some time, and when "
 "it is finished, you can open your documentation by clicking **Visit "
 "site** on **Settings -> Pages**:"
-msgstr ""
+msgstr "Une fois que le fichier static.yml est validé, GitHub commence immédiatement à publier votre site de documentation. Le processus de publication peut prendre un certain temps, et lorsqu'il est terminé, vous pouvez ouvrir votre documentation en cliquant sur **Visit site** dans **Settings -> Pages** :"
 
 #: ../../publish-on-github-pages.rst:-1
 msgid "Visit site"
-msgstr ""
+msgstr "Visiter le site"
 

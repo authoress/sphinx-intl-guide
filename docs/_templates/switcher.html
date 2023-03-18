@@ -1,5 +1,23 @@
-{% if language == 'en' %}
-<div class = "switcher"><img src="../_static/ru.png"/> <a href = "../{{pagename}}.html">Переключить на русский</a></div>
+<div class = "switcherheading">
+{% set heading = {'en': 'Documentation language:', 'ru': 'Язык документации:', 'fr': 'Langue de la documentation :'} %}
+
+{{ heading[language] }}
+</div>
+<div class = "switcher">
+
+{% if language == 'ru' %}
+{% set base = ''%}
 {% else %}
-<div class = "switcher"><img src="_static/en.png"/> <a href = "en/{{pagename}}.html">Switch to English</a></div>
+{% set base = '../'%}
 {% endif %}
+
+{% for lcode, folder, lname in [('en', 'en/', 'English'), ('ru', '', 'Русский'), ('fr', 'fr/', 'Français')] %}
+	<img src="{{base}}_static/{{lcode}}.png"/>&nbsp;
+	{% if language != lcode %}
+	<a href = "{{base}}{{folder}}{{pagename}}.html">{{lname}}</a></br>
+	{% else %}
+	<b>{{lname}}</b></br>
+	{% endif %}
+{% endfor %}
+
+</div>

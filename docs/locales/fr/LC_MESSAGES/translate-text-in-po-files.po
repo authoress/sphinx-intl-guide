@@ -39,7 +39,7 @@ msgid ""
 "Before you start, download `the translation lists <../_static"
 "/translation-lists.zip>`_ to get Russian and Portuguese translations of "
 "all texts."
-msgstr "Avant de commencer, téléchargez `les listes de traduction <.../_static/translation-lists.zip>`_ pour obtenir les traductions en russe et en portugais de tous les textes."
+msgstr "Avant de commencer, téléchargez `les listes de traduction <_static/translation-lists.zip>`_ pour obtenir les traductions en russe et en portugais de tous les textes."
 
 #: ../../translate-text-in-po-files.rst:17
 msgid ""
@@ -109,7 +109,7 @@ msgid ""
 "You can download `an archive that contains .po files <../_static/po-"
 "translated.zip>`_ already translated into Russian and Portuguese (except "
 "for the Portuguese version of easter-egg.po)."
-msgstr "Vous pouvez télécharger `une archive qui contient des fichiers .po <.../_static/po-translated.zip>`_ déjà traduits en russe et en portugais (à l'exception de la version portugaise de easter-egg.po)."
+msgstr "Vous pouvez télécharger `une archive qui contient des fichiers .po <_static/po-translated.zip>`_ déjà traduits en russe et en portugais (à l'exception de la version portugaise de easter-egg.po)."
 
 #: ../../translate-text-in-po-files.rst:67
 msgid "Using Transifex"
@@ -189,15 +189,15 @@ msgstr "URL de la licence open source : indiquez le chemin d'accès au fichier d
 
 #: ../../translate-text-in-po-files.rst:104
 msgid "Project type: File based."
-msgstr "Type de projet : Dossier basé."
+msgstr "Type de projet : File based."
 
 #: ../../translate-text-in-po-files.rst:105
 msgid "Source language: English."
-msgstr "Langue source : Anglais."
+msgstr "Langue source : English."
 
 #: ../../translate-text-in-po-files.rst:106
 msgid "Target languages: Russian, Portuguese (Brazil)."
-msgstr "Langues cibles : Russe, Portugais (Brésil)."
+msgstr "Langues cibles : Russian, Portuguese (Brazil)."
 
 #: ../../translate-text-in-po-files.rst:113
 msgid "transifex project settings"
@@ -209,7 +209,7 @@ msgstr "Ajouter un nouveau projet"
 
 #: ../../translate-text-in-po-files.rst:115
 msgid "Click **Create project** to finish adding a project."
-msgstr "Cliquez sur **Créer un projet** pour terminer l'ajout d'un projet."
+msgstr "Cliquez sur **Create project** pour terminer l'ajout d'un projet."
 
 #: ../../translate-text-in-po-files.rst:118
 msgid "Integrate Transifex and GitHub"
@@ -224,13 +224,13 @@ msgstr "Intégrez vos comptes Transifex et GitHub comme décrit `dans la documen
 
 #: ../../translate-text-in-po-files.rst:122
 msgid "Go to your organization settings -> Integrations."
-msgstr "Allez dans les paramètres de votre organisation -> Intégrations."
+msgstr "Allez dans les paramètres de votre organisation -> Integrations."
 
 #: ../../translate-text-in-po-files.rst:123
 msgid ""
 "In the GitHub integration box, click **Authorize** and then **Install the"
 " Transifex app**."
-msgstr "Dans la boîte d'intégration GitHub, cliquez sur **Autoriser** puis **Installer l'application Transifex**."
+msgstr "Dans la boîte d'intégration GitHub, cliquez sur **Authorize** puis **Install the Transifex app**."
 
 #: ../../translate-text-in-po-files.rst
 msgid "Manage Integrations page"
@@ -256,19 +256,19 @@ msgstr "Confirmez votre mot de passe GitHub. L'intégration Transifex est mainte
 msgid ""
 "Get back to Transifex and go to your organization settings -> "
 "Integrations."
-msgstr "Retournez dans Transifex et allez dans les paramètres de votre organisation -> Intégrations."
+msgstr "Retournez dans Transifex et allez dans les paramètres de votre organisation -> Integrations."
 
 #: ../../translate-text-in-po-files.rst:136
 msgid ""
 "In the Github integration box, click **Authorize** and then **authorize "
 "Transifex**."
-msgstr "Dans la boîte d'intégration Github, cliquez sur **Autoriser** puis **autoriser Transifex**."
+msgstr "Dans la boîte d'intégration Github, cliquez sur **Authorize** puis **authorize Transifex**."
 
 #: ../../translate-text-in-po-files.rst:137
 msgid ""
 "If Transifex requires some permissions, click **Authorize Transifex "
 "Integration**."
-msgstr "Si Transifex requiert certaines autorisations, cliquez sur **Autoriser l'intégration de Transifex**."
+msgstr "Si Transifex requiert certaines autorisations, cliquez sur **Authorize Transifex Integration**."
 
 #: ../../translate-text-in-po-files.rst:138
 msgid ""
@@ -301,11 +301,11 @@ msgstr "Liez votre projet avec votre dépôt de démonstration GitHub comme déc
 
 #: ../../translate-text-in-po-files.rst:154
 msgid "Go to your project settings -> Integrations."
-msgstr "Allez dans les paramètres de votre projet -> Intégrations."
+msgstr "Allez dans les paramètres de votre projet -> Integrations."
 
 #: ../../translate-text-in-po-files.rst:155
 msgid "In the **GitHub** box, click **Link Repository**."
-msgstr "Dans la boîte **GitHub**, cliquez sur **Lier le dépôt**."
+msgstr "Dans la boîte **GitHub**, cliquez sur **Link Repository**."
 
 #: ../../translate-text-in-po-files.rst
 #: ../../translate-text-in-po-files.rst:203
@@ -333,7 +333,7 @@ msgstr "Validation de la branche"
 #: ../../translate-text-in-po-files.rst:172
 #: ../../translate-text-in-po-files.rst:189
 msgid "Click **Next**."
-msgstr "Cliquez sur **Suivant**."
+msgstr "Cliquez sur **Next**."
 
 #: ../../translate-text-in-po-files.rst:173
 msgid ""
@@ -396,7 +396,7 @@ msgstr "Accédez à Transifex Editor en cliquant sur **Editor** en haut de la pa
 
 #: ../../translate-text-in-po-files.rst:211
 msgid "From the target language drop-down menu, select **Portuguese (Brazil)**."
-msgstr "Dans le menu déroulant de la langue cible, sélectionnez **Portugais (Brésil)**."
+msgstr "Dans le menu déroulant de la langue cible, sélectionnez **Portuguese (Brazil)**."
 
 #: ../../translate-text-in-po-files.rst
 msgid "target language selector"
@@ -429,7 +429,7 @@ msgstr "Éditeur Transifex"
 
 #: ../../translate-text-in-po-files.rst:231
 msgid "Click **Save Translation**."
-msgstr "Cliquez sur **Enregistrer la traduction**."
+msgstr "Cliquez sur **Save Translation**."
 
 #: ../../translate-text-in-po-files.rst:232
 msgid "Repeat for two other strings."
@@ -440,7 +440,7 @@ msgid ""
 "Select all the translated strings by clicking the grouping checkbox on "
 "the left. In the **Bulk actions** panel on the right, select **Reviewed**"
 " from the **Mark as** drop-down menu, and then click **Apply**."
-msgstr "Sélectionnez toutes les chaînes traduites en cliquant sur la case à cocher de regroupement à gauche. Dans le panneau **Actions groupées** à droite, sélectionnez **Revu** dans le menu déroulant **Marquer comme**, puis cliquez sur **Appliquer**."
+msgstr "Sélectionnez toutes les chaînes traduites en cliquant sur la case à cocher de regroupement à gauche. Dans le panneau **Bulk actions** à droite, sélectionnez **Reviewed** dans le menu déroulant **Mark as**, puis cliquez sur **Apply**."
 
 #: ../../translate-text-in-po-files.rst
 msgid "Bulk actions"
@@ -448,7 +448,7 @@ msgstr "Actions en bloc"
 
 #: ../../translate-text-in-po-files.rst:241
 msgid "Applying **Reviewed** status to all strings"
-msgstr "Appliquer le statut **Revu** à toutes les chaînes de caractères"
+msgstr "Appliquer le statut **Reviewed** à toutes les chaînes de caractères"
 
 #: ../../translate-text-in-po-files.rst:243
 msgid "All the strings in easter-egg are now translated and reviewed."
@@ -498,13 +498,13 @@ msgstr "Cliquez sur le nom de la demande d'extraction. Le format des noms de dem
 msgid ""
 "On the **Files changed** tab, check that all the translated strings are "
 "correct."
-msgstr "Dans l'onglet **Fichiers modifiés**, vérifiez que toutes les chaînes traduites sont correctes."
+msgstr "Dans l'onglet **Files changed**, vérifiez que toutes les chaînes traduites sont correctes."
 
 #: ../../translate-text-in-po-files.rst:265
 msgid ""
 "On the **Conversation** tab, click **Merge pull request**, then **Confirm"
 " merge**."
-msgstr "Dans l'onglet **Conversation**, cliquez sur **Fusionner la demande de retrait**, puis **Confirmer la fusion**."
+msgstr "Dans l'onglet **Conversation**, cliquez sur **Merge pull request**, puis **Confirm merge**."
 
 #: ../../translate-text-in-po-files.rst:266
 msgid "After the pull request is merged, you can delete the branch."

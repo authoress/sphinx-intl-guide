@@ -58,7 +58,7 @@ msgid ""
 "Alternatively, you can `download requirements.txt "
 "<../_static/requirements.zip>`_ that lists all the packages installed in "
 "my **intl** environment, and then run::"
-msgstr "Alternativement, vous pouvez `télécharger requirements.txt <.../_static/requirements.zip>`_ qui liste tous les paquets installés dans mon environnement **intl**, et ensuite lancer::"
+msgstr "Alternativement, vous pouvez `télécharger requirements.txt <_static/requirements.zip>`_ qui liste tous les paquets installés dans mon environnement **intl**, et ensuite lancer::"
 
 #: ../../create-virtual-environment.rst:33
 msgid "In this case, sphinx-intl is installed as well."

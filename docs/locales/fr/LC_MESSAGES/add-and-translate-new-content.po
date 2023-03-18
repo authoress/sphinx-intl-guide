@@ -17,115 +17,116 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.11.0\n"
+"Language: fr\n"
 
 #: ../../add-and-translate-new-content.rst:2
 msgid "Add and translate new content"
-msgstr ""
+msgstr "Ajouter et traduire du nouveau contenu"
 
 #: ../../add-and-translate-new-content.rst:5
 msgid "Add conditional content with ifconfig"
-msgstr ""
+msgstr "Ajouter du contenu conditionnel avec ifconfig"
 
 #: ../../add-and-translate-new-content.rst:7
 msgid ""
 "*Conditional content* is published to the output only if it matches the "
 "specified conditions. In our project, this condition is the language of "
 "the document."
-msgstr ""
+msgstr "*Le contenu conditionnel* n'est publié que s'il répond aux conditions spécifiées. Dans notre projet, cette condition est la langue du document."
 
 #: ../../add-and-translate-new-content.rst:11
 msgid ""
 "For Sphinx to process the conditional text, it needs the `ifconfig "
 "<https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html>`_ "
 "extension. Add ifconfig to the extensions list in conf.py:"
-msgstr ""
+msgstr "Pour que Sphinx puisse traiter le texte conditionnel, il a besoin de l'extension `ifconfig <https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html>`_. Ajoutez ifconfig à la liste des extensions dans conf.py :"
 
 #: ../../add-and-translate-new-content.rst:19
 msgid ""
 "Now we will add some information about translation of the text to "
 "index.rst. This information is not needed in the original document, so we"
 " will exclude this text from English."
-msgstr ""
+msgstr "Nous allons maintenant ajouter à index.rst des informations sur la traduction du texte. Cette information n'est pas nécessaire dans le document original, nous allons donc exclure ce texte de l'anglais."
 
 #: ../../add-and-translate-new-content.rst:23
 msgid ""
 "Open index.rst and add \"Translation info\" to the end of the file, like "
 "this:"
-msgstr ""
+msgstr "Ouvrez index.rst et ajoutez \"Translation info\" à la fin du fichier, comme ceci :"
 
 #: ../../add-and-translate-new-content.rst:34
 msgid ""
 "Note that we added the text to the source .rst file in English, not to "
 ".po files. You will see later that this text won't be published in the "
 "html output in English."
-msgstr ""
+msgstr "Notez que nous avons ajouté le texte au fichier source .rst en anglais, et non aux fichiers .po. Vous verrez plus tard que ce texte ne sera pas publié dans la sortie html en anglais."
 
 #: ../../add-and-translate-new-content.rst:38
 msgid ""
 "You can `download the updated version of conf.py and index.rst "
 "<../_static/conf-index-ifconfig.zip>`_."
-msgstr ""
+msgstr "Vous pouvez `télécharger la version mise à jour de conf.py et index.rst <../_static/conf-index-ifconfig.zip>`_."
 
 #: ../../add-and-translate-new-content.rst:41
 msgid "Update translation"
-msgstr ""
+msgstr "Mise à jour de la traduction"
 
 #: ../../add-and-translate-new-content.rst:43
 msgid "You already know how to deal with .pot and .po files:"
-msgstr ""
+msgstr "Vous savez déjà comment traiter les fichiers .pot et .po :"
 
 #: ../../add-and-translate-new-content.rst:45
 msgid "Generate .pot files::"
-msgstr ""
+msgstr "Générer des fichiers .pot: :"
 
 #: ../../add-and-translate-new-content.rst:49
 msgid "This command updates index.pot in **_build/gettext**."
-msgstr ""
+msgstr "Cette commande met à jour index.pot dans **_build/gettext**."
 
 #: ../../add-and-translate-new-content.rst:51
 msgid "Generate .po files::"
-msgstr ""
+msgstr "Générer des fichiers .po: :"
 
 #: ../../add-and-translate-new-content.rst:55
 msgid ""
 "This command updates index.po in **locale/ru/LC_MESSAGES** and "
 "**locale/pt_BR/LC_MESSAGES**."
-msgstr ""
+msgstr "Cette commande met à jour index.po dans **locale/ru/LC_MESSAGES** et **locale/pt_BR/LC_MESSAGES**."
 
 #: ../../add-and-translate-new-content.rst:58
 msgid "Translate the new strings in both index.po files."
-msgstr ""
+msgstr "Traduire les nouvelles chaînes dans les deux fichiers index.po."
 
 #: ../../add-and-translate-new-content.rst:60
 msgid "Russian:"
-msgstr ""
+msgstr "Russe :"
 
 #: ../../add-and-translate-new-content.rst:70
 msgid "Portuguese:"
-msgstr ""
+msgstr "Le portugais :"
 
 #: ../../add-and-translate-new-content.rst:82
 msgid ""
 "You can `download both updated index.po files <../_static/index-po-"
 "updated.zip>`_."
-msgstr ""
+msgstr "Vous pouvez `télécharger les deux fichiers index.po mis à jour <../_static/index-po-updated.zip>`_."
 
 #: ../../add-and-translate-new-content.rst:85
 msgid "Build updated documentation"
-msgstr ""
+msgstr "Création d'une documentation mise à jour"
 
 #: ../../add-and-translate-new-content.rst:87
 msgid "Build the Russian documentation::"
-msgstr ""
+msgstr "Construire la documentation russe: :"
 
 #: ../../add-and-translate-new-content.rst:91
 msgid "Build the Portuguese documentation::"
-msgstr ""
+msgstr "Construire la documentation portugaise: :"
 
 #: ../../add-and-translate-new-content.rst:95
 msgid ""
 "Now index.html in Portuguese and Russian should contain the newly added "
 "information about translation. If you build English documentation, you "
 "will see that no new content is added to index.html."
-msgstr ""
+msgstr "L'index.html en portugais et en russe devrait maintenant contenir les informations nouvellement ajoutées sur la traduction. Si vous construisez la documentation en anglais, vous verrez qu'aucun nouveau contenu n'est ajouté à l'index.html."
 

@@ -17,10 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.11.0\n"
+"Language: fr\n"
 
 #: ../../add-language-specific-images.rst:2
 msgid "Add language-specific images"
-msgstr ""
+msgstr "Ajouter des images spécifiques à la langue"
 
 #: ../../add-language-specific-images.rst:4
 msgid ""
@@ -28,31 +29,31 @@ msgid ""
 "ones, you need to use the specified `filename format <https://www.sphinx-"
 "doc.org/en/master/usage/configuration.html#confval-"
 "figure_language_filename>`_."
-msgstr ""
+msgstr "Pour que Sphinx remplace les images originales par des images spécifiques à la langue, vous devez utiliser `le format de fichier spécifié <https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-figure_language_filename>`_."
 
 #: ../../add-language-specific-images.rst:8
 msgid ""
 "For example, to replace our easter egg image for English with those for "
 "Russian and Portuguese, we will use the default filename format "
 "``{root}.{language}{ext}``:"
-msgstr ""
+msgstr "Par exemple, pour remplacer l'image de l'œuf de Pâques en anglais par celles en russe et en portugais, nous utiliserons le format de fichier par défaut ``{root}.{language}{ext}`` :"
 
 #: ../../add-language-specific-images.rst:12
 msgid "Easter egg for English (the default image): egg.png"
-msgstr ""
+msgstr "Oeuf de Pâques pour l'anglais (image par défaut) : egg.png"
 
 #: ../../add-language-specific-images.rst:14
 msgid "Russian: egg.ru.png"
-msgstr ""
+msgstr "Russe : egg.ru.png"
 
 #: ../../add-language-specific-images.rst:16
 msgid "Portuguese: egg.pt_BR.png"
-msgstr ""
+msgstr "Portugais : egg.pt_BR.png"
 
 #: ../../add-language-specific-images.rst:18
 msgid ""
 "Download the `egg images for Russian and Portuguese <../_static/egg-ru-"
 "pt_BR.zip>`_ and place them in the **_static** directory. Yes, that's "
 "enough."
-msgstr ""
+msgstr "Téléchargez les `images d'oeufs pour le russe et le portugais <../_static/egg-ru-pt_BR.zip>`_ et placez-les dans le répertoire **_static**. Oui, c'est suffisant."
 
