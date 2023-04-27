@@ -1,24 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2023, authoress
-# This file is distributed under the same license as the sphinx-intl
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# This file is distributed under the same license as the sphinx-intl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Natalia, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: sphinx-intl \n"
+"Project-Id-Version: sphinx-intl\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-27 09:34+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2023-04-27 07:28+0000\n"
+"Last-Translator: Natalia, 2023\n"
+"Language-Team: French (https://app.transifex.com/geekwriter/teams/157484/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../add-language-switcher.rst:4
 msgid "Add language switcher"
@@ -26,13 +27,13 @@ msgstr "Ajouter un sélecteur de langue"
 
 #: ../../add-language-switcher.rst:6
 msgid ""
-"Let's create a simple language switcher and add it to the sidebar. We "
-"will also add a start page that contains links to our documentation in "
-"different languages."
+"Let's create a simple language switcher and add it to the sidebar. We will "
+"also add a start page that contains links to our documentation in different "
+"languages."
 msgstr ""
 "Créons un simple sélecteur de langue et ajoutons-le à la barre latérale. "
-"Nous ajouterons également une page d'accueil contenant des liens vers "
-"notre documentation dans différentes langues."
+"Nous ajouterons également une page d'accueil contenant des liens vers notre "
+"documentation dans différentes langues."
 
 #: ../../add-language-switcher.rst:9
 msgid "Sidebar language switcher"
@@ -40,23 +41,23 @@ msgstr "Sélecteur de langue dans la barre latérale"
 
 #: ../../add-language-switcher.rst:11
 msgid ""
-"The language switcher should contain all three languages: English, "
-"Russian, and Portuguese. The current language of the page should be "
-"displayed as text, and the other two languages should be linked to the "
-"same page in those languages."
+"The language switcher should contain all three languages: English, Russian, "
+"and Portuguese. The current language of the page should be displayed as "
+"text, and the other two languages should be linked to the same page in those"
+" languages."
 msgstr ""
-"Le sélecteur de langue doit contenir les trois langues : anglais, russe "
-"et portugais. La langue actuelle de la page doit être affichée sous forme"
-" de texte, et les deux autres langues doivent être liées à la même page "
-"dans ces langues."
+"Le sélecteur de langue doit contenir les trois langues : anglais, russe et "
+"portugais. La langue actuelle de la page doit être affichée sous forme de "
+"texte, et les deux autres langues doivent être liées à la même page dans ces"
+" langues."
 
 #: ../../add-language-switcher.rst:16
 msgid ""
-"For example, the language switcher on easter-egg.html in English should "
-"look like this:"
+"For example, the language switcher on easter-egg.html in English should look"
+" like this:"
 msgstr ""
-"Par exemple, le sélecteur de langue sur le site easter-egg.html en "
-"anglais devrait ressembler à ceci :"
+"Par exemple, le sélecteur de langue sur le site easter-egg.html en anglais "
+"devrait ressembler à ceci :"
 
 #: ../../add-language-switcher.rst:23
 msgid "► English :sup:`1`"
@@ -84,14 +85,14 @@ msgstr "Lien vers easter-egg.html en portugais."
 
 #: ../../add-language-switcher.rst:36
 msgid ""
-"For the language switcher, we will use `Jinja templates <https://www"
-".sphinx-doc.org/en/master/templating.html>`_. Two predefined Jinja "
-"variables are used in our template: **pagename** and **language**."
+"For the language switcher, we will use `Jinja templates <https://www.sphinx-"
+"doc.org/en/master/templating.html>`_. Two predefined Jinja variables are "
+"used in our template: **pagename** and **language**."
 msgstr ""
 "Pour le sélecteur de langue, nous utiliserons des modèles `Jinja "
 "<https://www.sphinx-doc.org/en/master/templating.html>`_. Deux variables "
-"Jinja prédéfinies sont utilisées dans notre modèle : **nom de la page** "
-"et **langue**."
+"Jinja prédéfinies sont utilisées dans notre modèle : **nom de la page** et "
+"**langue**."
 
 #: ../../add-language-switcher.rst:41
 msgid "Add language switcher to our project:"
@@ -99,25 +100,25 @@ msgstr "Ajouter un sélecteur de langue à notre projet :"
 
 #: ../../add-language-switcher.rst:43
 msgid ""
-"Create a UTF-8 encoded file, name it switcher.html and put this code in "
-"it:"
+"Create a UTF-8 encoded file, name it switcher.html and put this code in it:"
 msgstr ""
 "Créez un fichier encodé en UTF-8, nommez-le switcher.html et mettez-y ce "
 "code :"
 
 #: ../../add-language-switcher.rst:70
-msgid "Alternatively, you can `download switcher.html <_static/switcher.zip>`_."
+msgid ""
+"Alternatively, you can `download switcher.html <_static/switcher.zip>`_."
 msgstr ""
 "Alternativement, vous pouvez `télécharger switcher.html "
 "<_static/switcher.zip>`_."
 
 #: ../../add-language-switcher.rst:72
 msgid ""
-"Place switcher.html in the **_templates** directory; by default Sphinx "
-"looks for Jinja templates in this directory."
+"Place switcher.html in the **_templates** directory; by default Sphinx looks"
+" for Jinja templates in this directory."
 msgstr ""
-"Placez switcher.html dans le répertoire **_templates** ; par défaut, "
-"Sphinx recherche les modèles Jinja dans ce répertoire."
+"Placez switcher.html dans le répertoire **_templates** ; par défaut, Sphinx "
+"recherche les modèles Jinja dans ce répertoire."
 
 #: ../../add-language-switcher.rst:75
 msgid ""
@@ -126,18 +127,18 @@ msgid ""
 "explicit html_sidebars setting to conf.py:"
 msgstr ""
 "Selon la documentation du modèle `Alabaster "
-"<https://alabaster.readthedocs.io/en/latest/installation.html>`_, ajoutez"
-" un paramètre explicite html_sidebars à conf.py :"
+"<https://alabaster.readthedocs.io/en/latest/installation.html>`_, ajoutez un"
+" paramètre explicite html_sidebars à conf.py :"
 
 #: ../../add-language-switcher.rst:89
 msgid ""
 "I added switcher.html to the default Alabaster sidebar and removed the "
-"elements that we do not need (donate.html, relations.html etc). As usual,"
-" you can `download the updated conf.py <_static/conf-switcher.zip>`_."
+"elements that we do not need (donate.html, relations.html etc). As usual, "
+"you can `download the updated conf.py <_static/conf-switcher.zip>`_."
 msgstr ""
-"J'ai ajouté switcher.html à la sidebar par défaut d'Alabaster et supprimé"
-" les éléments dont nous n'avons pas besoin (donate.html, relations.html "
-"etc). Comme d'habitude, vous pouvez `télécharger le conf.py mis à jour "
+"J'ai ajouté switcher.html à la sidebar par défaut d'Alabaster et supprimé "
+"les éléments dont nous n'avons pas besoin (donate.html, relations.html etc)."
+" Comme d'habitude, vous pouvez `télécharger le conf.py mis à jour "
 "<_static/conf-switcher.zip>`_."
 
 #: ../../add-language-switcher.rst:93
@@ -145,31 +146,31 @@ msgid ""
 "Sphinx will now use switcher.html to add the language switcher to the "
 "sidebar of each documentation page."
 msgstr ""
-"Sphinx utilisera désormais switcher.html pour ajouter le sélecteur de "
-"langue à la barre latérale de chaque page de documentation."
+"Sphinx utilisera désormais switcher.html pour ajouter le sélecteur de langue"
+" à la barre latérale de chaque page de documentation."
 
 #: ../../add-language-switcher.rst:96
 msgid ""
-"After you rebuild the documentation, you can see the newly added language"
-" switcher:"
+"After you rebuild the documentation, you can see the newly added language "
+"switcher:"
 msgstr ""
 "Après avoir reconstruit la documentation, vous pouvez voir le nouveau "
 "sélecteur de langue :"
 
-#: ../../add-language-switcher.rst:-1
+#: ../../add-language-switcher.rst-1
 msgid "Language switcher on the index.html page"
 msgstr "Sélecteur de langue sur la page index.html"
 
 #: ../../add-language-switcher.rst:104
 msgid ""
-"For our language switcher to work, the documentation for each language "
-"must be placed in a directory named after the language code, and these "
+"For our language switcher to work, the documentation for each language must "
+"be placed in a directory named after the language code, and these "
 "directories must be at the same nesting level, for example:"
 msgstr ""
-"Pour que notre sélecteur de langue fonctionne, la documentation de chaque"
-" langue doit être placée dans un répertoire nommé d'après le code de la "
-"langue, et ces répertoires doivent être au même niveau d'imbrication, par"
-" exemple :"
+"Pour que notre sélecteur de langue fonctionne, la documentation de chaque "
+"langue doit être placée dans un répertoire nommé d'après le code de la "
+"langue, et ces répertoires doivent être au même niveau d'imbrication, par "
+"exemple :"
 
 #: ../../add-language-switcher.rst:108
 msgid "<doc_directory>/**en**/<English_documentation_files>"
@@ -186,17 +187,16 @@ msgstr "<doc_directory>/**pt_BR**/<Portuguese_documentation_files>"
 #: ../../add-language-switcher.rst:114
 msgid "We already :ref:`built our documentation this way <build>`."
 msgstr ""
-"Nous avons déjà :ref:`construit notre documentation de cette façon "
-"<build>`."
+"Nous avons déjà :ref:`construit notre documentation de cette façon <build>`."
 
 #: ../../add-language-switcher.rst:116
 msgid ""
-"If you use a similar language switcher in your project, make sure to keep"
-" the directories structure when you upload your documentation online."
+"If you use a similar language switcher in your project, make sure to keep "
+"the directories structure when you upload your documentation online."
 msgstr ""
-"Si vous utilisez un sélecteur de langue similaire dans votre projet, "
-"veillez à conserver la structure des répertoires lorsque vous téléchargez"
-" votre documentation en ligne."
+"Si vous utilisez un sélecteur de langue similaire dans votre projet, veillez"
+" à conserver la structure des répertoires lorsque vous téléchargez votre "
+"documentation en ligne."
 
 #: ../../add-language-switcher.rst:121
 msgid "Start page"
@@ -204,21 +204,19 @@ msgstr "Page d'accueil"
 
 #: ../../add-language-switcher.rst:123
 msgid ""
-"Our start page is a simple HTML file that contains several links and "
-"images."
+"Our start page is a simple HTML file that contains several links and images."
 msgstr ""
-"Notre page d'accueil est un simple fichier HTML qui contient plusieurs "
-"liens et images."
+"Notre page d'accueil est un simple fichier HTML qui contient plusieurs liens"
+" et images."
 
-#: ../../add-language-switcher.rst:-1
+#: ../../add-language-switcher.rst-1
 msgid "Start page contents"
 msgstr "Contenu de la page d'accueil"
 
 #: ../../add-language-switcher.rst:129
 msgid "The start page file named index.html contains the following code::"
 msgstr ""
-"Le fichier de la page d'accueil nommé index.html contient le code "
-"suivant: :"
+"Le fichier de la page d'accueil nommé index.html contient le code suivant: :"
 
 #: ../../add-language-switcher.rst:181
 msgid "There are four images used on the start page:"
@@ -242,19 +240,19 @@ msgstr "pt_BR.png pour le drapeau brésilien."
 
 #: ../../add-language-switcher.rst:188
 msgid ""
-"The images should be placed in the **img** directory at the same level as"
-" the index.html file. You can download `index.html and the img directory "
+"The images should be placed in the **img** directory at the same level as "
+"the index.html file. You can download `index.html and the img directory "
 "<_static/start-page.zip>`_, and then place them into the **_build/html** "
 "directory of our documentation, like this::"
 msgstr ""
-"Les images doivent être placées dans le répertoire **img** au même niveau"
-" que le fichier index.html. Vous pouvez télécharger `index.html et le "
+"Les images doivent être placées dans le répertoire **img** au même niveau "
+"que le fichier index.html. Vous pouvez télécharger `index.html et le "
 "répertoire img <_static/start-page.zip>`_, puis les placer dans le "
 "répertoire **_build/html** de notre documentation, comme ceci: :"
 
 #: ../../add-language-switcher.rst:201
-msgid "You do not need to rebuild the documentation after adding the start page."
+msgid ""
+"You do not need to rebuild the documentation after adding the start page."
 msgstr ""
-"Il n'est pas nécessaire de reconstruire la documentation après avoir "
-"ajouté la page de démarrage."
-
+"Il n'est pas nécessaire de reconstruire la documentation après avoir ajouté "
+"la page de démarrage."
