@@ -1,23 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2023, authoress
-# This file is distributed under the same license as the sphinx-intl
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# This file is distributed under the same license as the sphinx-intl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Natalia, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: sphinx-intl \n"
+"Project-Id-Version: sphinx-intl\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-09 17:40+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-04-27 07:28+0000\n"
+"Last-Translator: Natalia, 2023\n"
+"Language-Team: French (https://app.transifex.com/geekwriter/teams/157484/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
 "Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../generate-files-for-translation.rst:2
 msgid "Generate files for translation"
@@ -25,23 +27,32 @@ msgstr "Générer des fichiers pour la traduction"
 
 #: ../../generate-files-for-translation.rst:4
 msgid "Generating files for translation is a two step procedure:"
-msgstr "La génération de fichiers pour la traduction est une procédure en deux étapes :"
+msgstr ""
+"La génération de fichiers pour la traduction est une procédure en deux "
+"étapes :"
 
 #: ../../generate-files-for-translation.rst:6
 msgid ""
-"Generating .pot files, which contain the source strings and empty strings"
-" for further translation. Those empty strings in the .pot files are never"
-" filled with translation though. Instead, each .pot file is used as a "
+"Generating .pot files, which contain the source strings and empty strings "
+"for further translation. Those empty strings in the .pot files are never "
+"filled with translation though. Instead, each .pot file is used as a "
 "template for as many language specific .po files as you need."
-msgstr "Générer des fichiers .pot, qui contiennent les chaînes sources et des chaînes vides pour une traduction ultérieure. Ces chaînes vides dans les fichiers .pot ne sont jamais traduites. Au lieu de cela, chaque fichier .pot est utilisé comme modèle pour autant de fichiers .po spécifiques à une langue que vous souhaitez."
+msgstr ""
+"Générer des fichiers .pot, qui contiennent les chaînes sources et des "
+"chaînes vides pour une traduction ultérieure. Ces chaînes vides dans les "
+"fichiers .pot ne sont jamais traduites. Au lieu de cela, chaque fichier .pot"
+" est utilisé comme modèle pour autant de fichiers .po spécifiques à une "
+"langue que vous souhaitez."
 
 #: ../../generate-files-for-translation.rst:12
 msgid ""
-"Generating a set of .po files for every language. In our example, we will"
-" generate index.po and easter-egg.po for Russian and Portuguese."
-msgstr "Générer un ensemble de fichiers .po pour chaque langue. Dans notre exemple, nous allons générer index.po et easter-egg.po pour le russe et le portugais."
+"Generating a set of .po files for every language. In our example, we will "
+"generate index.po and easter-egg.po for Russian and Portuguese."
+msgstr ""
+"Générer un ensemble de fichiers .po pour chaque langue. Dans notre exemple, "
+"nous allons générer index.po et easter-egg.po pour le russe et le portugais."
 
-#: ../../generate-files-for-translation.rst
+#: ../../generate-files-for-translation.rst:0
 msgid ".rst -> .pot -> .po"
 msgstr ".rst -> .pot -> .po"
 
@@ -54,15 +65,16 @@ msgid "Generate files for translation:"
 msgstr "Générer des fichiers pour la traduction :"
 
 #: ../../generate-files-for-translation.rst:23
-#, fuzzy
 msgid "Generate .pot files::"
-msgstr "Générer des fichiers .pot : :"
+msgstr "Générer des fichiers .pot: :"
 
 #: ../../generate-files-for-translation.rst:27
 msgid ""
 "The index.pot and easter-egg.pot files should appear in the "
 "**_build/gettext** directory."
-msgstr "Les fichiers index.pot et easter-egg.pot doivent apparaître dans le répertoire **_build/gettext**."
+msgstr ""
+"Les fichiers index.pot et easter-egg.pot doivent apparaître dans le "
+"répertoire **_build/gettext**."
 
 #: ../../generate-files-for-translation.rst:30
 msgid "Generate .po files::"
@@ -70,10 +82,15 @@ msgstr "Générer des fichiers .po ::"
 
 #: ../../generate-files-for-translation.rst:34
 msgid ""
-"Demo project directory should now contain the **locale** directory, whose"
-" name we specified earlier in conf.py. Inside the **locale** directory "
-"there are two directories: **ru** for Russian and **pt_BR** for "
-"Portuguese. Each of these two directories contains the **LC\\_MESSAGES** "
-"directory with index.po and easter-egg.po files inside::"
-msgstr "Le répertoire du projet Demo doit maintenant contenir le répertoire **locale**, dont le nom a été spécifié plus tôt dans conf.py. Le répertoire **locale** contient deux répertoires : **ru** pour le russe et **pt_BR** pour le portugais. Chacun de ces deux répertoires contient le répertoire **LC\MESSAGES** avec les fichiers index.po et easter-egg.po à l'intérieur : :"
-
+"Demo project directory should now contain the **locale** directory, whose "
+"name we specified earlier in conf.py. Inside the **locale** directory there "
+"are two directories: **ru** for Russian and **pt_BR** for Portuguese. Each "
+"of these two directories contains the **LC\\_MESSAGES** directory with "
+"index.po and easter-egg.po files inside::"
+msgstr ""
+"Le répertoire du projet Demo doit maintenant contenir le répertoire "
+"**locale**, dont le nom a été spécifié plus tôt dans conf.py. Le répertoire "
+"**locale** contient deux répertoires : **ru** pour le russe et **pt_BR** "
+"pour le portugais. Chacun de ces deux répertoires contient le répertoire "
+"**LC\\MESSAGES** avec les fichiers index.po et easter-egg.po à l'intérieur :"
+" :"
