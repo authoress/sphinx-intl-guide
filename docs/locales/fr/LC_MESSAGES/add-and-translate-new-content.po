@@ -1,24 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2023, authoress
-# This file is distributed under the same license as the sphinx-intl
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# This file is distributed under the same license as the sphinx-intl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Natalia, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: sphinx-intl \n"
+"Project-Id-Version: sphinx-intl\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-27 09:34+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2023-04-27 07:28+0000\n"
+"Last-Translator: Natalia, 2023\n"
+"Language-Team: French (https://app.transifex.com/geekwriter/teams/157484/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../add-and-translate-new-content.rst:2
 msgid "Add and translate new content"
@@ -31,8 +32,8 @@ msgstr "Ajouter du contenu conditionnel avec ifconfig"
 #: ../../add-and-translate-new-content.rst:7
 msgid ""
 "*Conditional content* is published to the output only if it matches the "
-"specified conditions. In our project, this condition is the language of "
-"the document."
+"specified conditions. In our project, this condition is the language of the "
+"document."
 msgstr ""
 "*Le contenu conditionnel* n'est publié que s'il répond aux conditions "
 "spécifiées. Dans notre projet, cette condition est la langue du document."
@@ -45,41 +46,41 @@ msgid ""
 msgstr ""
 "Pour que Sphinx puisse traiter le texte conditionnel, il a besoin de "
 "l'extension `ifconfig <https://www.sphinx-"
-"doc.org/en/master/usage/extensions/ifconfig.html>`_. Ajoutez ifconfig à "
-"la liste des extensions dans conf.py :"
+"doc.org/en/master/usage/extensions/ifconfig.html>`_. Ajoutez ifconfig à la "
+"liste des extensions dans conf.py :"
 
 #: ../../add-and-translate-new-content.rst:19
 msgid ""
-"Now we will add some information about translation of the text to "
-"index.rst. This information is not needed in the original document, so we"
-" will exclude this text from English."
+"Now we will add some information about translation of the text to index.rst."
+" This information is not needed in the original document, so we will exclude"
+" this text from English."
 msgstr ""
 "Nous allons maintenant ajouter à index.rst des informations sur la "
-"traduction du texte. Cette information n'est pas nécessaire dans le "
-"document original, nous allons donc exclure ce texte de l'anglais."
+"traduction du texte. Cette information n'est pas nécessaire dans le document"
+" original, nous allons donc exclure ce texte de l'anglais."
 
 #: ../../add-and-translate-new-content.rst:23
 msgid ""
 "Open index.rst and add \"Translation info\" to the end of the file, like "
 "this:"
 msgstr ""
-"Ouvrez index.rst et ajoutez \"Translation info\" à la fin du fichier, "
-"comme ceci :"
+"Ouvrez index.rst et ajoutez \"Translation info\" à la fin du fichier, comme "
+"ceci :"
 
 #: ../../add-and-translate-new-content.rst:34
 msgid ""
-"Note that we added the text to the source .rst file in English, not to "
-".po files. You will see later that this text won't be published in the "
-"html output in English."
+"Note that we added the text to the source .rst file in English, not to .po "
+"files. You will see later that this text won't be published in the html "
+"output in English."
 msgstr ""
-"Notez que nous avons ajouté le texte au fichier source .rst en anglais, "
-"et non aux fichiers .po. Vous verrez plus tard que ce texte ne sera pas "
-"publié dans la sortie html en anglais."
+"Notez que nous avons ajouté le texte au fichier source .rst en anglais, et "
+"non aux fichiers .po. Vous verrez plus tard que ce texte ne sera pas publié "
+"dans la sortie html en anglais."
 
 #: ../../add-and-translate-new-content.rst:38
 msgid ""
-"You can `download the updated version of conf.py and index.rst <_static"
-"/conf-index-ifconfig.zip>`_."
+"You can `download the updated version of conf.py and index.rst "
+"<_static/conf-index-ifconfig.zip>`_."
 msgstr ""
 "Vous pouvez `télécharger la version mise à jour de conf.py et index.rst "
 "<_static/conf-index-ifconfig.zip>`_."
@@ -147,11 +148,10 @@ msgstr "Construire la documentation portugaise: :"
 #: ../../add-and-translate-new-content.rst:95
 msgid ""
 "Now index.html in Portuguese and Russian should contain the newly added "
-"information about translation. If you build English documentation, you "
-"will see that no new content is added to index.html."
+"information about translation. If you build English documentation, you will "
+"see that no new content is added to index.html."
 msgstr ""
 "L'index.html en portugais et en russe devrait maintenant contenir les "
-"informations nouvellement ajoutées sur la traduction. Si vous construisez"
-" la documentation en anglais, vous verrez qu'aucun nouveau contenu n'est "
-"ajouté à l'index.html."
-
+"informations nouvellement ajoutées sur la traduction. Si vous construisez la"
+" documentation en anglais, vous verrez qu'aucun nouveau contenu n'est ajouté"
+" à l'index.html."
