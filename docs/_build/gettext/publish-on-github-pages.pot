@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, authoress
+# This file is distributed under the same license as the sphinx-intl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinx-intl \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-12 10:34+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../publish-on-github-pages.rst:2
+msgid "Publish on GitHub Pages"
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:4
+msgid "As `GitHub documentation <https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages>`_ says, \"GitHub Pages is a static site hosting service that takes files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website\"."
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:6
+msgid "Before you publish your documentation on GitHub Pages, make sure your documentation files are in the **zen/_build/html** directory of your repository, like this:"
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:-1
+msgid "zen/_build/html"
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:13
+msgid "If you created your repository from the demo repository template, all the required files are already in the zen/_build/html directory."
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:15
+msgid "To publish files from this directory on GitHub Pages:"
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:17
+msgid "Open your repository settings."
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:19
+msgid "Select **Pages**."
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:21
+msgid "In the **Build and deployment** section, under **Source**, select **GitHub Actions**."
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:23
+msgid "In **Static HTML**, click **Configure**."
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:0
+msgid "GitHub pages settings"
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:30
+msgid "GitHub creates a .github/workflows/static.yml file for you."
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:32
+msgid "In static.yml file, find the **path** element, it should look like this::"
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:37
+msgid "Change the path as follows::"
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:0
+msgid "static.yml"
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:48
+msgid "Click **Start commit**, and then **Commit new file**."
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:0
+msgid "Commiting static.yml"
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:55
+msgid "Once static.yml is committed, GitHub immediately starts publishing your documentation site. The publishing process may take some time, and when it is finished, you can open your documentation by clicking **Visit site** on **Settings -> Pages**:"
+msgstr ""
+
+#: ../../publish-on-github-pages.rst:-1
+msgid "Visit site"
+msgstr ""

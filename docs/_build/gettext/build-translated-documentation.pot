@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, authoress
+# This file is distributed under the same license as the sphinx-intl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinx-intl \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-09 17:40+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../build-translated-documentation.rst:4
+msgid "Build translated documentation"
+msgstr ""
+
+#: ../../build-translated-documentation.rst:6
+msgid "`Sphinx documentation <https://www.sphinx-doc.org/en/master/usage/advanced/intl.html>`_ recommends using two commands in sequence to build the translated documentation (in our example, in Russian)::"
+msgstr ""
+
+#: ../../build-translated-documentation.rst:15
+msgid "The first command sets the language of the documentation, and the second runs the build."
+msgstr ""
+
+#: ../../build-translated-documentation.rst:18
+msgid "The problem with this method is that Sphinx writes the output to the directory specified in the make.bat file, and this directory is the same for all languages."
+msgstr ""
+
+#: ../../build-translated-documentation.rst:22
+msgid "Therefore, we will use another method, which implies more control over various build parameters. We will run `sphinx-build <https://www.sphinx-doc.org/en/master/man/sphinx-build.html>`_ directly and specify the language and the build directory in a single command."
+msgstr ""
+
+#: ../../build-translated-documentation.rst:28
+msgid "Before building the new documentation, you can remove everything from the **_build/html** directory, as we don't need the previously generated files anymore."
+msgstr ""
+
+#: ../../build-translated-documentation.rst:32
+msgid "To build the Russian documentation with sphinx-build, run the following command::"
+msgstr ""
+
+#: ../../build-translated-documentation.rst:37
+msgid "This command tells Sphinx to build html documentation (``-b html``) in Russian (``-D language=ru``) and put the result in the **_build/html/ru/** directory (``. _build/html/ru/``). The command also specifies the directory for doctrees files (``-d _build/doctrees/ru/``), otherwise Sphinx writes the doctrees files to the same directory as html files."
+msgstr ""
+
+#: ../../build-translated-documentation.rst:44
+msgid "To build the Portuguese documentation to **_build/html/pt_BR/**, run the following command::"
+msgstr ""
+
+#: ../../build-translated-documentation.rst:49
+msgid "We also need to have English documentation in the **_build/html/en/** directory::"
+msgstr ""
+
+#: ../../build-translated-documentation.rst:54
+msgid "Placing localized documentation in separate directories as described above will help us further :ref:`develop a language switcher <switcher>`."
+msgstr ""
+
+#: ../../build-translated-documentation.rst:57
+msgid "If you now look into the **locale/ru/LC_MESSAGES** and **locale/pt_BR/LC_MESSAGES** directories, you can see that index.mo and easter-egg.mo files have appeared. Sphinx generates these binaries from .po files and then uses .mo files to build the output. You don't need to do anything with the .mo files, just ignore them."
+msgstr ""

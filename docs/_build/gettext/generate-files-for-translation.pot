@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, authoress
+# This file is distributed under the same license as the sphinx-intl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinx-intl \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-09 17:40+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../generate-files-for-translation.rst:2
+msgid "Generate files for translation"
+msgstr ""
+
+#: ../../generate-files-for-translation.rst:4
+msgid "Generating files for translation is a two step procedure:"
+msgstr ""
+
+#: ../../generate-files-for-translation.rst:6
+msgid "Generating .pot files, which contain the source strings and empty strings for further translation. Those empty strings in the .pot files are never filled with translation though. Instead, each .pot file is used as a template for as many language specific .po files as you need."
+msgstr ""
+
+#: ../../generate-files-for-translation.rst:12
+msgid "Generating a set of .po files for every language. In our example, we will generate index.po and easter-egg.po for Russian and Portuguese."
+msgstr ""
+
+#: ../../generate-files-for-translation.rst:0
+msgid ".rst -> .pot -> .po"
+msgstr ""
+
+#: ../../generate-files-for-translation.rst:19
+msgid "Generating .pot and .po files"
+msgstr ""
+
+#: ../../generate-files-for-translation.rst:21
+msgid "Generate files for translation:"
+msgstr ""
+
+#: ../../generate-files-for-translation.rst:23
+msgid "Generate .pot files::"
+msgstr ""
+
+#: ../../generate-files-for-translation.rst:27
+msgid "The index.pot and easter-egg.pot files should appear in the **_build/gettext** directory."
+msgstr ""
+
+#: ../../generate-files-for-translation.rst:30
+msgid "Generate .po files::"
+msgstr ""
+
+#: ../../generate-files-for-translation.rst:34
+msgid "Demo project directory should now contain the **locale** directory, whose name we specified earlier in conf.py. Inside the **locale** directory there are two directories: **ru** for Russian and **pt_BR** for Portuguese. Each of these two directories contains the **LC\\_MESSAGES** directory with index.po and easter-egg.po files inside::"
+msgstr ""
