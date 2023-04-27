@@ -18,4 +18,4 @@ To install and configure sphinx-intl:
 	locale_dirs = ['locale/']
 	gettext_compact = False
 
-You can `download the version of conf.py <../_static/conf-loc-options.zip>`_ that contains these settings.
+You can `download the version of conf.py <_static/conf-loc-options.zip>`_ that contains these settings.

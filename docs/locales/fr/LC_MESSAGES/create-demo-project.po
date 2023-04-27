@@ -9,15 +9,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sphinx-intl \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-09 17:40+0300\n"
+"POT-Creation-Date: 2023-04-27 09:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.11.0\n"
-"Language: fr\n"
 
 #: ../../create-demo-project.rst:2
 msgid "Create demo project"
@@ -27,7 +28,9 @@ msgstr "Créer un projet de démonstration"
 msgid ""
 "Our demo project will contain information `about The Zen of Python "
 "<https://www.python.org/dev/peps/pep-0020/>`_."
-msgstr "Notre projet de démonstration contiendra des informations `sur le Zen of Python <https://www.python.org/dev/peps/pep-0020/>`_."
+msgstr ""
+"Notre projet de démonstration contiendra des informations `sur le Zen of "
+"Python <https://www.python.org/dev/peps/pep-0020/>`_."
 
 #: ../../create-demo-project.rst:6
 msgid "To create a demo project:"
@@ -49,7 +52,10 @@ msgstr "Créer un nouveau projet sphinx avec sphinx-quickstart ::"
 msgid ""
 "This command runs the Sphinx quickstart utility that asks you some "
 "questions about your project settings. Specify the settings as follows:"
-msgstr "Cette commande lance l'utilitaire de démarrage rapide de Sphinx qui vous pose quelques questions sur les paramètres de votre projet. Spécifiez les paramètres comme suit :"
+msgstr ""
+"Cette commande lance l'utilitaire de démarrage rapide de Sphinx qui vous "
+"pose quelques questions sur les paramètres de votre projet. Spécifiez les"
+" paramètres comme suit :"
 
 #: ../../create-demo-project.rst:24
 msgid "> Separate source and build directories (y/n) [n]: **n**"
@@ -75,19 +81,25 @@ msgstr "> Project language [en]: **en**"
 msgid ""
 "You can specify your own settings, but be sure to set the project "
 "language to English (en)."
-msgstr "Vous pouvez définir vos propres paramètres, mais veillez à ce que la langue du projet soit l'anglais (en)."
+msgstr ""
+"Vous pouvez définir vos propres paramètres, mais veillez à ce que la "
+"langue du projet soit l'anglais (en)."
 
 #: ../../create-demo-project.rst:37
 msgid ""
 "After you answer all questions, the quickstart utility creates the "
 "project::"
-msgstr "Après avoir répondu à toutes les questions, l'utilitaire de démarrage rapide crée le projet ::"
+msgstr ""
+"Après avoir répondu à toutes les questions, l'utilitaire de démarrage "
+"rapide crée le projet ::"
 
 #: ../../create-demo-project.rst:51
 msgid ""
 "If you are familiar with Sphinx, you already know about index.rst, "
 "conf.py and other default project files."
-msgstr "Si vous êtes familier avec Sphinx, vous connaissez déjà index.rst, conf.py et d'autres fichiers de projet par défaut."
+msgstr ""
+"Si vous êtes familier avec Sphinx, vous connaissez déjà index.rst, "
+"conf.py et d'autres fichiers de projet par défaut."
 
 #: ../../create-demo-project.rst:55
 msgid "Add content"
@@ -97,20 +109,27 @@ msgstr "Ajouter du contenu"
 msgid ""
 "Open index.rst in any text editor and replace its content with the "
 "following:"
-msgstr "Ouvrez le fichier index.rst dans un éditeur de texte et remplacez son contenu par ce qui suit:"
+msgstr ""
+"Ouvrez le fichier index.rst dans un éditeur de texte et remplacez son "
+"contenu par ce qui suit:"
 
 #: ../../create-demo-project.rst:111
 msgid ""
 "We added easter-egg.rst to the toctree, which means that we should create"
 " this file in the project directory. After you created the file (it "
 "should be encoded in UTF-8), put this text in it:"
-msgstr "Nous avons ajouté easter-egg.rst au toctree, ce qui signifie que nous devons créer ce fichier dans le répertoire du projet. Après avoir créé le fichier (il doit être encodé en UTF-8), mettez-y ce texte:"
+msgstr ""
+"Nous avons ajouté easter-egg.rst au toctree, ce qui signifie que nous "
+"devons créer ce fichier dans le répertoire du projet. Après avoir créé le"
+" fichier (il doit être encodé en UTF-8), mettez-y ce texte:"
 
 #: ../../create-demo-project.rst:128
 msgid ""
-"You can download `an archive that contains both files <../_static/rst-"
+"You can download `an archive that contains both files <_static/rst-"
 "initial.zip>`_."
-msgstr "Vous pouvez télécharger `une archive qui contient les deux fichiers <../_static/rst-initial.zip>`_."
+msgstr ""
+"Vous pouvez télécharger `une archive qui contient les deux fichiers "
+"<_static/rst-initial.zip>`_."
 
 #: ../../create-demo-project.rst:131
 msgid "Add images"
@@ -122,21 +141,29 @@ msgstr "Pour ajouter des images au projet de démonstration:"
 
 #: ../../create-demo-project.rst:135
 msgid ""
-"Download `an archive containing two images <../_static/egg-logo.zip>`_: "
+"Download `an archive containing two images <_static/egg-logo.zip>`_: "
 "logo.png (demo project logo) and egg.png (image of an egg)."
-msgstr "Téléchargez `une archive contenant deux images <../_static/egg-logo.zip>`_ : logo.png (logo du projet de démonstration) et egg.png (image d'un oeuf)."
+msgstr ""
+"Téléchargez `une archive contenant deux images <_static/egg-"
+"logo.zip>`_ : logo.png (logo du projet de démonstration) et egg.png "
+"(image d'un oeuf)."
 
 #: ../../create-demo-project.rst:138
 msgid ""
 "Unzip the archive and place both files in the **_static** directory of "
 "the demo project."
-msgstr "Décompressez l'archive et placez les deux fichiers dans le répertoire **_static** du projet de démonstration."
+msgstr ""
+"Décompressez l'archive et placez les deux fichiers dans le répertoire "
+"**_static** du projet de démonstration."
 
 #: ../../create-demo-project.rst:141
 msgid ""
 "Open conf.py, find the **Options for HTML output** section. Add "
 "html_theme_options containing logo.png after html_theme, like this:"
-msgstr "Ouvrez conf.py, trouvez la section **Options pour la sortie HTML**. Ajoutez html_theme_options contenant logo.png après html_theme, comme ceci :"
+msgstr ""
+"Ouvrez conf.py, trouvez la section **Options pour la sortie HTML**. "
+"Ajoutez html_theme_options contenant logo.png après html_theme, comme "
+"ceci :"
 
 #: ../../create-demo-project.rst:155
 msgid "Add egg.png to easter-egg.rst, like this:"
@@ -144,15 +171,20 @@ msgstr "Ajoutez egg.png à easter-egg.rst, comme ceci :"
 
 #: ../../create-demo-project.rst:163
 msgid ""
-"You can `download conf.py and easter-egg.rst <../_static/conf-easter-"
+"You can `download conf.py and easter-egg.rst <_static/conf-easter-"
 "egg.zip>`_ that already contain both additions."
-msgstr "Vous pouvez `télécharger conf.py et easter-egg.rst <../_static/conf-easter-egg.zip>`_ qui contiennent déjà les deux ajouts."
+msgstr ""
+"Vous pouvez `télécharger conf.py et easter-egg.rst <_static/conf-"
+"easter-egg.zip>`_ qui contiennent déjà les deux ajouts."
 
 #: ../../create-demo-project.rst:166
 msgid ""
 "Note that if you specified your own settings when creating the project, "
 "they will be overwritten by the settings from the downloaded conf.py."
-msgstr "Notez que si vous avez spécifié vos propres paramètres lors de la création du projet, ils seront remplacés par les paramètres du fichier conf.py téléchargé."
+msgstr ""
+"Notez que si vous avez spécifié vos propres paramètres lors de la "
+"création du projet, ils seront remplacés par les paramètres du fichier "
+"conf.py téléchargé."
 
 #: ../../create-demo-project.rst:170
 msgid "Generate html"
@@ -166,11 +198,15 @@ msgstr "Générer une sortie html pour s'assurer que tout fonctionne comme prév
 msgid ""
 "If the build is successful, the **_build/html** directory contains the "
 "html output::"
-msgstr "Si la compilation est réussie, le répertoire **_build/html** contient la sortie html::"
+msgstr ""
+"Si la compilation est réussie, le répertoire **_build/html** contient la "
+"sortie html::"
 
 #: ../../create-demo-project.rst:192
 msgid "If you open index.html in a browser, you should see the demo project:"
-msgstr "Si vous ouvrez index.html dans un navigateur, vous devriez voir le projet de démonstration :"
+msgstr ""
+"Si vous ouvrez index.html dans un navigateur, vous devriez voir le projet"
+" de démonstration :"
 
 #: ../../create-demo-project.rst:-1
 msgid "The Zen of Python"

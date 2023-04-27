@@ -35,7 +35,7 @@ Note that we added the text to the source .rst file in English, not to
 .po files. You will see later that this text won't be published in the
 html output in English.
 
-You can `download the updated version of conf.py and index.rst <../_static/conf-index-ifconfig.zip>`_.
+You can `download the updated version of conf.py and index.rst <_static/conf-index-ifconfig.zip>`_.
 
 Update translation
 ~~~~~~~~~~~~~~~~~~
@@ -79,7 +79,7 @@ You already know how to deal with .pot and .po files:
 
     "<https://wiki.python.org.br/TheZenOfPython>`_)"
 
-You can `download both updated index.po files <../_static/index-po-updated.zip>`_.
+You can `download both updated index.po files <_static/index-po-updated.zip>`_.
 
 Build updated documentation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~

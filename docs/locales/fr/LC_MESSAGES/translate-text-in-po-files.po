@@ -9,15 +9,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sphinx-intl \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-10 09:05+0300\n"
+"POT-Creation-Date: 2023-04-27 09:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.11.0\n"
-"Language: fr\n"
 
 #: ../../translate-text-in-po-files.rst:2
 msgid "Translate text in .po files"
@@ -32,21 +33,35 @@ msgid ""
 "etc. To better understand the .po files structure, we will start with "
 "manual translation. After that, we will get acquainted with Transifex, "
 "one of the popular translation management systems."
-msgstr "Les spécialistes de la localisation utilisent des outils professionnels pour traduire des projets réels : `CAT <https://en.wikipedia.org/wiki/Computer-assisted_translation>`_ outils, `TMS <https://en.wikipedia.org/wiki/Translation_management_system>`_ systèmes, etc. Pour mieux comprendre la structure des fichiers .po, nous commencerons par une traduction manuelle. Ensuite, nous nous familiariserons avec Transifex, l'un des systèmes de gestion de traduction les plus populaires."
+msgstr ""
+"Les spécialistes de la localisation utilisent des outils professionnels "
+"pour traduire des projets réels : `CAT <https://en.wikipedia.org/wiki"
+"/Computer-assisted_translation>`_ outils, `TMS "
+"<https://en.wikipedia.org/wiki/Translation_management_system>`_ systèmes,"
+" etc. Pour mieux comprendre la structure des fichiers .po, nous "
+"commencerons par une traduction manuelle. Ensuite, nous nous "
+"familiariserons avec Transifex, l'un des systèmes de gestion de "
+"traduction les plus populaires."
 
 #: ../../translate-text-in-po-files.rst:12
 msgid ""
-"Before you start, download `the translation lists <../_static"
-"/translation-lists.zip>`_ to get Russian and Portuguese translations of "
-"all texts."
-msgstr "Avant de commencer, téléchargez `les listes de traduction <_static/translation-lists.zip>`_ pour obtenir les traductions en russe et en portugais de tous les textes."
+"Before you start, download `the translation lists <_static/translation-"
+"lists.zip>`_ to get Russian and Portuguese translations of all texts."
+msgstr ""
+"Avant de commencer, téléchargez `les listes de traduction <_static"
+"/translation-lists.zip>`_ pour obtenir les traductions en russe et en "
+"portugais de tous les textes."
 
 #: ../../translate-text-in-po-files.rst:17
 msgid ""
 "You can :ref:`build the translated documentation <build>` at any time, "
 "even if the translation is not finished. This helps you see the "
 "intermediate result and understand :ref:`how gettext works <gettext>`."
-msgstr "Vous pouvez :ref:`construire la documentation traduite <build>` à tout moment, même si la traduction n'est pas terminée. Cela vous permet de voir le résultat intermédiaire et de comprendre :ref:`comment fonctionne gettext <gettext>`."
+msgstr ""
+"Vous pouvez :ref:`construire la documentation traduite <build>` à tout "
+"moment, même si la traduction n'est pas terminée. Cela vous permet de "
+"voir le résultat intermédiaire et de comprendre :ref:`comment fonctionne "
+"gettext <gettext>`."
 
 #: ../../translate-text-in-po-files.rst:22
 msgid "Manual translation"
@@ -62,19 +77,25 @@ msgstr "Ouvrez index.po dans **locale/ru/LC_MESSAGES** et trouvez ces lignes: :"
 
 #: ../../translate-text-in-po-files.rst:34
 msgid "The first line points to the source file and the exact line in it."
-msgstr "La première ligne pointe vers le fichier source et la ligne exacte qu'il contient."
+msgstr ""
+"La première ligne pointe vers le fichier source et la ligne exacte qu'il "
+"contient."
 
 #: ../../translate-text-in-po-files.rst:36
 msgid ""
 "The second, ``msgid``, is for the source text itself; it also serves as a"
 " string ID."
-msgstr "Le second, ``msgid``, est pour le texte source lui-même ; il sert également d'identifiant pour la chaîne."
+msgstr ""
+"Le second, ``msgid``, est pour le texte source lui-même ; il sert "
+"également d'identifiant pour la chaîne."
 
 #: ../../translate-text-in-po-files.rst:39
 msgid ""
 "The third, ``msgstr``, should contain the translation of the string from "
 "msgid."
-msgstr "La troisième, ``msgstr``, doit contenir la traduction de la chaîne de msgid."
+msgstr ""
+"La troisième, ``msgstr``, doit contenir la traduction de la chaîne de "
+"msgid."
 
 #: ../../translate-text-in-po-files.rst:42
 msgid "Put the translation to msgstr like this::"
@@ -82,7 +103,9 @@ msgstr "Mettez la traduction de msgstr comme ceci: :"
 
 #: ../../translate-text-in-po-files.rst:46
 msgid "Do the same for other strings in index.po and easter-egg.po."
-msgstr "Faites de même pour les autres chaînes de caractères dans index.po et easter-egg.po."
+msgstr ""
+"Faites de même pour les autres chaînes de caractères dans index.po et "
+"easter-egg.po."
 
 #: ../../translate-text-in-po-files.rst:48
 msgid "Note the escape characters in this string::"
@@ -102,14 +125,21 @@ msgid ""
 "**locale/pt_BR/LC_MESSAGES** to translate it into Portuguese. For now, do"
 " not translate easter-egg.po, we will use Transifex to translate this "
 "file."
-msgstr "Une fois que vous avez terminé avec le russe, répétez le processus avec index.po dans **locale/pt_BR/LC_MESSAGES** pour le traduire en portugais. Pour l'instant, ne traduisez pas easter-egg.po, nous utiliserons Transifex pour traduire ce fichier."
+msgstr ""
+"Une fois que vous avez terminé avec le russe, répétez le processus avec "
+"index.po dans **locale/pt_BR/LC_MESSAGES** pour le traduire en portugais."
+" Pour l'instant, ne traduisez pas easter-egg.po, nous utiliserons "
+"Transifex pour traduire ce fichier."
 
 #: ../../translate-text-in-po-files.rst:63
 msgid ""
-"You can download `an archive that contains .po files <../_static/po-"
+"You can download `an archive that contains .po files <_static/po-"
 "translated.zip>`_ already translated into Russian and Portuguese (except "
 "for the Portuguese version of easter-egg.po)."
-msgstr "Vous pouvez télécharger `une archive qui contient des fichiers .po <_static/po-translated.zip>`_ déjà traduits en russe et en portugais (à l'exception de la version portugaise de easter-egg.po)."
+msgstr ""
+"Vous pouvez télécharger `une archive qui contient des fichiers .po "
+"<_static/po-translated.zip>`_ déjà traduits en russe et en portugais (à "
+"l'exception de la version portugaise de easter-egg.po)."
 
 #: ../../translate-text-in-po-files.rst:67
 msgid "Using Transifex"
@@ -124,7 +154,15 @@ msgid ""
 "demo repository <https://github.com/authoress/sphinx-intl-demo>`_  as a "
 "template. Note that easter-egg.po in locale/pt_br/LC_MESSAGES is "
 "intentionally left untranslated."
-msgstr "La documentation de Sphinx et les Readthedocs décrivent l'intégration de Transifex en utilisant le client Transifex. Nous allons utiliser une autre option : l'intégration avec GitHub via l'interface Transifex. Pour cela, vous aurez besoin de votre propre copie du dépôt de démonstration sur GitHub. Le plus simple est d'utiliser le dépôt `sphinx-intl-demo <https://github.com/authoress/sphinx-intl-demo>`_ comme modèle. Notez que easter-egg.po dans locale/pt_br/LC_MESSAGES est intentionnellement laissé non traduit."
+msgstr ""
+"La documentation de Sphinx et les Readthedocs décrivent l'intégration de "
+"Transifex en utilisant le client Transifex. Nous allons utiliser une "
+"autre option : l'intégration avec GitHub via l'interface Transifex. Pour "
+"cela, vous aurez besoin de votre propre copie du dépôt de démonstration "
+"sur GitHub. Le plus simple est d'utiliser le dépôt `sphinx-intl-demo "
+"<https://github.com/authoress/sphinx-intl-demo>`_ comme modèle. Notez que"
+" easter-egg.po dans locale/pt_br/LC_MESSAGES est intentionnellement "
+"laissé non traduit."
 
 #: ../../translate-text-in-po-files.rst:79
 msgid "Use this template -> Create a new repository"
@@ -136,7 +174,9 @@ msgstr "Création d'un nouveau référentiel à partir d'un modèle"
 
 #: ../../translate-text-in-po-files.rst:81
 msgid "Now you are ready to integrate Transifex into your translation process."
-msgstr "Vous êtes maintenant prêt à intégrer Transifex dans votre processus de traduction."
+msgstr ""
+"Vous êtes maintenant prêt à intégrer Transifex dans votre processus de "
+"traduction."
 
 #: ../../translate-text-in-po-files.rst:84
 msgid "Create an account and organization"
@@ -148,13 +188,20 @@ msgid ""
 "source/>`_, Transifex invites you to create an Open Source organization "
 "or join an existing organization. For our demo project, we’ll need a new "
 "organization."
-msgstr "Lors de la `création d'un compte <https://www.transifex.com/signup/open-source/>`_, Transifex vous invite à créer une organisation Open Source ou à rejoindre une organisation existante. Pour notre projet de démonstration, nous aurons besoin d'une nouvelle organisation."
+msgstr ""
+"Lors de la `création d'un compte <https://www.transifex.com/signup/open-"
+"source/>`_, Transifex vous invite à créer une organisation Open Source ou"
+" à rejoindre une organisation existante. Pour notre projet de "
+"démonstration, nous aurons besoin d'une nouvelle organisation."
 
 #: ../../translate-text-in-po-files.rst:90
 msgid ""
 "It doesn’t matter if you actually work for an organization or own one. On"
 " Transifex, organization is just a way to organize your projects."
-msgstr "Peu importe que vous travailliez pour une organisation ou que vous en possédiez une. Sur Transifex, l'organisation n'est qu'un moyen d'organiser vos projets."
+msgstr ""
+"Peu importe que vous travailliez pour une organisation ou que vous en "
+"possédiez une. Sur Transifex, l'organisation n'est qu'un moyen "
+"d'organiser vos projets."
 
 #: ../../translate-text-in-po-files.rst:92
 msgid ""
@@ -163,7 +210,11 @@ msgid ""
 "Transifex organizations, projects and resources "
 "<https://help.transifex.com/en/articles/6656105-introduction-to-projects-"
 "and-resources>`_."
-msgstr "En bref, un utilisateur peut être administrateur d'une organisation qui possède des projets, et chaque projet comprend des ressources. Pour en savoir plus sur les organisations, les projets et les ressources de Transifex, cliquez ici."
+msgstr ""
+"En bref, un utilisateur peut être administrateur d'une organisation qui "
+"possède des projets, et chaque projet comprend des ressources. Pour en "
+"savoir plus sur les organisations, les projets et les ressources de "
+"Transifex, cliquez ici."
 
 #: ../../translate-text-in-po-files.rst:96
 msgid "Create a project"
@@ -174,18 +225,26 @@ msgid ""
 "When you are done with the account and organization, Transifex invites "
 "you to create a project. For our demo project, specify the project "
 "settings as follows:"
-msgstr "Lorsque vous avez terminé la création du compte et de l'organisation, Transifex vous invite à créer un projet. Pour notre projet de démonstration, spécifiez les paramètres du projet comme suit :"
+msgstr ""
+"Lorsque vous avez terminé la création du compte et de l'organisation, "
+"Transifex vous invite à créer un projet. Pour notre projet de "
+"démonstration, spécifiez les paramètres du projet comme suit :"
 
 #: ../../translate-text-in-po-files.rst:101
 msgid "Project name: sphinx-intl-demo (choose another name if you want)."
-msgstr "Nom du projet : sphinx-intl-demo (choisissez un autre nom si vous le souhaitez)."
+msgstr ""
+"Nom du projet : sphinx-intl-demo (choisissez un autre nom si vous le "
+"souhaitez)."
 
 #: ../../translate-text-in-po-files.rst:102
 msgid ""
 "URL to open source license: specify the path to the license file in your "
 "GitHub repository. It should be something like this: "
 "``https://github.com/<your_account>/sphinx-intl-demo/blob/main/LICENSE``"
-msgstr "URL de la licence open source : indiquez le chemin d'accès au fichier de licence dans votre dépôt GitHub. Il devrait ressembler à ceci : ``https://github.com/<votre_compte>/sphinx-intl-demo/blob/main/LICENSE``."
+msgstr ""
+"URL de la licence open source : indiquez le chemin d'accès au fichier de "
+"licence dans votre dépôt GitHub. Il devrait ressembler à ceci : "
+"``https://github.com/<votre_compte>/sphinx-intl-demo/blob/main/LICENSE``."
 
 #: ../../translate-text-in-po-files.rst:104
 msgid "Project type: File based."
@@ -220,7 +279,10 @@ msgid ""
 "Integrate your Transifex and GitHub accounts as described `in the "
 "Transifex documentation <https://help.transifex.com/en/articles/6265125"
 "-github-via-transifex-ui>`_:"
-msgstr "Intégrez vos comptes Transifex et GitHub comme décrit `dans la documentation Transifex <https://help.transifex.com/en/articles/6265125-github-via-transifex-ui>`_ :"
+msgstr ""
+"Intégrez vos comptes Transifex et GitHub comme décrit `dans la "
+"documentation Transifex <https://help.transifex.com/en/articles/6265125"
+"-github-via-transifex-ui>`_ :"
 
 #: ../../translate-text-in-po-files.rst:122
 msgid "Go to your organization settings -> Integrations."
@@ -230,7 +292,9 @@ msgstr "Allez dans les paramètres de votre organisation -> Integrations."
 msgid ""
 "In the GitHub integration box, click **Authorize** and then **Install the"
 " Transifex app**."
-msgstr "Dans la boîte d'intégration GitHub, cliquez sur **Authorize** puis **Install the Transifex app**."
+msgstr ""
+"Dans la boîte d'intégration GitHub, cliquez sur **Authorize** puis "
+"**Install the Transifex app**."
 
 #: ../../translate-text-in-po-files.rst
 msgid "Manage Integrations page"
@@ -244,37 +308,49 @@ msgstr "Autoriser GitHub"
 msgid ""
 "From the **Select repositories** drop-down menu, select your demo "
 "repository, and then click **Install**."
-msgstr "Dans le menu déroulant **Select repositories**, sélectionnez votre dépôt de démonstration, puis cliquez sur **Install**."
+msgstr ""
+"Dans le menu déroulant **Select repositories**, sélectionnez votre dépôt "
+"de démonstration, puis cliquez sur **Install**."
 
 #: ../../translate-text-in-po-files.rst:133
 msgid ""
 "Confirm your GitHub password. The Transifex Integration is now installed "
 "on your GitHub account."
-msgstr "Confirmez votre mot de passe GitHub. L'intégration Transifex est maintenant installée sur votre compte GitHub."
+msgstr ""
+"Confirmez votre mot de passe GitHub. L'intégration Transifex est "
+"maintenant installée sur votre compte GitHub."
 
 #: ../../translate-text-in-po-files.rst:135
 msgid ""
 "Get back to Transifex and go to your organization settings -> "
 "Integrations."
-msgstr "Retournez dans Transifex et allez dans les paramètres de votre organisation -> Integrations."
+msgstr ""
+"Retournez dans Transifex et allez dans les paramètres de votre "
+"organisation -> Integrations."
 
 #: ../../translate-text-in-po-files.rst:136
 msgid ""
 "In the Github integration box, click **Authorize** and then **authorize "
 "Transifex**."
-msgstr "Dans la boîte d'intégration Github, cliquez sur **Authorize** puis **authorize Transifex**."
+msgstr ""
+"Dans la boîte d'intégration Github, cliquez sur **Authorize** puis "
+"**authorize Transifex**."
 
 #: ../../translate-text-in-po-files.rst:137
 msgid ""
 "If Transifex requires some permissions, click **Authorize Transifex "
 "Integration**."
-msgstr "Si Transifex requiert certaines autorisations, cliquez sur **Authorize Transifex Integration**."
+msgstr ""
+"Si Transifex requiert certaines autorisations, cliquez sur **Authorize "
+"Transifex Integration**."
 
 #: ../../translate-text-in-po-files.rst:138
 msgid ""
 "Finish integration by clicking your GitHub account name in the list of "
 "available installations."
-msgstr "Terminez l'intégration en cliquant sur le nom de votre compte GitHub dans la liste des installations disponibles."
+msgstr ""
+"Terminez l'intégration en cliquant sur le nom de votre compte GitHub dans"
+" la liste des installations disponibles."
 
 #: ../../translate-text-in-po-files.rst
 msgid "GitHub Authorization"
@@ -286,7 +362,9 @@ msgstr "Dernière étape de l'intégration"
 
 #: ../../translate-text-in-po-files.rst:147
 msgid "Your demo repository should now be authorized on Transifex."
-msgstr "Votre dépôt de démonstration devrait maintenant être autorisé sur Transifex."
+msgstr ""
+"Votre dépôt de démonstration devrait maintenant être autorisé sur "
+"Transifex."
 
 #: ../../translate-text-in-po-files.rst:150
 msgid "Link your Transifex project with GitHub"
@@ -297,7 +375,11 @@ msgid ""
 "Link your project with your GitHub demo repository as described in the "
 "`Transifex documentation <https://help.transifex.com/en/articles/6265125"
 "-github-via-transifex-ui#h_de29ef5cec>`_:"
-msgstr "Liez votre projet avec votre dépôt de démonstration GitHub comme décrit dans la documentation `Transifex <https://help.transifex.com/en/articles/6265125-github-via-transifex-ui#h_de29ef5cec>`_ :"
+msgstr ""
+"Liez votre projet avec votre dépôt de démonstration GitHub comme décrit "
+"dans la documentation `Transifex "
+"<https://help.transifex.com/en/articles/6265125-github-via-transifex-"
+"ui#h_de29ef5cec>`_ :"
 
 #: ../../translate-text-in-po-files.rst:154
 msgid "Go to your project settings -> Integrations."
@@ -320,7 +402,9 @@ msgstr "Référentiel de liaison"
 msgid ""
 "On the **Select repo** tab, specify **main** as the branch name, then "
 "click **Validate**."
-msgstr "Dans l'onglet **Select repo**, indiquez **main** comme nom de branche, puis cliquez sur **Validate**."
+msgstr ""
+"Dans l'onglet **Select repo**, indiquez **main** comme nom de branche, "
+"puis cliquez sur **Validate**."
 
 #: ../../translate-text-in-po-files.rst
 msgid "Select Repo"
@@ -342,27 +426,40 @@ msgid ""
 "created your repository from the demo template, transifex.yml is already "
 "there. Otherwise, create transifex.yml in the root of your repository and"
 " put the following content in it::"
-msgstr "Dans l'onglet **Select Files**, vous devez spécifier le nom du fichier de configuration YML qui définit le fonctionnement de l'intégration. Si vous avez créé votre référentiel à partir du modèle de démonstration, transifex.yml s'y trouve déjà. Sinon, créez transifex.yml à la racine de votre référentiel et mettez-y le contenu suivant: :"
+msgstr ""
+"Dans l'onglet **Select Files**, vous devez spécifier le nom du fichier de"
+" configuration YML qui définit le fonctionnement de l'intégration. Si "
+"vous avez créé votre référentiel à partir du modèle de démonstration, "
+"transifex.yml s'y trouve déjà. Sinon, créez transifex.yml à la racine de "
+"votre référentiel et mettez-y le contenu suivant: :"
 
 #: ../../translate-text-in-po-files.rst:185
 msgid ""
 "Here, we tell Transifex to take source .pot files from zen/_build/gettext"
 " and to put translated .po files to zen/locale/<lang>/LC_MESSAGES, where "
 "<lang> is a language code (in our project, it’s either ru or pt_BR)."
-msgstr "Ici, nous demandons à Transifex de prendre les fichiers source .pot dans zen/_build/gettext et de placer les fichiers .po traduits dans zen/locale/<lang>/LC_MESSAGES, où <lang> est un code de langue (dans notre projet, c'est soit ru, soit pt_BR)."
+msgstr ""
+"Ici, nous demandons à Transifex de prendre les fichiers source .pot dans "
+"zen/_build/gettext et de placer les fichiers .po traduits dans "
+"zen/locale/<lang>/LC_MESSAGES, où <lang> est un code de langue (dans "
+"notre projet, c'est soit ru, soit pt_BR)."
 
 #: ../../translate-text-in-po-files.rst:187
 msgid ""
 "When the transifex.yml file is in the root of your repository, on the "
 "**Select Files** tab, click **Apply**."
-msgstr "Lorsque le fichier transifex.yml se trouve à la racine de votre référentiel, dans l'onglet **Select Files**, cliquez sur **Apply**."
+msgstr ""
+"Lorsque le fichier transifex.yml se trouve à la racine de votre "
+"référentiel, dans l'onglet **Select Files**, cliquez sur **Apply**."
 
 #: ../../translate-text-in-po-files.rst:190
 #, python-format
 msgid ""
 "On the **Sync Content** tab, select **100% reviewed** and **Create a Pull"
 " Request**."
-msgstr "Dans l'onglet **Sync Content**, sélectionnez **100% reviewed** et **Create a Pull Request**."
+msgstr ""
+"Dans l'onglet **Sync Content**, sélectionnez **100% reviewed** et "
+"**Create a Pull Request**."
 
 #: ../../translate-text-in-po-files.rst:192
 msgid "Click **Save & Sync**."
@@ -376,7 +473,9 @@ msgstr "Votre projet Transifex est maintenant lié à votre dépôt GitHub."
 msgid ""
 "In Project Integrations, you will find the status of synchronizing source"
 " files."
-msgstr "Dans Project Integrations, vous trouverez l'état de la synchronisation des fichiers sources."
+msgstr ""
+"Dans Project Integrations, vous trouverez l'état de la synchronisation "
+"des fichiers sources."
 
 #: ../../translate-text-in-po-files.rst:203
 msgid "GitHub repository linked"
@@ -396,7 +495,9 @@ msgstr "Accédez à Transifex Editor en cliquant sur **Editor** en haut de la pa
 
 #: ../../translate-text-in-po-files.rst:211
 msgid "From the target language drop-down menu, select **Portuguese (Brazil)**."
-msgstr "Dans le menu déroulant de la langue cible, sélectionnez **Portuguese (Brazil)**."
+msgstr ""
+"Dans le menu déroulant de la langue cible, sélectionnez **Portuguese "
+"(Brazil)**."
 
 #: ../../translate-text-in-po-files.rst
 msgid "target language selector"
@@ -410,14 +511,19 @@ msgstr "Sélection de la langue cible"
 msgid ""
 "In the **Resource Overview** list, click **zen...easter-egg.pot(main)**. "
 "Transifex Editor opens."
-msgstr "Dans la liste **Resource Overview**, cliquez sur **zen...easter-egg.pot(main)**. L'éditeur Transifex s'ouvre."
+msgstr ""
+"Dans la liste **Resource Overview**, cliquez sur **zen...easter-"
+"egg.pot(main)**. L'éditeur Transifex s'ouvre."
 
 #: ../../translate-text-in-po-files.rst:221
 msgid ""
 "In the strings list on the left, click **Easter Egg**. Put the "
 "translation for this string (*Ovo de Páscoa*) into the translation area "
 "on the right."
-msgstr "Dans la liste des chaînes à gauche, cliquez sur **Easter Egg**. Placez la traduction de cette chaîne (*Ovo de Páscoa*) dans la zone de traduction à droite."
+msgstr ""
+"Dans la liste des chaînes à gauche, cliquez sur **Easter Egg**. Placez la"
+" traduction de cette chaîne (*Ovo de Páscoa*) dans la zone de traduction "
+"à droite."
 
 #: ../../translate-text-in-po-files.rst
 msgid "Strings to translate, translation area"
@@ -440,7 +546,11 @@ msgid ""
 "Select all the translated strings by clicking the grouping checkbox on "
 "the left. In the **Bulk actions** panel on the right, select **Reviewed**"
 " from the **Mark as** drop-down menu, and then click **Apply**."
-msgstr "Sélectionnez toutes les chaînes traduites en cliquant sur la case à cocher de regroupement à gauche. Dans le panneau **Bulk actions** à droite, sélectionnez **Reviewed** dans le menu déroulant **Mark as**, puis cliquez sur **Apply**."
+msgstr ""
+"Sélectionnez toutes les chaînes traduites en cliquant sur la case à "
+"cocher de regroupement à gauche. Dans le panneau **Bulk actions** à "
+"droite, sélectionnez **Reviewed** dans le menu déroulant **Mark as**, "
+"puis cliquez sur **Apply**."
 
 #: ../../translate-text-in-po-files.rst
 msgid "Bulk actions"
@@ -459,7 +569,10 @@ msgid ""
 "`Learn more about Transifex Editor in the documentation "
 "<https://help.transifex.com/en/articles/6318216-translating-with-the-web-"
 "editor>`_."
-msgstr "`Pour en savoir plus sur l'éditeur Transifex, consultez la documentation <https://help.transifex.com/en/articles/6318216-translating-with-the-web-editor>`_."
+msgstr ""
+"`Pour en savoir plus sur l'éditeur Transifex, consultez la documentation "
+"<https://help.transifex.com/en/articles/6318216-translating-with-the-web-"
+"editor>`_."
 
 #: ../../translate-text-in-po-files.rst:248
 msgid "Merge pull request on GitHub"
@@ -470,7 +583,11 @@ msgid ""
 "Once one of our resources is fully translated and reviewed, Transifex "
 "automatically sends it to GitHub by creating a pull request. You can find"
 " the information about it on the Project Integrations page."
-msgstr "Une fois qu'une de nos ressources est entièrement traduite et révisée, Transifex l'envoie automatiquement à GitHub en créant une demande d'extraction. Vous pouvez trouver les informations à ce sujet sur la page Intégrations de projets."
+msgstr ""
+"Une fois qu'une de nos ressources est entièrement traduite et révisée, "
+"Transifex l'envoie automatiquement à GitHub en créant une demande "
+"d'extraction. Vous pouvez trouver les informations à ce sujet sur la page"
+" Intégrations de projets."
 
 #: ../../translate-text-in-po-files.rst:253
 msgid "To merge the pull request:"
@@ -492,23 +609,32 @@ msgstr "Demande d'extraction de Transifex"
 msgid ""
 "Click the pull request name. The format of pull request names from "
 "Transifex is ``Transifex '<path to the source>' in '<language code>'``."
-msgstr "Cliquez sur le nom de la demande d'extraction. Le format des noms de demandes d'extraction de Transifex est ``Transifex '<chemin vers la source>' en '<code langue>'``."
+msgstr ""
+"Cliquez sur le nom de la demande d'extraction. Le format des noms de "
+"demandes d'extraction de Transifex est ``Transifex '<chemin vers la "
+"source>' en '<code langue>'``."
 
 #: ../../translate-text-in-po-files.rst:264
 msgid ""
 "On the **Files changed** tab, check that all the translated strings are "
 "correct."
-msgstr "Dans l'onglet **Files changed**, vérifiez que toutes les chaînes traduites sont correctes."
+msgstr ""
+"Dans l'onglet **Files changed**, vérifiez que toutes les chaînes "
+"traduites sont correctes."
 
 #: ../../translate-text-in-po-files.rst:265
 msgid ""
 "On the **Conversation** tab, click **Merge pull request**, then **Confirm"
 " merge**."
-msgstr "Dans l'onglet **Conversation**, cliquez sur **Merge pull request**, puis **Confirm merge**."
+msgstr ""
+"Dans l'onglet **Conversation**, cliquez sur **Merge pull request**, puis "
+"**Confirm merge**."
 
 #: ../../translate-text-in-po-files.rst:266
 msgid "After the pull request is merged, you can delete the branch."
-msgstr "Une fois la demande de traction fusionnée, vous pouvez supprimer la branche."
+msgstr ""
+"Une fois la demande de traction fusionnée, vous pouvez supprimer la "
+"branche."
 
 #: ../../translate-text-in-po-files.rst
 msgid "Pull request successfully merged and closed"
@@ -526,5 +652,7 @@ msgstr "Tous les textes des fichiers .po sont maintenant traduits."
 msgid ""
 "You can pull the newly translated .po file from GitHub (by using ``git "
 "pull``) to build your documentation locally."
-msgstr "Vous pouvez extraire le fichier .po nouvellement traduit de GitHub (en utilisant ``git pull``) pour construire votre documentation localement."
+msgstr ""
+"Vous pouvez extraire le fichier .po nouvellement traduit de GitHub (en "
+"utilisant ``git pull``) pour construire votre documentation localement."
 

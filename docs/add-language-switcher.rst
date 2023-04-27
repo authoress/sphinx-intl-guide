@@ -67,7 +67,7 @@ Add language switcher to our project:
 	{% endfor %}
 	</div>
 
-   Alternatively, you can `download switcher.html <../_static/switcher.zip>`_.
+   Alternatively, you can `download switcher.html <_static/switcher.zip>`_.
 
 2. Place switcher.html in the **_templates** directory; by default
    Sphinx looks for Jinja templates in this directory.
@@ -88,7 +88,7 @@ Add language switcher to our project:
 
    I added switcher.html to the default Alabaster sidebar and removed
    the elements that we do not need (donate.html, relations.html etc).
-   As usual, you can `download the updated conf.py <../_static/conf-switcher.zip>`_.
+   As usual, you can `download the updated conf.py <_static/conf-switcher.zip>`_.
 
 Sphinx will now use switcher.html to add the language switcher to the
 sidebar of each documentation page.
@@ -186,7 +186,7 @@ There are four images used on the start page:
 - pt_BR.png for the Brazilian flag.
 
 The images should be placed in the **img** directory at the same level as the index.html file.
-You can download `index.html and the img directory <../_static/start-page.zip>`_, and then place them into the **_build/html** directory of our documentation, like this::
+You can download `index.html and the img directory <_static/start-page.zip>`_, and then place them into the **_build/html** directory of our documentation, like this::
 
 	html
 	│   index.html

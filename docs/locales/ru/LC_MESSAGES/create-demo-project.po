@@ -9,17 +9,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sphinx-intl \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-21 22:46+0300\n"
+"POT-Creation-Date: 2023-04-27 09:34+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../create-demo-project.rst:2
 msgid "Create demo project"
@@ -126,10 +126,11 @@ msgstr ""
 
 #: ../../create-demo-project.rst:128
 msgid ""
-"You can download `an archive that contains both files <../_static/rst-"
+"You can download `an archive that contains both files <_static/rst-"
 "initial.zip>`_."
 msgstr ""
-"Вы можете скачать `архив, содержащий оба файла <_static/rst-initial.zip>`_."
+"Вы можете скачать `архив, содержащий оба файла <_static/rst-"
+"initial.zip>`_."
 
 #: ../../create-demo-project.rst:131
 msgid "Add images"
@@ -141,11 +142,12 @@ msgstr "Чтобы добавить изображения в демонстра
 
 #: ../../create-demo-project.rst:135
 msgid ""
-"Download `an archive containing two images <../_static/egg-logo.zip>`_: "
+"Download `an archive containing two images <_static/egg-logo.zip>`_: "
 "logo.png (demo project logo) and egg.png (image of an egg)."
 msgstr ""
-"Загрузите `архив, содержащий два изображения <_static/egg-logo.zip>`_: logo.png (логотип демонстрационного проекта) и egg.png "
-"(изображение яйца)."
+"Загрузите `архив, содержащий два изображения <_static/egg-logo.zip>`_: "
+"logo.png (логотип демонстрационного проекта) и egg.png (изображение "
+"яйца)."
 
 #: ../../create-demo-project.rst:138
 msgid ""
@@ -169,10 +171,11 @@ msgstr "Добавьте egg.png в easter-egg.rst, вот так:"
 
 #: ../../create-demo-project.rst:163
 msgid ""
-"You can `download conf.py and easter-egg.rst <../_static/conf-easter-"
+"You can `download conf.py and easter-egg.rst <_static/conf-easter-"
 "egg.zip>`_ that already contain both additions."
 msgstr ""
-"Вы можете `загрузить conf.py и easter-egg.rst <_static/conf-easter-egg.zip>`_, которые уже содержат оба дополнения."
+"Вы можете `загрузить conf.py и easter-egg.rst <_static/conf-easter-"
+"egg.zip>`_, которые уже содержат оба дополнения."
 
 #: ../../create-demo-project.rst:166
 msgid ""
@@ -204,6 +207,7 @@ msgstr ""
 "Если вы откроете index.html в браузере, вы должны увидеть "
 "демонстрационный проект:"
 
+#: ../../create-demo-project.rst:-1
 msgid "The Zen of Python"
 msgstr "The Zen of Python"
 

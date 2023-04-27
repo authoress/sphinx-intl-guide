@@ -125,14 +125,14 @@ create this file in the project directory. After you created the file
 
 	Enjoy your easter egg!
 
-You can download `an archive that contains both files <../_static/rst-initial.zip>`_.
+You can download `an archive that contains both files <_static/rst-initial.zip>`_.
 
 Add images
 ~~~~~~~~~~
 
 To add images to the demo project:
 
-1. Download `an archive containing two images <../_static/egg-logo.zip>`_: logo.png (demo project
+1. Download `an archive containing two images <_static/egg-logo.zip>`_: logo.png (demo project
    logo) and egg.png (image of an egg).
 
 2. Unzip the archive and place both files in the **_static** directory
@@ -160,7 +160,7 @@ To add images to the demo project:
 
     .. image:: _static/egg.png
 
-You can `download conf.py and easter-egg.rst <../_static/conf-easter-egg.zip>`_ that already contain both
+You can `download conf.py and easter-egg.rst <_static/conf-easter-egg.zip>`_ that already contain both
 additions.
 
 Note that if you specified your own settings when creating the project,

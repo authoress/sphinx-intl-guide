@@ -9,7 +9,7 @@ systems etc.
 To better understand the .po files structure, we will start with manual translation. 
 After that, we will get acquainted with Transifex, one of the popular translation management systems.
 
-Before you start, download `the translation lists <../_static/translation-lists.zip>`_ to get Russian and
+Before you start, download `the translation lists <_static/translation-lists.zip>`_ to get Russian and
 Portuguese translations of all texts.
 
 .. note::
@@ -60,7 +60,7 @@ in **locale/pt_BR/LC_MESSAGES** to translate it into
 Portuguese.
 For now, do not translate easter-egg.po, we will use Transifex to translate this file.
 
-You can download `an archive that contains .po files <../_static/po-translated.zip>`_ already translated
+You can download `an archive that contains .po files <_static/po-translated.zip>`_ already translated
 into Russian and Portuguese (except for the Portuguese version of easter-egg.po).
 
 Using Transifex
